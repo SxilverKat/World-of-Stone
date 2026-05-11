@@ -2,7 +2,7 @@
 
 
 
-A massive geological overhaul for Minecraft. 1800+ blocks across 24 stone strata in three types with full building sets, hundreds of speleothems, and highly customizable worldgen. This is a modern revamp of the Underground Biomes mod by ExterminatorJeff, CurtisA, and LouisDB.
+A massive geological overhaul for Minecraft. 1800+ blocks across 24 stone strata in three types with full building sets, hundreds of speleothems, and highly customizable worldgen. This is a modern revamp of the Underground Biomes mod by ExterminatorJeff, CurtisA, LouisDB, Aang234, Kreezxil, and LemADEC.
 
 ## Strata System
 
@@ -118,4 +118,4 @@ Compatible with any world generation mod.
 
 ## Credits
 
-A modern port and revamp of Underground Biomes by ExterminatorJeff, CurtisA, and LouisDB.
+A modern port and revamp of Underground Biomes by ExterminatorJeff, CurtisA, LouisDB, Aang234, Kreezxil, and LemADEC.
