@@ -34,7 +34,7 @@ Stalactite/stalagmite blocks for caves and nearly every block in the game:
 
 ## Ore Variants
 
-- 24 strata variants along with the 4 vanilla overworld variants (Granite, Diorite, Andesite, Tuff) for all 8 types of ore — 224 overworld ore variants total.
+- 24 strata variants along with the 4 vanilla overworld variants (Granite, Diorite, Andesite, Tuff) for all 8 types of ore is 224 overworld ore variants.
 - Nether ore variants for Netherrack, Blackstone, and Basalt.
 - End ore variants for End Stone.
 - Obsidian ore variants for ores embedded in obsidian.
