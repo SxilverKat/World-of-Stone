@@ -43,7 +43,7 @@ Stalactite/stalagmite blocks for caves and nearly every block in the game:
 
 - **NOISE** (default, recommended): 3D noise-driven layered strata.
 - **BLOB:** vanilla-style ore-vein blobs.
-- **CHUNK:** patch regions — each chunk gets a single dominant variant, the original system used by Underground Biomes.
+- **CHUNK:** patch regions, each chunk gets a single dominant variant, the original system used by Underground Biomes.
 
 Surface stones automatically pick snowed or overgrown variants based on biome temperature and sky exposure. Snow that accumulates on exposed strata also converts them to snowed variants over time.
 
