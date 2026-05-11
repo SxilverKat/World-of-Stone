@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite",
+    "#worldofstone:adamellite/ores",
+    "#worldofstone:adamellite/sandstone",
+    "#worldofstone:adamellite/cobblestone",
+    "#worldofstone:adamellite/mossy_cobblestone",
+    "#worldofstone:adamellite/bricks",
+    "#worldofstone:adamellite/mossy_bricks",
+    "#worldofstone:adamellite/smooth_stone",
+    "#worldofstone:adamellite/overgrown",
+    "#worldofstone:adamellite/polished",
+    "#worldofstone:adamellite/tiles",
+    "#worldofstone:adamellite/pillar",
+    "#worldofstone:adamellite/speleothem"
+  ]
+}

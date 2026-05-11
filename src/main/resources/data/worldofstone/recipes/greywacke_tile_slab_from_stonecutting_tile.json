@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke_tiles"
+  },
+  "result": "worldofstone:greywacke_tile_slab",
+  "count": 2
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "worldofstone:block/dolomite_pillar"
+    },
+    "axis=x": {
+      "model": "worldofstone:block/dolomite_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "worldofstone:block/dolomite_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

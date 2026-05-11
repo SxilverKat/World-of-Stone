@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:latite_coal_ore",
+    "worldofstone:latite_iron_ore",
+    "worldofstone:latite_gold_ore",
+    "worldofstone:latite_diamond_ore",
+    "worldofstone:latite_emerald_ore",
+    "worldofstone:latite_redstone_ore",
+    "worldofstone:latite_lapis_ore",
+    "worldofstone:latite_copper_ore"
+  ]
+}

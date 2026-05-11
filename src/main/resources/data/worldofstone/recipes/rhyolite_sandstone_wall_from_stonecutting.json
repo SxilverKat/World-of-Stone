@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:rhyolite_sandstone"
+  },
+  "result": "worldofstone:rhyolite_sandstone_wall",
+  "count": 1
+}

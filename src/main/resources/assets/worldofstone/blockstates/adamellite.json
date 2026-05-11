@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/adamellite"
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/adamellite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

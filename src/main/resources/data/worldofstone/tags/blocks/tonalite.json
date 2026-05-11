@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite",
+    "#worldofstone:tonalite/ores",
+    "#worldofstone:tonalite/sandstone",
+    "#worldofstone:tonalite/cobblestone",
+    "#worldofstone:tonalite/mossy_cobblestone",
+    "#worldofstone:tonalite/bricks",
+    "#worldofstone:tonalite/mossy_bricks",
+    "#worldofstone:tonalite/smooth_stone",
+    "#worldofstone:tonalite/overgrown",
+    "#worldofstone:tonalite/polished",
+    "#worldofstone:tonalite/tiles",
+    "#worldofstone:tonalite/pillar",
+    "#worldofstone:tonalite/speleothem"
+  ]
+}

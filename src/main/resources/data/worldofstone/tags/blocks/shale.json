@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:shale",
+    "#worldofstone:shale/ores",
+    "#worldofstone:shale/sandstone",
+    "#worldofstone:shale/cobblestone",
+    "#worldofstone:shale/mossy_cobblestone",
+    "#worldofstone:shale/bricks",
+    "#worldofstone:shale/mossy_bricks",
+    "#worldofstone:shale/smooth_stone",
+    "#worldofstone:shale/overgrown",
+    "#worldofstone:shale/polished",
+    "#worldofstone:shale/tiles",
+    "#worldofstone:shale/pillar",
+    "#worldofstone:shale/speleothem"
+  ]
+}

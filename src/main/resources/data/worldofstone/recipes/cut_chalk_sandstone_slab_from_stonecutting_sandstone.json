@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:chalk_sandstone"
+  },
+  "result": "worldofstone:cut_chalk_sandstone_slab",
+  "count": 2
+}

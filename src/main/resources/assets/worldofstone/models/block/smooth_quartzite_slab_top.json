@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_quartzite",
+    "top": "worldofstone:block/smooth_quartzite",
+    "side": "worldofstone:block/smooth_quartzite"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greywacke_coal_ore",
+    "worldofstone:greywacke_iron_ore",
+    "worldofstone:greywacke_gold_ore",
+    "worldofstone:greywacke_diamond_ore",
+    "worldofstone:greywacke_emerald_ore",
+    "worldofstone:greywacke_redstone_ore",
+    "worldofstone:greywacke_lapis_ore",
+    "worldofstone:greywacke_copper_ore"
+  ]
+}

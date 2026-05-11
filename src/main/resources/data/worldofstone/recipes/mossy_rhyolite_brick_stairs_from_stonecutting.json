@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_rhyolite_bricks"
+  },
+  "result": "worldofstone:mossy_rhyolite_brick_stairs",
+  "count": 1
+}

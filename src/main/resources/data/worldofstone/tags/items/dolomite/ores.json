@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dolomite_coal_ore",
+    "worldofstone:dolomite_iron_ore",
+    "worldofstone:dolomite_gold_ore",
+    "worldofstone:dolomite_diamond_ore",
+    "worldofstone:dolomite_emerald_ore",
+    "worldofstone:dolomite_redstone_ore",
+    "worldofstone:dolomite_lapis_ore",
+    "worldofstone:dolomite_copper_ore"
+  ]
+}

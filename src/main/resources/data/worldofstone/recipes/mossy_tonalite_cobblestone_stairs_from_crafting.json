@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_tonalite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:mossy_tonalite_cobblestone_stairs",
+    "count": 4
+  }
+}

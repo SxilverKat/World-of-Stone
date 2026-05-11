@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:chert_cobblestone"
+  },
+  "result": "worldofstone:chert_cobblestone_slab",
+  "count": 2
+}

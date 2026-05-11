@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:adamellite_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:adamellite_tile_wall",
+    "count": 6
+  }
+}

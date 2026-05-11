@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:rhyolite",
+    "#worldofstone:rhyolite/ores",
+    "#worldofstone:rhyolite/sandstone",
+    "#worldofstone:rhyolite/cobblestone",
+    "#worldofstone:rhyolite/mossy_cobblestone",
+    "#worldofstone:rhyolite/bricks",
+    "#worldofstone:rhyolite/mossy_bricks",
+    "#worldofstone:rhyolite/smooth_stone",
+    "#worldofstone:rhyolite/overgrown",
+    "#worldofstone:rhyolite/polished",
+    "#worldofstone:rhyolite/tiles",
+    "#worldofstone:rhyolite/pillar",
+    "#worldofstone:rhyolite/speleothem"
+  ]
+}

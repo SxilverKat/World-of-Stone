@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:latite",
+    "#worldofstone:latite/ores",
+    "#worldofstone:latite/sandstone",
+    "#worldofstone:latite/cobblestone",
+    "#worldofstone:latite/mossy_cobblestone",
+    "#worldofstone:latite/bricks",
+    "#worldofstone:latite/mossy_bricks",
+    "#worldofstone:latite/smooth_stone",
+    "#worldofstone:latite/overgrown",
+    "#worldofstone:latite/polished",
+    "#worldofstone:latite/tiles",
+    "#worldofstone:latite/pillar",
+    "#worldofstone:latite/speleothem"
+  ]
+}

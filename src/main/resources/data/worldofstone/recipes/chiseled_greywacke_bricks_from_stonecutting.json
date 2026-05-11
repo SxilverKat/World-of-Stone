@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke_bricks"
+  },
+  "result": "worldofstone:chiseled_greywacke_bricks",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/mossy_pyroxenite_bricks",
+    "top": "worldofstone:block/mossy_pyroxenite_bricks",
+    "side": "worldofstone:block/mossy_pyroxenite_bricks"
+  }
+}

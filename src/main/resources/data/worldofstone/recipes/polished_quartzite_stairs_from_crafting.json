@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_quartzite"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_quartzite_stairs",
+    "count": 4
+  }
+}

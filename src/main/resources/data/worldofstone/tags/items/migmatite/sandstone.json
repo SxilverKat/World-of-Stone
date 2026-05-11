@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite_sandstone",
+    "worldofstone:cut_migmatite_sandstone",
+    "worldofstone:chiseled_migmatite_sandstone",
+    "worldofstone:smooth_migmatite_sandstone",
+    "worldofstone:migmatite_sandstone_stairs",
+    "worldofstone:migmatite_sandstone_slab",
+    "worldofstone:migmatite_sandstone_wall",
+    "worldofstone:cut_migmatite_sandstone_slab",
+    "worldofstone:smooth_migmatite_sandstone_stairs",
+    "worldofstone:smooth_migmatite_sandstone_slab"
+  ]
+}

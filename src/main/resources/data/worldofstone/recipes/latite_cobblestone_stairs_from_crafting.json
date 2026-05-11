@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:latite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:latite_cobblestone_stairs",
+    "count": 4
+  }
+}

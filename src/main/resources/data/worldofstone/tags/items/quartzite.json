@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:quartzite",
+    "#worldofstone:quartzite/ores",
+    "#worldofstone:quartzite/sandstone",
+    "#worldofstone:quartzite/cobblestone",
+    "#worldofstone:quartzite/mossy_cobblestone",
+    "#worldofstone:quartzite/bricks",
+    "#worldofstone:quartzite/mossy_bricks",
+    "#worldofstone:quartzite/smooth_stone",
+    "#worldofstone:quartzite/overgrown",
+    "#worldofstone:quartzite/polished",
+    "#worldofstone:quartzite/tiles",
+    "#worldofstone:quartzite/pillar",
+    "#worldofstone:quartzite/speleothem"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/lignite"
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/lignite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

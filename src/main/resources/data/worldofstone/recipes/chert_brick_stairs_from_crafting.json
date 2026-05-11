@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:chert_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chert_brick_stairs",
+    "count": 4
+  }
+}

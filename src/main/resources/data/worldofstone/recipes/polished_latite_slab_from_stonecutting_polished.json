@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_latite"
+  },
+  "result": "worldofstone:polished_latite_slab",
+  "count": 2
+}

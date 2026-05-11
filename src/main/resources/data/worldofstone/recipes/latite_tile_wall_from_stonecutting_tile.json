@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:latite_tiles"
+  },
+  "result": "worldofstone:latite_tile_wall",
+  "count": 1
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:greywacke_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:greywacke_tile_stairs",
+    "count": 4
+  }
+}

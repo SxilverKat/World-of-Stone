@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:limestone",
+    "#worldofstone:limestone/ores",
+    "#worldofstone:limestone/sandstone",
+    "#worldofstone:limestone/cobblestone",
+    "#worldofstone:limestone/mossy_cobblestone",
+    "#worldofstone:limestone/bricks",
+    "#worldofstone:limestone/mossy_bricks",
+    "#worldofstone:limestone/smooth_stone",
+    "#worldofstone:limestone/overgrown",
+    "#worldofstone:limestone/polished",
+    "#worldofstone:limestone/tiles",
+    "#worldofstone:limestone/pillar",
+    "#worldofstone:limestone/speleothem"
+  ]
+}

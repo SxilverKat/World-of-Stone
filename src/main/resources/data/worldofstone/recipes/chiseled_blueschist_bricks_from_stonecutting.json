@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:blueschist_bricks"
+  },
+  "result": "worldofstone:chiseled_blueschist_bricks",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/polished_shale",
+    "top": "worldofstone:block/polished_shale",
+    "side": "worldofstone:block/polished_shale"
+  }
+}

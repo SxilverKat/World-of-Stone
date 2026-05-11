@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:blueschist_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:blueschist_sandstone_stairs",
+    "count": 4
+  }
+}

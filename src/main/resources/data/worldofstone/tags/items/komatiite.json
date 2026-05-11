@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:komatiite",
+    "#worldofstone:komatiite/ores",
+    "#worldofstone:komatiite/sandstone",
+    "#worldofstone:komatiite/cobblestone",
+    "#worldofstone:komatiite/mossy_cobblestone",
+    "#worldofstone:komatiite/bricks",
+    "#worldofstone:komatiite/mossy_bricks",
+    "#worldofstone:komatiite/smooth_stone",
+    "#worldofstone:komatiite/overgrown",
+    "#worldofstone:komatiite/polished",
+    "#worldofstone:komatiite/tiles",
+    "#worldofstone:komatiite/pillar",
+    "#worldofstone:komatiite/speleothem"
+  ]
+}

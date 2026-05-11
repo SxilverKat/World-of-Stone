@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "worldofstone:block/dacite_pillar",
+    "end": "worldofstone:block/dacite_pillar_top"
+  }
+}

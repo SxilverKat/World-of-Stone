@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greywacke",
+    "#worldofstone:greywacke/ores",
+    "#worldofstone:greywacke/sandstone",
+    "#worldofstone:greywacke/cobblestone",
+    "#worldofstone:greywacke/mossy_cobblestone",
+    "#worldofstone:greywacke/bricks",
+    "#worldofstone:greywacke/mossy_bricks",
+    "#worldofstone:greywacke/smooth_stone",
+    "#worldofstone:greywacke/overgrown",
+    "#worldofstone:greywacke/polished",
+    "#worldofstone:greywacke/tiles",
+    "#worldofstone:greywacke/pillar",
+    "#worldofstone:greywacke/speleothem"
+  ]
+}

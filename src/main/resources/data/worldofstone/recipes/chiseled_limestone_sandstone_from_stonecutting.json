@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:limestone_sandstone"
+  },
+  "result": "worldofstone:chiseled_limestone_sandstone",
+  "count": 1
+}

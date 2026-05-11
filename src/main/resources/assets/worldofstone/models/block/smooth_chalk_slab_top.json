@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_chalk",
+    "top": "worldofstone:block/smooth_chalk",
+    "side": "worldofstone:block/smooth_chalk"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_quartzite_sandstone"
+  },
+  "result": "worldofstone:smooth_quartzite_sandstone_stairs",
+  "count": 1
+}

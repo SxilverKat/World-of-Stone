@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "side": "worldofstone:block/latite_pillar",
+    "end": "worldofstone:block/latite_pillar_top"
+  }
+}

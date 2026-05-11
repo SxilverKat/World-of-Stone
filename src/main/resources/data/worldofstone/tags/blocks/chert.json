@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chert",
+    "#worldofstone:chert/ores",
+    "#worldofstone:chert/sandstone",
+    "#worldofstone:chert/cobblestone",
+    "#worldofstone:chert/mossy_cobblestone",
+    "#worldofstone:chert/bricks",
+    "#worldofstone:chert/mossy_bricks",
+    "#worldofstone:chert/smooth_stone",
+    "#worldofstone:chert/overgrown",
+    "#worldofstone:chert/polished",
+    "#worldofstone:chert/tiles",
+    "#worldofstone:chert/pillar",
+    "#worldofstone:chert/speleothem"
+  ]
+}

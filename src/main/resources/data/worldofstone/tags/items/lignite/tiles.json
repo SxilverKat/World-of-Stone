@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:lignite_tiles",
+    "worldofstone:cracked_lignite_tiles",
+    "worldofstone:lignite_tile_stairs",
+    "worldofstone:lignite_tile_slab",
+    "worldofstone:lignite_tile_wall"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite_bricks"
+  },
+  "result": "worldofstone:chiseled_tonalite_bricks",
+  "count": 1
+}

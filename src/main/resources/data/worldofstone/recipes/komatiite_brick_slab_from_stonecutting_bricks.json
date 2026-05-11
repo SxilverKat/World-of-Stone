@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_bricks"
+  },
+  "result": "worldofstone:komatiite_brick_slab",
+  "count": 2
+}

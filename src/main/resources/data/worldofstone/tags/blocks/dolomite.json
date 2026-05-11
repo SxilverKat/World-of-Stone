@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dolomite",
+    "#worldofstone:dolomite/ores",
+    "#worldofstone:dolomite/sandstone",
+    "#worldofstone:dolomite/cobblestone",
+    "#worldofstone:dolomite/mossy_cobblestone",
+    "#worldofstone:dolomite/bricks",
+    "#worldofstone:dolomite/mossy_bricks",
+    "#worldofstone:dolomite/smooth_stone",
+    "#worldofstone:dolomite/overgrown",
+    "#worldofstone:dolomite/polished",
+    "#worldofstone:dolomite/tiles",
+    "#worldofstone:dolomite/pillar",
+    "#worldofstone:dolomite/speleothem"
+  ]
+}

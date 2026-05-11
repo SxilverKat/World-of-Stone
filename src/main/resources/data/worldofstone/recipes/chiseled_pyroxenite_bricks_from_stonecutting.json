@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite_bricks"
+  },
+  "result": "worldofstone:chiseled_pyroxenite_bricks",
+  "count": 1
+}

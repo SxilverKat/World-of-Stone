@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/migmatite"
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/migmatite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

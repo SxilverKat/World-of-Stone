@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "tag": "worldofstone:smooth_stones"
+    },
+    "#": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "III",
+    "X#X",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}

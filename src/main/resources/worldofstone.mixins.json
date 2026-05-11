@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "sxilverr.worldofstone.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "worldofstone.refmap.json",
+  "mixins": ["InfestedBlockMixin"],
+  "client": ["JERWorldGenWrapperMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

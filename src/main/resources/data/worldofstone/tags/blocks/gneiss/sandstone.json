@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gneiss_sandstone",
+    "worldofstone:cut_gneiss_sandstone",
+    "worldofstone:chiseled_gneiss_sandstone",
+    "worldofstone:smooth_gneiss_sandstone",
+    "worldofstone:gneiss_sandstone_stairs",
+    "worldofstone:gneiss_sandstone_slab",
+    "worldofstone:gneiss_sandstone_wall",
+    "worldofstone:cut_gneiss_sandstone_slab",
+    "worldofstone:smooth_gneiss_sandstone_stairs",
+    "worldofstone:smooth_gneiss_sandstone_slab"
+  ]
+}

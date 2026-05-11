@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greenschist",
+    "#worldofstone:greenschist/ores",
+    "#worldofstone:greenschist/sandstone",
+    "#worldofstone:greenschist/cobblestone",
+    "#worldofstone:greenschist/mossy_cobblestone",
+    "#worldofstone:greenschist/bricks",
+    "#worldofstone:greenschist/mossy_bricks",
+    "#worldofstone:greenschist/smooth_stone",
+    "#worldofstone:greenschist/overgrown",
+    "#worldofstone:greenschist/polished",
+    "#worldofstone:greenschist/tiles",
+    "#worldofstone:greenschist/pillar",
+    "#worldofstone:greenschist/speleothem"
+  ]
+}

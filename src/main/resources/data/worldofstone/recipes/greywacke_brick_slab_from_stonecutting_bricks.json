@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke_bricks"
+  },
+  "result": "worldofstone:greywacke_brick_slab",
+  "count": 2
+}

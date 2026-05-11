@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:adamellite"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_adamellite",
+    "count": 4
+  }
+}

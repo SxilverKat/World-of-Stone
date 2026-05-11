@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/smooth_gneiss_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/smooth_gneiss_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/smooth_gneiss"
+    }
+  }
+}

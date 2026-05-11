@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite_sandstone"
+  },
+  "result": "worldofstone:cut_tonalite_sandstone_slab",
+  "count": 2
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite_coal_ore",
+    "worldofstone:migmatite_iron_ore",
+    "worldofstone:migmatite_gold_ore",
+    "worldofstone:migmatite_diamond_ore",
+    "worldofstone:migmatite_emerald_ore",
+    "worldofstone:migmatite_redstone_ore",
+    "worldofstone:migmatite_lapis_ore",
+    "worldofstone:migmatite_copper_ore"
+  ]
+}

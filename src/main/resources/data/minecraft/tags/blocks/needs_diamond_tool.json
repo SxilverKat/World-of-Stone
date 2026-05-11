@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:obsidian_coal_ore",
+    "worldofstone:obsidian_iron_ore",
+    "worldofstone:obsidian_gold_ore",
+    "worldofstone:obsidian_diamond_ore",
+    "worldofstone:obsidian_emerald_ore",
+    "worldofstone:obsidian_redstone_ore",
+    "worldofstone:obsidian_lapis_ore",
+    "worldofstone:obsidian_copper_ore",
+    "worldofstone:obsidian_speleothem",
+    "worldofstone:crying_obsidian_speleothem",
+    "worldofstone:netherite_speleothem"
+  ]
+}

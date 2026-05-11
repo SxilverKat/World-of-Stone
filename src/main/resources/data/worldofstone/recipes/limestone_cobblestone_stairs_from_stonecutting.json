@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:limestone_cobblestone"
+  },
+  "result": "worldofstone:limestone_cobblestone_stairs",
+  "count": 1
+}

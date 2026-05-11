@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greywacke_sandstone",
+    "worldofstone:cut_greywacke_sandstone",
+    "worldofstone:chiseled_greywacke_sandstone",
+    "worldofstone:smooth_greywacke_sandstone",
+    "worldofstone:greywacke_sandstone_stairs",
+    "worldofstone:greywacke_sandstone_slab",
+    "worldofstone:greywacke_sandstone_wall",
+    "worldofstone:cut_greywacke_sandstone_slab",
+    "worldofstone:smooth_greywacke_sandstone_stairs",
+    "worldofstone:smooth_greywacke_sandstone_slab"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/chalk_tile_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/chalk_tile_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/chalk_tiles"
+    }
+  }
+}

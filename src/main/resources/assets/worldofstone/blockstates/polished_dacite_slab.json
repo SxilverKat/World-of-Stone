@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/polished_dacite_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/polished_dacite_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/polished_dacite"
+    }
+  }
+}

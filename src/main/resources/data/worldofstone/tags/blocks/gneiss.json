@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gneiss",
+    "#worldofstone:gneiss/ores",
+    "#worldofstone:gneiss/sandstone",
+    "#worldofstone:gneiss/cobblestone",
+    "#worldofstone:gneiss/mossy_cobblestone",
+    "#worldofstone:gneiss/bricks",
+    "#worldofstone:gneiss/mossy_bricks",
+    "#worldofstone:gneiss/smooth_stone",
+    "#worldofstone:gneiss/overgrown",
+    "#worldofstone:gneiss/polished",
+    "#worldofstone:gneiss/tiles",
+    "#worldofstone:gneiss/pillar",
+    "#worldofstone:gneiss/speleothem"
+  ]
+}

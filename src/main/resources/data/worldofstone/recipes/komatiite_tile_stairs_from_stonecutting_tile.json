@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_tiles"
+  },
+  "result": "worldofstone:komatiite_tile_stairs",
+  "count": 1
+}

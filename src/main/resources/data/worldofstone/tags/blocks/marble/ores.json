@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:marble_coal_ore",
+    "worldofstone:marble_iron_ore",
+    "worldofstone:marble_gold_ore",
+    "worldofstone:marble_diamond_ore",
+    "worldofstone:marble_emerald_ore",
+    "worldofstone:marble_redstone_ore",
+    "worldofstone:marble_lapis_ore",
+    "worldofstone:marble_copper_ore"
+  ]
+}

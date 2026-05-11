@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:komatiite_coal_ore",
+    "worldofstone:komatiite_iron_ore",
+    "worldofstone:komatiite_gold_ore",
+    "worldofstone:komatiite_diamond_ore",
+    "worldofstone:komatiite_emerald_ore",
+    "worldofstone:komatiite_redstone_ore",
+    "worldofstone:komatiite_lapis_ore",
+    "worldofstone:komatiite_copper_ore"
+  ]
+}

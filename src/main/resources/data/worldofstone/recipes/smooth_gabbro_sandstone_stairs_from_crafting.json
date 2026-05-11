@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:smooth_gabbro_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:smooth_gabbro_sandstone_stairs",
+    "count": 4
+  }
+}

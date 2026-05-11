@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:smooth_adamellite",
+    "worldofstone:smooth_pyroxenite",
+    "worldofstone:smooth_rhyolite",
+    "worldofstone:smooth_tonalite",
+    "worldofstone:smooth_gabbro",
+    "worldofstone:smooth_latite",
+    "worldofstone:smooth_komatiite",
+    "worldofstone:smooth_dacite",
+    "worldofstone:smooth_gneiss",
+    "worldofstone:smooth_eclogite",
+    "worldofstone:smooth_marble",
+    "worldofstone:smooth_quartzite",
+    "worldofstone:smooth_blueschist",
+    "worldofstone:smooth_greenschist",
+    "worldofstone:smooth_soapstone",
+    "worldofstone:smooth_migmatite",
+    "worldofstone:smooth_limestone",
+    "worldofstone:smooth_chalk",
+    "worldofstone:smooth_shale",
+    "worldofstone:smooth_siltstone",
+    "worldofstone:smooth_lignite",
+    "worldofstone:smooth_dolomite",
+    "worldofstone:smooth_greywacke",
+    "worldofstone:smooth_chert"
+  ]
+}

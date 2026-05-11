@@ -1,0 +1,795 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_speleothem",
+    "worldofstone:adamellite_sandstone_speleothem",
+    "worldofstone:pyroxenite_speleothem",
+    "worldofstone:pyroxenite_sandstone_speleothem",
+    "worldofstone:rhyolite_speleothem",
+    "worldofstone:rhyolite_sandstone_speleothem",
+    "worldofstone:tonalite_speleothem",
+    "worldofstone:tonalite_sandstone_speleothem",
+    "worldofstone:gabbro_speleothem",
+    "worldofstone:gabbro_sandstone_speleothem",
+    "worldofstone:latite_speleothem",
+    "worldofstone:latite_sandstone_speleothem",
+    "worldofstone:komatiite_speleothem",
+    "worldofstone:komatiite_sandstone_speleothem",
+    "worldofstone:dacite_speleothem",
+    "worldofstone:dacite_sandstone_speleothem",
+    "worldofstone:gneiss_speleothem",
+    "worldofstone:gneiss_sandstone_speleothem",
+    "worldofstone:eclogite_speleothem",
+    "worldofstone:eclogite_sandstone_speleothem",
+    "worldofstone:marble_speleothem",
+    "worldofstone:marble_sandstone_speleothem",
+    "worldofstone:quartzite_speleothem",
+    "worldofstone:quartzite_sandstone_speleothem",
+    "worldofstone:blueschist_speleothem",
+    "worldofstone:blueschist_sandstone_speleothem",
+    "worldofstone:greenschist_speleothem",
+    "worldofstone:greenschist_sandstone_speleothem",
+    "worldofstone:soapstone_speleothem",
+    "worldofstone:soapstone_sandstone_speleothem",
+    "worldofstone:migmatite_speleothem",
+    "worldofstone:migmatite_sandstone_speleothem",
+    "worldofstone:limestone_speleothem",
+    "worldofstone:limestone_sandstone_speleothem",
+    "worldofstone:chalk_speleothem",
+    "worldofstone:chalk_sandstone_speleothem",
+    "worldofstone:shale_speleothem",
+    "worldofstone:shale_sandstone_speleothem",
+    "worldofstone:siltstone_speleothem",
+    "worldofstone:siltstone_sandstone_speleothem",
+    "worldofstone:lignite_speleothem",
+    "worldofstone:lignite_sandstone_speleothem",
+    "worldofstone:dolomite_speleothem",
+    "worldofstone:dolomite_sandstone_speleothem",
+    "worldofstone:greywacke_speleothem",
+    "worldofstone:greywacke_sandstone_speleothem",
+    "worldofstone:chert_speleothem",
+    "worldofstone:chert_sandstone_speleothem",
+    "worldofstone:stone_speleothem",
+    "worldofstone:granite_speleothem",
+    "worldofstone:diorite_speleothem",
+    "worldofstone:andesite_speleothem",
+    "worldofstone:deepslate_speleothem",
+    "worldofstone:tuff_speleothem",
+    "worldofstone:calcite_speleothem",
+    "worldofstone:dripstone_speleothem",
+    "worldofstone:netherrack_speleothem",
+    "worldofstone:basalt_speleothem",
+    "worldofstone:blackstone_speleothem",
+    "worldofstone:end_stone_speleothem",
+    "worldofstone:sandstone_speleothem",
+    "worldofstone:red_sandstone_speleothem",
+    "worldofstone:smooth_basalt_speleothem",
+    {
+      "id": "worldofstone:quark_limestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:quark_shale_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:quark_myalite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:quark_permafrost_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:quark_jasper_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:quark_dusky_myalite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:undergarden_depthrock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:undergarden_shiverstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_limestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_scoria_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_scorchia_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_asurine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_ochrum_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_veridium_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:create_crimsite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_flavolite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_violecite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_virid_jadestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_azure_jadestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_sandy_jadestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_sulphuric_rock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_umbralith_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:betterend_brimstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:galosphere_allurite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:galosphere_lumiere_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_dacite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_white_dacite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_red_rock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_black_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_white_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_blue_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_purple_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_pink_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:bwg_windswept_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twilightforest_mazestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twilightforest_deadrock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twilightforest_trollsteinn_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:aether_holystone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:aether_aerogel_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:blue_skies_lunar_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:blue_skies_turquoise_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:blue_skies_midnight_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:blue_skies_crystal_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:spelunkery_rock_salt_block_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:spelunkery_nephrite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:iceandfire_dread_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:mysticalagriculture_soulstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:biomesoplenty_white_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:biomesoplenty_orange_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:biomesoplenty_black_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:biomesoplenty_brimstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:forbidden_arcanus_darkstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:forbidden_arcanus_soulless_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_galena_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_limestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_radrock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_abyssmarine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_guanostone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_coprolith_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:alexscaves_gingerbread_block_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ars_nouveau_sourcestone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:cataclysm_azure_seastone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twigs_schist_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twigs_rhyolite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:twigs_bloodstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_abyssaline_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_myonite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_hadaline_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_esoterrack_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_onyx_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_wardstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_moonshale_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:architects_palette_nebulite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:outer_end_violite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:outer_end_stromatolite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:outer_end_halite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:outer_end_ancient_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_livingrock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_shimmerrock_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_forest_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_plains_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_mountain_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_fungal_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_swamp_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_desert_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_taiga_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:botania_metamorphic_mesa_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_sky_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_moon_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_moon_deepslate_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_mars_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_venus_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_venus_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_mercury_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_glacio_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:ad_astra_permafrost_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:deep_aether_aseterite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:deep_aether_raw_clorite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:caverns_and_chasms_sugilite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:caverns_and_chasms_cylindrite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:caverns_and_chasms_rhyolite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_ivory_travertine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_peach_travertine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_persimmon_travertine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_saffron_travertine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_dolerite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_arid_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:atmospheric_red_arid_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:endergetic_eumus_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:wilder_wilds_lavenderhardenedclay_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:wilder_wilds_coral_hardened_clay_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:wilder_wilds_cream_hardened_clay_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:regions_unexplored_chalk_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:regions_unexplored_argillite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:regions_unexplored_mossy_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:born_in_chaos_v1_black_argillite_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:naturalist_shellstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:yungscavebiomes_ancient_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:natures_spirit_travertine_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:natures_spirit_chert_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:natures_spirit_pink_sandstone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:netherexp_soul_slate_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:netherexp_pale_soul_slate_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:netherexp_black_ice_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:deeperdarker_sculk_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:deeperdarker_gloomslate_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:the_deep_void_ancient_deepslate_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:the_deep_void_primordial_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:the_deep_void_solid_void_block_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:the_deep_void_monolithic_stone_speleothem",
+      "required": false
+    },
+    {
+      "id": "worldofstone:defiled_lands_preborn_defiled_stone_speleothem",
+      "required": false
+    },
+    "worldofstone:terracotta_speleothem",
+    "worldofstone:white_terracotta_speleothem",
+    "worldofstone:orange_terracotta_speleothem",
+    "worldofstone:yellow_terracotta_speleothem",
+    "worldofstone:light_gray_terracotta_speleothem",
+    "worldofstone:red_terracotta_speleothem",
+    "worldofstone:brown_terracotta_speleothem",
+    "worldofstone:magenta_terracotta_speleothem",
+    "worldofstone:light_blue_terracotta_speleothem",
+    "worldofstone:lime_terracotta_speleothem",
+    "worldofstone:pink_terracotta_speleothem",
+    "worldofstone:gray_terracotta_speleothem",
+    "worldofstone:cyan_terracotta_speleothem",
+    "worldofstone:purple_terracotta_speleothem",
+    "worldofstone:blue_terracotta_speleothem",
+    "worldofstone:green_terracotta_speleothem",
+    "worldofstone:black_terracotta_speleothem",
+    "worldofstone:ice_speleothem",
+    "worldofstone:packed_ice_speleothem",
+    "worldofstone:blue_ice_speleothem",
+    "worldofstone:obsidian_speleothem",
+    "worldofstone:crying_obsidian_speleothem",
+    "worldofstone:bone_speleothem",
+    "worldofstone:raw_iron_speleothem",
+    "worldofstone:raw_copper_speleothem",
+    "worldofstone:raw_gold_speleothem",
+    "worldofstone:glowstone_speleothem",
+    "worldofstone:magma_speleothem",
+    "worldofstone:amethyst_speleothem",
+    "worldofstone:purpur_speleothem",
+    "worldofstone:prismarine_speleothem",
+    "worldofstone:prismarine_bricks_speleothem",
+    "worldofstone:dark_prismarine_speleothem",
+    "worldofstone:quartz_speleothem",
+    "worldofstone:coal_speleothem",
+    "worldofstone:copper_speleothem",
+    "worldofstone:exposed_copper_speleothem",
+    "worldofstone:weathered_copper_speleothem",
+    "worldofstone:oxidized_copper_speleothem",
+    "worldofstone:iron_speleothem",
+    "worldofstone:gold_speleothem",
+    "worldofstone:redstone_speleothem",
+    "worldofstone:emerald_speleothem",
+    "worldofstone:lapis_speleothem",
+    "worldofstone:diamond_speleothem",
+    "worldofstone:netherite_speleothem",
+    "worldofstone:dirt_speleothem",
+    "worldofstone:snow_speleothem",
+    "worldofstone:mud_speleothem",
+    "worldofstone:packed_mud_speleothem",
+    "worldofstone:tnt_speleothem",
+    "worldofstone:end_portal_frame_speleothem",
+    "worldofstone:bedrock_speleothem",
+    "worldofstone:glass_speleothem",
+    "worldofstone:tinted_glass_speleothem",
+    "worldofstone:white_stained_glass_speleothem",
+    "worldofstone:orange_stained_glass_speleothem",
+    "worldofstone:magenta_stained_glass_speleothem",
+    "worldofstone:light_blue_stained_glass_speleothem",
+    "worldofstone:yellow_stained_glass_speleothem",
+    "worldofstone:lime_stained_glass_speleothem",
+    "worldofstone:pink_stained_glass_speleothem",
+    "worldofstone:gray_stained_glass_speleothem",
+    "worldofstone:light_gray_stained_glass_speleothem",
+    "worldofstone:cyan_stained_glass_speleothem",
+    "worldofstone:purple_stained_glass_speleothem",
+    "worldofstone:blue_stained_glass_speleothem",
+    "worldofstone:brown_stained_glass_speleothem",
+    "worldofstone:green_stained_glass_speleothem",
+    "worldofstone:red_stained_glass_speleothem",
+    "worldofstone:black_stained_glass_speleothem",
+    "worldofstone:tube_coral_speleothem",
+    "worldofstone:brain_coral_speleothem",
+    "worldofstone:bubble_coral_speleothem",
+    "worldofstone:fire_coral_speleothem",
+    "worldofstone:horn_coral_speleothem",
+    "worldofstone:sponge_speleothem",
+    "worldofstone:slime_speleothem",
+    "worldofstone:honey_speleothem",
+    "worldofstone:moss_speleothem",
+    "worldofstone:sea_lantern_speleothem",
+    "worldofstone:white_wool_speleothem",
+    "worldofstone:orange_wool_speleothem",
+    "worldofstone:magenta_wool_speleothem",
+    "worldofstone:light_blue_wool_speleothem",
+    "worldofstone:yellow_wool_speleothem",
+    "worldofstone:lime_wool_speleothem",
+    "worldofstone:pink_wool_speleothem",
+    "worldofstone:gray_wool_speleothem",
+    "worldofstone:light_gray_wool_speleothem",
+    "worldofstone:cyan_wool_speleothem",
+    "worldofstone:purple_wool_speleothem",
+    "worldofstone:blue_wool_speleothem",
+    "worldofstone:brown_wool_speleothem",
+    "worldofstone:green_wool_speleothem",
+    "worldofstone:red_wool_speleothem",
+    "worldofstone:black_wool_speleothem",
+    "worldofstone:white_concrete_speleothem",
+    "worldofstone:orange_concrete_speleothem",
+    "worldofstone:magenta_concrete_speleothem",
+    "worldofstone:light_blue_concrete_speleothem",
+    "worldofstone:yellow_concrete_speleothem",
+    "worldofstone:lime_concrete_speleothem",
+    "worldofstone:pink_concrete_speleothem",
+    "worldofstone:gray_concrete_speleothem",
+    "worldofstone:light_gray_concrete_speleothem",
+    "worldofstone:cyan_concrete_speleothem",
+    "worldofstone:purple_concrete_speleothem",
+    "worldofstone:blue_concrete_speleothem",
+    "worldofstone:brown_concrete_speleothem",
+    "worldofstone:green_concrete_speleothem",
+    "worldofstone:red_concrete_speleothem",
+    "worldofstone:black_concrete_speleothem",
+    "worldofstone:white_glazed_terracotta_speleothem",
+    "worldofstone:orange_glazed_terracotta_speleothem",
+    "worldofstone:magenta_glazed_terracotta_speleothem",
+    "worldofstone:light_blue_glazed_terracotta_speleothem",
+    "worldofstone:yellow_glazed_terracotta_speleothem",
+    "worldofstone:lime_glazed_terracotta_speleothem",
+    "worldofstone:pink_glazed_terracotta_speleothem",
+    "worldofstone:gray_glazed_terracotta_speleothem",
+    "worldofstone:light_gray_glazed_terracotta_speleothem",
+    "worldofstone:cyan_glazed_terracotta_speleothem",
+    "worldofstone:purple_glazed_terracotta_speleothem",
+    "worldofstone:blue_glazed_terracotta_speleothem",
+    "worldofstone:brown_glazed_terracotta_speleothem",
+    "worldofstone:green_glazed_terracotta_speleothem",
+    "worldofstone:red_glazed_terracotta_speleothem",
+    "worldofstone:black_glazed_terracotta_speleothem",
+    "worldofstone:honeycomb_speleothem",
+    "worldofstone:bricks_speleothem",
+    "worldofstone:hay_bale_speleothem",
+    "worldofstone:sculk_speleothem",
+    "worldofstone:sculk_catalyst_speleothem",
+    "worldofstone:clay_speleothem",
+    "worldofstone:podzol_speleothem",
+    "worldofstone:mycelium_speleothem",
+    "worldofstone:coarse_dirt_speleothem",
+    "worldofstone:rooted_dirt_speleothem",
+    "worldofstone:soul_sand_speleothem",
+    "worldofstone:soul_soil_speleothem",
+    "worldofstone:grass_speleothem",
+    "worldofstone:brown_mushroom_speleothem",
+    "worldofstone:red_mushroom_speleothem",
+    "worldofstone:nether_wart_speleothem",
+    "worldofstone:warped_wart_speleothem",
+    "worldofstone:shroomlight_speleothem",
+    "worldofstone:ochre_froglight_speleothem",
+    "worldofstone:verdant_froglight_speleothem",
+    "worldofstone:pearlescent_froglight_speleothem",
+    "worldofstone:dead_tube_coral_speleothem",
+    "worldofstone:dead_brain_coral_speleothem",
+    "worldofstone:dead_bubble_coral_speleothem",
+    "worldofstone:dead_fire_coral_speleothem",
+    "worldofstone:dead_horn_coral_speleothem",
+    "worldofstone:melon_speleothem",
+    "worldofstone:pumpkin_speleothem",
+    "worldofstone:warped_nylium_speleothem",
+    "worldofstone:crimson_nylium_speleothem",
+    "worldofstone:oak_log_speleothem",
+    "worldofstone:stripped_oak_log_speleothem",
+    "worldofstone:oak_planks_speleothem",
+    "worldofstone:spruce_log_speleothem",
+    "worldofstone:stripped_spruce_log_speleothem",
+    "worldofstone:spruce_planks_speleothem",
+    "worldofstone:birch_log_speleothem",
+    "worldofstone:stripped_birch_log_speleothem",
+    "worldofstone:birch_planks_speleothem",
+    "worldofstone:jungle_log_speleothem",
+    "worldofstone:stripped_jungle_log_speleothem",
+    "worldofstone:jungle_planks_speleothem",
+    "worldofstone:acacia_log_speleothem",
+    "worldofstone:stripped_acacia_log_speleothem",
+    "worldofstone:acacia_planks_speleothem",
+    "worldofstone:dark_oak_log_speleothem",
+    "worldofstone:stripped_dark_oak_log_speleothem",
+    "worldofstone:dark_oak_planks_speleothem",
+    "worldofstone:mangrove_log_speleothem",
+    "worldofstone:stripped_mangrove_log_speleothem",
+    "worldofstone:mangrove_planks_speleothem",
+    "worldofstone:cherry_log_speleothem",
+    "worldofstone:stripped_cherry_log_speleothem",
+    "worldofstone:cherry_planks_speleothem",
+    "worldofstone:crimson_stem_speleothem",
+    "worldofstone:stripped_crimson_stem_speleothem",
+    "worldofstone:crimson_planks_speleothem",
+    "worldofstone:warped_stem_speleothem",
+    "worldofstone:stripped_warped_stem_speleothem",
+    "worldofstone:warped_planks_speleothem",
+    "worldofstone:bamboo_speleothem",
+    "worldofstone:stripped_bamboo_speleothem",
+    "worldofstone:bamboo_planks_speleothem",
+    "worldofstone:bamboo_mosaic_speleothem",
+    "worldofstone:oak_leaves_speleothem",
+    "worldofstone:spruce_leaves_speleothem",
+    "worldofstone:birch_leaves_speleothem",
+    "worldofstone:jungle_leaves_speleothem",
+    "worldofstone:acacia_leaves_speleothem",
+    "worldofstone:dark_oak_leaves_speleothem",
+    "worldofstone:mangrove_leaves_speleothem",
+    "worldofstone:cherry_leaves_speleothem",
+    "worldofstone:azalea_leaves_speleothem",
+    "worldofstone:flowering_azalea_leaves_speleothem"
+  ]
+}

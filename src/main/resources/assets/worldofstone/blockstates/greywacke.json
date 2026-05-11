@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/greywacke"
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/greywacke",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

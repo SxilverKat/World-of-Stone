@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:cut_dacite_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:cut_dacite_sandstone_slab",
+    "count": 6
+  }
+}

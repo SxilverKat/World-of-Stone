@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:siltstone_sandstone"
+  },
+  "result": "worldofstone:siltstone_sandstone_wall",
+  "count": 1
+}

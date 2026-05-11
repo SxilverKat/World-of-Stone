@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:blueschist_cobblestone"
+  },
+  "result": "worldofstone:blueschist_cobblestone_stairs",
+  "count": 1
+}

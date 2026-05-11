@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "worldofstone:block/dolomite_lapis_ore"
+  }
+}

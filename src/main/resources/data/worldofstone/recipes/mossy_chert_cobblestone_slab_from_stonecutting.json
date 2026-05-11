@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_chert_cobblestone"
+  },
+  "result": "worldofstone:mossy_chert_cobblestone_slab",
+  "count": 2
+}

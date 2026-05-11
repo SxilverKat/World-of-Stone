@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:siltstone_coal_ore",
+    "worldofstone:siltstone_iron_ore",
+    "worldofstone:siltstone_gold_ore",
+    "worldofstone:siltstone_diamond_ore",
+    "worldofstone:siltstone_emerald_ore",
+    "worldofstone:siltstone_redstone_ore",
+    "worldofstone:siltstone_lapis_ore",
+    "worldofstone:siltstone_copper_ore"
+  ]
+}

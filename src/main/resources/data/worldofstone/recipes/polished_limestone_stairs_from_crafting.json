@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_limestone_stairs",
+    "count": 4
+  }
+}

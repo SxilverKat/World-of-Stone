@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gabbro",
+    "#worldofstone:gabbro/ores",
+    "#worldofstone:gabbro/sandstone",
+    "#worldofstone:gabbro/cobblestone",
+    "#worldofstone:gabbro/mossy_cobblestone",
+    "#worldofstone:gabbro/bricks",
+    "#worldofstone:gabbro/mossy_bricks",
+    "#worldofstone:gabbro/smooth_stone",
+    "#worldofstone:gabbro/overgrown",
+    "#worldofstone:gabbro/polished",
+    "#worldofstone:gabbro/tiles",
+    "#worldofstone:gabbro/pillar",
+    "#worldofstone:gabbro/speleothem"
+  ]
+}

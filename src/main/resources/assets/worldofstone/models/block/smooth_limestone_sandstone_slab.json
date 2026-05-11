@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/limestone_sandstone_top",
+    "top": "worldofstone:block/limestone_sandstone_top",
+    "side": "worldofstone:block/limestone_sandstone_top"
+  }
+}

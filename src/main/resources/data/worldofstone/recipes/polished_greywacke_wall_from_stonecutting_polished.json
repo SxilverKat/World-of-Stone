@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_greywacke"
+  },
+  "result": "worldofstone:polished_greywacke_wall",
+  "count": 1
+}

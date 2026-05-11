@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:shale_tiles"
+  },
+  "result": "worldofstone:shale_tile_stairs",
+  "count": 1
+}

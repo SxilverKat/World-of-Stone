@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/gabbro_cobblestone",
+    "top": "worldofstone:block/gabbro_cobblestone",
+    "side": "worldofstone:block/gabbro_cobblestone"
+  }
+}

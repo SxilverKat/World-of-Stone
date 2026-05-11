@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_sandstone",
+    "worldofstone:cut_adamellite_sandstone",
+    "worldofstone:chiseled_adamellite_sandstone",
+    "worldofstone:smooth_adamellite_sandstone",
+    "worldofstone:adamellite_sandstone_stairs",
+    "worldofstone:adamellite_sandstone_slab",
+    "worldofstone:adamellite_sandstone_wall",
+    "worldofstone:cut_adamellite_sandstone_slab",
+    "worldofstone:smooth_adamellite_sandstone_stairs",
+    "worldofstone:smooth_adamellite_sandstone_slab"
+  ]
+}

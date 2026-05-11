@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:lignite_cobblestone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:lignite_cobblestone_wall",
+    "count": 6
+  }
+}

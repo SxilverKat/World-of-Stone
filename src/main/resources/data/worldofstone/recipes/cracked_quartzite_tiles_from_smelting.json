@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:quartzite_tiles"
+  },
+  "result": "worldofstone:cracked_quartzite_tiles",
+  "experience": 0.1,
+  "cookingtime": 200
+}

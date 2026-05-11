@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_greywacke_sandstone"
+  },
+  "result": "worldofstone:smooth_greywacke_sandstone_stairs",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "worldofstone:block/siltstone_sandstone_top",
+    "top": "worldofstone:block/siltstone_sandstone_top",
+    "side": "worldofstone:block/siltstone_sandstone_top"
+  }
+}

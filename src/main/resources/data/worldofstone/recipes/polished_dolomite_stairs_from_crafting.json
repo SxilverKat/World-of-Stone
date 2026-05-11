@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_dolomite"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_dolomite_stairs",
+    "count": 4
+  }
+}

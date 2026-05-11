@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/dolomite_sandstone_bottom",
+    "top": "worldofstone:block/dolomite_sandstone_top",
+    "side": "worldofstone:block/dolomite_sandstone_normal"
+  }
+}

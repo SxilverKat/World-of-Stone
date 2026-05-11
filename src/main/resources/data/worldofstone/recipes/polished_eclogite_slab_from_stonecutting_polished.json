@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_eclogite"
+  },
+  "result": "worldofstone:polished_eclogite_slab",
+  "count": 2
+}

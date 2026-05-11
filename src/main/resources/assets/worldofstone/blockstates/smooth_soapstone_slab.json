@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/smooth_soapstone_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/smooth_soapstone_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/smooth_soapstone"
+    }
+  }
+}

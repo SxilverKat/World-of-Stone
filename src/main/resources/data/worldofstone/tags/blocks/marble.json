@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:marble",
+    "#worldofstone:marble/ores",
+    "#worldofstone:marble/sandstone",
+    "#worldofstone:marble/cobblestone",
+    "#worldofstone:marble/mossy_cobblestone",
+    "#worldofstone:marble/bricks",
+    "#worldofstone:marble/mossy_bricks",
+    "#worldofstone:marble/smooth_stone",
+    "#worldofstone:marble/overgrown",
+    "#worldofstone:marble/polished",
+    "#worldofstone:marble/tiles",
+    "#worldofstone:marble/pillar",
+    "#worldofstone:marble/speleothem"
+  ]
+}

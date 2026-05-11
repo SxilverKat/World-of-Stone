@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/tonalite_tile_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/tonalite_tile_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/tonalite_tiles"
+    }
+  }
+}

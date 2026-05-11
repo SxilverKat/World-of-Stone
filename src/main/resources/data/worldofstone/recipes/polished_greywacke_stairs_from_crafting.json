@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_greywacke"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_greywacke_stairs",
+    "count": 4
+  }
+}

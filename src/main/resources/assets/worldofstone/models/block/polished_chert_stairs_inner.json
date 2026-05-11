@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/polished_chert",
+    "top": "worldofstone:block/polished_chert",
+    "side": "worldofstone:block/polished_chert"
+  }
+}

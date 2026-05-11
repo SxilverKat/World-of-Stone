@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dacite_bricks",
+    "worldofstone:dacite_brick_stairs",
+    "worldofstone:dacite_brick_slab",
+    "worldofstone:dacite_brick_wall"
+  ]
+}

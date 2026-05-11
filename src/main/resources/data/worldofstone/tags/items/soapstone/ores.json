@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:soapstone_coal_ore",
+    "worldofstone:soapstone_iron_ore",
+    "worldofstone:soapstone_gold_ore",
+    "worldofstone:soapstone_diamond_ore",
+    "worldofstone:soapstone_emerald_ore",
+    "worldofstone:soapstone_redstone_ore",
+    "worldofstone:soapstone_lapis_ore",
+    "worldofstone:soapstone_copper_ore"
+  ]
+}

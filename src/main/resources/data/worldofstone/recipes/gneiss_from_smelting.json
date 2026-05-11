@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:gneiss_cobblestone"
+  },
+  "result": "worldofstone:gneiss",
+  "experience": 0.1,
+  "cookingtime": 200
+}

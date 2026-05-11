@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/chalk"
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chalk",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

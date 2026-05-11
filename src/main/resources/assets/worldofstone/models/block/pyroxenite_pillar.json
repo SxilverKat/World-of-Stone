@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "worldofstone:block/pyroxenite_pillar",
+    "end": "worldofstone:block/pyroxenite_pillar_top"
+  }
+}

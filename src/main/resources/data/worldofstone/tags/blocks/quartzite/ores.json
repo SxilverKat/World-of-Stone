@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:quartzite_coal_ore",
+    "worldofstone:quartzite_iron_ore",
+    "worldofstone:quartzite_gold_ore",
+    "worldofstone:quartzite_diamond_ore",
+    "worldofstone:quartzite_emerald_ore",
+    "worldofstone:quartzite_redstone_ore",
+    "worldofstone:quartzite_lapis_ore",
+    "worldofstone:quartzite_copper_ore"
+  ]
+}

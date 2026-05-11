@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_eclogite_cobblestone"
+  },
+  "result": "worldofstone:mossy_eclogite_cobblestone_wall",
+  "count": 1
+}

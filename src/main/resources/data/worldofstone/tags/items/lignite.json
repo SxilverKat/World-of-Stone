@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:lignite",
+    "#worldofstone:lignite/ores",
+    "#worldofstone:lignite/sandstone",
+    "#worldofstone:lignite/cobblestone",
+    "#worldofstone:lignite/mossy_cobblestone",
+    "#worldofstone:lignite/bricks",
+    "#worldofstone:lignite/mossy_bricks",
+    "#worldofstone:lignite/smooth_stone",
+    "#worldofstone:lignite/overgrown",
+    "#worldofstone:lignite/polished",
+    "#worldofstone:lignite/tiles",
+    "#worldofstone:lignite/pillar",
+    "#worldofstone:lignite/speleothem"
+  ]
+}

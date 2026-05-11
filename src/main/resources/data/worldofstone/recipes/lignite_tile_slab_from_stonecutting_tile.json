@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite_tiles"
+  },
+  "result": "worldofstone:lignite_tile_slab",
+  "count": 2
+}

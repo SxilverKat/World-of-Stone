@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:rhyolite_cobblestone"
+  },
+  "result": "worldofstone:rhyolite_cobblestone_slab",
+  "count": 2
+}

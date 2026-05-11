@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:chalk_tiles"
+  },
+  "result": "worldofstone:chalk_tile_stairs",
+  "count": 1
+}

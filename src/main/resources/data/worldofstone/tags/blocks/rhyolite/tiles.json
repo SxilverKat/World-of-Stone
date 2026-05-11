@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:rhyolite_tiles",
+    "worldofstone:cracked_rhyolite_tiles",
+    "worldofstone:rhyolite_tile_stairs",
+    "worldofstone:rhyolite_tile_slab",
+    "worldofstone:rhyolite_tile_wall"
+  ]
+}

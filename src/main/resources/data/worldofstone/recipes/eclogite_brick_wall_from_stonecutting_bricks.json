@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite_bricks"
+  },
+  "result": "worldofstone:eclogite_brick_wall",
+  "count": 1
+}

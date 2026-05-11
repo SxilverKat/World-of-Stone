@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:latite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chiseled_latite_bricks",
+    "count": 1
+  }
+}

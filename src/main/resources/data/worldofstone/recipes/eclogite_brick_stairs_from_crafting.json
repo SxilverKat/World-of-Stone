@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:eclogite_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:eclogite_brick_stairs",
+    "count": 4
+  }
+}

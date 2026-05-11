@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_greywacke_bricks",
+    "worldofstone:mossy_greywacke_brick_stairs",
+    "worldofstone:mossy_greywacke_brick_slab",
+    "worldofstone:mossy_greywacke_brick_wall"
+  ]
+}

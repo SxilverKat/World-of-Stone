@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chalk_coal_ore",
+    "worldofstone:chalk_iron_ore",
+    "worldofstone:chalk_gold_ore",
+    "worldofstone:chalk_diamond_ore",
+    "worldofstone:chalk_emerald_ore",
+    "worldofstone:chalk_redstone_ore",
+    "worldofstone:chalk_lapis_ore",
+    "worldofstone:chalk_copper_ore"
+  ]
+}

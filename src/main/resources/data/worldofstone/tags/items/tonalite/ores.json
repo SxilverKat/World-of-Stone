@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite_coal_ore",
+    "worldofstone:tonalite_iron_ore",
+    "worldofstone:tonalite_gold_ore",
+    "worldofstone:tonalite_diamond_ore",
+    "worldofstone:tonalite_emerald_ore",
+    "worldofstone:tonalite_redstone_ore",
+    "worldofstone:tonalite_lapis_ore",
+    "worldofstone:tonalite_copper_ore"
+  ]
+}

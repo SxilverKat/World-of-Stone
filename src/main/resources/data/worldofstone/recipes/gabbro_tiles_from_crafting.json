@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:gabbro_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:gabbro_tiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite"
+  },
+  "result": "worldofstone:smooth_pyroxenite",
+  "count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/blueschist_sandstone_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/blueschist_sandstone_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/blueschist_sandstone"
+    }
+  }
+}

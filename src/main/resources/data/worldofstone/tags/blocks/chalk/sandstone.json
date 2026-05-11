@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chalk_sandstone",
+    "worldofstone:cut_chalk_sandstone",
+    "worldofstone:chiseled_chalk_sandstone",
+    "worldofstone:smooth_chalk_sandstone",
+    "worldofstone:chalk_sandstone_stairs",
+    "worldofstone:chalk_sandstone_slab",
+    "worldofstone:chalk_sandstone_wall",
+    "worldofstone:cut_chalk_sandstone_slab",
+    "worldofstone:smooth_chalk_sandstone_stairs",
+    "worldofstone:smooth_chalk_sandstone_slab"
+  ]
+}

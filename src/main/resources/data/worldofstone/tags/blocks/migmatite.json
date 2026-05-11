@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite",
+    "#worldofstone:migmatite/ores",
+    "#worldofstone:migmatite/sandstone",
+    "#worldofstone:migmatite/cobblestone",
+    "#worldofstone:migmatite/mossy_cobblestone",
+    "#worldofstone:migmatite/bricks",
+    "#worldofstone:migmatite/mossy_bricks",
+    "#worldofstone:migmatite/smooth_stone",
+    "#worldofstone:migmatite/overgrown",
+    "#worldofstone:migmatite/polished",
+    "#worldofstone:migmatite/tiles",
+    "#worldofstone:migmatite/pillar",
+    "#worldofstone:migmatite/speleothem"
+  ]
+}

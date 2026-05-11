@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite",
+    "#worldofstone:eclogite/ores",
+    "#worldofstone:eclogite/sandstone",
+    "#worldofstone:eclogite/cobblestone",
+    "#worldofstone:eclogite/mossy_cobblestone",
+    "#worldofstone:eclogite/bricks",
+    "#worldofstone:eclogite/mossy_bricks",
+    "#worldofstone:eclogite/smooth_stone",
+    "#worldofstone:eclogite/overgrown",
+    "#worldofstone:eclogite/polished",
+    "#worldofstone:eclogite/tiles",
+    "#worldofstone:eclogite/pillar",
+    "#worldofstone:eclogite/speleothem"
+  ]
+}

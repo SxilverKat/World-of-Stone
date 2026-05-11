@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:blueschist",
+    "#worldofstone:blueschist/ores",
+    "#worldofstone:blueschist/sandstone",
+    "#worldofstone:blueschist/cobblestone",
+    "#worldofstone:blueschist/mossy_cobblestone",
+    "#worldofstone:blueschist/bricks",
+    "#worldofstone:blueschist/mossy_bricks",
+    "#worldofstone:blueschist/smooth_stone",
+    "#worldofstone:blueschist/overgrown",
+    "#worldofstone:blueschist/polished",
+    "#worldofstone:blueschist/tiles",
+    "#worldofstone:blueschist/pillar",
+    "#worldofstone:blueschist/speleothem"
+  ]
+}

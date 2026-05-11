@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/adamellite_bricks",
+    "top": "worldofstone:block/adamellite_bricks",
+    "side": "worldofstone:block/adamellite_bricks"
+  }
+}

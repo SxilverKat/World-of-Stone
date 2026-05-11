@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite_tiles",
+    "worldofstone:cracked_tonalite_tiles",
+    "worldofstone:tonalite_tile_stairs",
+    "worldofstone:tonalite_tile_slab",
+    "worldofstone:tonalite_tile_wall"
+  ]
+}

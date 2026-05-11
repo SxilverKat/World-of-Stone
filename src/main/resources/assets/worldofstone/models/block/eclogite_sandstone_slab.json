@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/eclogite_sandstone_bottom",
+    "top": "worldofstone:block/eclogite_sandstone_top",
+    "side": "worldofstone:block/eclogite_sandstone_normal"
+  }
+}

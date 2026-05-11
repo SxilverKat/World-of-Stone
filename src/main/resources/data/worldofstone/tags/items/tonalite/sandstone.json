@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite_sandstone",
+    "worldofstone:cut_tonalite_sandstone",
+    "worldofstone:chiseled_tonalite_sandstone",
+    "worldofstone:smooth_tonalite_sandstone",
+    "worldofstone:tonalite_sandstone_stairs",
+    "worldofstone:tonalite_sandstone_slab",
+    "worldofstone:tonalite_sandstone_wall",
+    "worldofstone:cut_tonalite_sandstone_slab",
+    "worldofstone:smooth_tonalite_sandstone_stairs",
+    "worldofstone:smooth_tonalite_sandstone_slab"
+  ]
+}

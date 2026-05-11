@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_sandstone"
+  },
+  "result": "worldofstone:komatiite_sandstone_wall",
+  "count": 1
+}

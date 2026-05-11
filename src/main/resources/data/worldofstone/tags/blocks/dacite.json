@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dacite",
+    "#worldofstone:dacite/ores",
+    "#worldofstone:dacite/sandstone",
+    "#worldofstone:dacite/cobblestone",
+    "#worldofstone:dacite/mossy_cobblestone",
+    "#worldofstone:dacite/bricks",
+    "#worldofstone:dacite/mossy_bricks",
+    "#worldofstone:dacite/smooth_stone",
+    "#worldofstone:dacite/overgrown",
+    "#worldofstone:dacite/polished",
+    "#worldofstone:dacite/tiles",
+    "#worldofstone:dacite/pillar",
+    "#worldofstone:dacite/speleothem"
+  ]
+}

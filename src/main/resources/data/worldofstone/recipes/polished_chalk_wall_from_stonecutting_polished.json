@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_chalk"
+  },
+  "result": "worldofstone:polished_chalk_wall",
+  "count": 1
+}

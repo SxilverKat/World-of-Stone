@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:latite"
+  },
+  "result": "worldofstone:latite_pillar",
+  "count": 1
+}

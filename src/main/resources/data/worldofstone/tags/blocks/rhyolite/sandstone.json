@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:rhyolite_sandstone",
+    "worldofstone:cut_rhyolite_sandstone",
+    "worldofstone:chiseled_rhyolite_sandstone",
+    "worldofstone:smooth_rhyolite_sandstone",
+    "worldofstone:rhyolite_sandstone_stairs",
+    "worldofstone:rhyolite_sandstone_slab",
+    "worldofstone:rhyolite_sandstone_wall",
+    "worldofstone:cut_rhyolite_sandstone_slab",
+    "worldofstone:smooth_rhyolite_sandstone_stairs",
+    "worldofstone:smooth_rhyolite_sandstone_slab"
+  ]
+}

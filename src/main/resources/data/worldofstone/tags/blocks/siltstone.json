@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:siltstone",
+    "#worldofstone:siltstone/ores",
+    "#worldofstone:siltstone/sandstone",
+    "#worldofstone:siltstone/cobblestone",
+    "#worldofstone:siltstone/mossy_cobblestone",
+    "#worldofstone:siltstone/bricks",
+    "#worldofstone:siltstone/mossy_bricks",
+    "#worldofstone:siltstone/smooth_stone",
+    "#worldofstone:siltstone/overgrown",
+    "#worldofstone:siltstone/polished",
+    "#worldofstone:siltstone/tiles",
+    "#worldofstone:siltstone/pillar",
+    "#worldofstone:siltstone/speleothem"
+  ]
+}

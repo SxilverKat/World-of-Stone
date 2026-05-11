@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:rhyolite_sandstone"
+  },
+  "result": "worldofstone:chiseled_rhyolite_sandstone",
+  "count": 1
+}

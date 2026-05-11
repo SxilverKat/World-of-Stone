@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite",
+    "#worldofstone:pyroxenite/ores",
+    "#worldofstone:pyroxenite/sandstone",
+    "#worldofstone:pyroxenite/cobblestone",
+    "#worldofstone:pyroxenite/mossy_cobblestone",
+    "#worldofstone:pyroxenite/bricks",
+    "#worldofstone:pyroxenite/mossy_bricks",
+    "#worldofstone:pyroxenite/smooth_stone",
+    "#worldofstone:pyroxenite/overgrown",
+    "#worldofstone:pyroxenite/polished",
+    "#worldofstone:pyroxenite/tiles",
+    "#worldofstone:pyroxenite/pillar",
+    "#worldofstone:pyroxenite/speleothem"
+  ]
+}

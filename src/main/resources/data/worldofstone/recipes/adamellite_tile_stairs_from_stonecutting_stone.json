@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:adamellite"
+  },
+  "result": "worldofstone:adamellite_tile_stairs",
+  "count": 1
+}

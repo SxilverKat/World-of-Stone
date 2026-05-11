@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chalk",
+    "#worldofstone:chalk/ores",
+    "#worldofstone:chalk/sandstone",
+    "#worldofstone:chalk/cobblestone",
+    "#worldofstone:chalk/mossy_cobblestone",
+    "#worldofstone:chalk/bricks",
+    "#worldofstone:chalk/mossy_bricks",
+    "#worldofstone:chalk/smooth_stone",
+    "#worldofstone:chalk/overgrown",
+    "#worldofstone:chalk/polished",
+    "#worldofstone:chalk/tiles",
+    "#worldofstone:chalk/pillar",
+    "#worldofstone:chalk/speleothem"
+  ]
+}

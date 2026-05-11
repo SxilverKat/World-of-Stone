@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite_cobblestone",
+    "worldofstone:migmatite_cobblestone_stairs",
+    "worldofstone:migmatite_cobblestone_slab",
+    "worldofstone:migmatite_cobblestone_wall"
+  ]
+}

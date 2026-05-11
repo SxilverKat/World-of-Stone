@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:soapstone_cobblestone"
+  },
+  "result": "worldofstone:soapstone",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dacite_sandstone"
+  },
+  "result": "worldofstone:chiseled_dacite_sandstone",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "worldofstone:block/cut_gabbro_sandstone",
+    "top": "worldofstone:block/gabbro_sandstone_top",
+    "bottom": "worldofstone:block/gabbro_sandstone_bottom"
+  }
+}

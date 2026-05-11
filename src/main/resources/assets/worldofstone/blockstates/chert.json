@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/chert"
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/chert",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

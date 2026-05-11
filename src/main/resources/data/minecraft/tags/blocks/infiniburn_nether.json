@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:netherrack_coal_ore",
+    "worldofstone:netherrack_iron_ore",
+    "worldofstone:netherrack_gold_ore",
+    "worldofstone:netherrack_diamond_ore",
+    "worldofstone:netherrack_emerald_ore",
+    "worldofstone:netherrack_redstone_ore",
+    "worldofstone:netherrack_lapis_ore",
+    "worldofstone:netherrack_copper_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/soapstone_tiles",
+    "top": "worldofstone:block/soapstone_tiles",
+    "side": "worldofstone:block/soapstone_tiles"
+  }
+}

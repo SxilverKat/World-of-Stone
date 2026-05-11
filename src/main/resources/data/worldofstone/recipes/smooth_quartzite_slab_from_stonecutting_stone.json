@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:quartzite"
+  },
+  "result": "worldofstone:smooth_quartzite_slab",
+  "count": 2
+}

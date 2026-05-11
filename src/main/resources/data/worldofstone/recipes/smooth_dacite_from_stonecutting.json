@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dacite"
+  },
+  "result": "worldofstone:smooth_dacite",
+  "count": 1
+}

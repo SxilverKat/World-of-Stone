@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "architects_palette:block/abyssaline_side",
+    "all": "architects_palette:block/abyssaline_side"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#all",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            7,
+            0,
+            9,
+            16
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}
