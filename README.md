@@ -1,6 +1,7 @@
 <img width="768" height="456" alt="world_of_stone_title" src="https://github.com/user-attachments/assets/2ce9dff8-27c5-4001-8baf-b170532d726c" />
 
 
+
 A massive geological overhaul for Minecraft. 1800+ blocks across 24 stone strata in three types with full building sets, hundreds of speleothems, and highly customizable worldgen. This is a modern revamp of the Underground Biomes mod by ExterminatorJeff, CurtisA, and LouisDB.
 
 ## Strata System
