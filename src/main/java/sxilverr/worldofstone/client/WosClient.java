@@ -40,6 +40,7 @@ public final class WosClient {
     private WosClient() {
     }
 
+    @SuppressWarnings("removal")
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
@@ -92,6 +93,7 @@ public final class WosClient {
         });
     }
 
+    @SuppressWarnings("removal")
     private static void setCutoutMipped(Block block) {
         ItemBlockRenderTypes.setRenderLayer(block, RenderType.cutoutMipped());
     }
@@ -124,7 +126,7 @@ public final class WosClient {
 
         Map<String, Integer> tints = getSandTints();
         for (Map.Entry<String, Integer> e : tints.entrySet()) {
-            Block block = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, e.getKey()));
+            Block block = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, e.getKey()));
             if (block != null) {
                 final int color = e.getValue();
                 event.register((s, w, p, t) -> color, block);
@@ -174,7 +176,7 @@ public final class WosClient {
 
         Map<String, Integer> tints = getSandTints();
         for (Map.Entry<String, Integer> e : tints.entrySet()) {
-            Block block = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, e.getKey()));
+            Block block = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, e.getKey()));
             if (block != null) {
                 final int color = e.getValue();
                 event.register((stack, t) -> color, block.asItem());

@@ -44,6 +44,8 @@ public final class WosConfig {
     public static final ForgeConfigSpec.BooleanValue ALLOW_VANILLA_ORES_IN_NETHER;
     public static final ForgeConfigSpec.BooleanValue ALLOW_VANILLA_ORES_IN_END;
     public static final ForgeConfigSpec.BooleanValue ALLOW_OBSIDIAN_ORE_VARIANTS;
+    public static final ForgeConfigSpec.DoubleValue NETHER_ORE_ATTEMPTS_MULTIPLIER;
+    public static final ForgeConfigSpec.DoubleValue END_ORE_ATTEMPTS_MULTIPLIER;
     public static final ForgeConfigSpec.BooleanValue ALLOW_OVERGROWN_STRATA;
     public static final ForgeConfigSpec.BooleanValue ALLOW_SNOWED_STRATA;
     public static final ForgeConfigSpec.BooleanValue ALLOW_OVERGROWN_VANILLA_VARIANTS;
@@ -156,6 +158,8 @@ public final class WosConfig {
     public static boolean allowVanillaOresInNether = false;
     public static boolean allowVanillaOresInEnd = false;
     public static boolean allowObsidianOreVariants = false;
+    public static double netherOreAttemptsMultiplier = 1.0;
+    public static double endOreAttemptsMultiplier = 1.0;
     public static boolean allowOvergrownStrata = true;
     public static boolean allowSnowedStrata = true;
     public static boolean allowOvergrownVanillaVariants = true;
@@ -260,6 +264,12 @@ public final class WosConfig {
         ALLOW_OBSIDIAN_ORE_VARIANTS = builder
                 .comment("Allow obsidian ore variants to generate where possible.")
                 .define("allowObsidianOreVariants", false);
+        NETHER_ORE_ATTEMPTS_MULTIPLIER = builder
+                .comment("Nether ore attempts multiplier.")
+                .defineInRange("netherOreAttemptsMultiplier", 1.0D, 0.0D, 10.0D);
+        END_ORE_ATTEMPTS_MULTIPLIER = builder
+                .comment("End ore attempts multiplier.")
+                .defineInRange("endOreAttemptsMultiplier", 1.0D, 0.0D, 10.0D);
         ALLOW_OVERGROWN_STRATA = builder
                 .comment("Allow overgrown strata to generate.")
                 .define("allowOvergrownStrata", true);
@@ -1051,6 +1061,8 @@ public final class WosConfig {
         allowVanillaOresInNether = ALLOW_VANILLA_ORES_IN_NETHER.get();
         allowVanillaOresInEnd = ALLOW_VANILLA_ORES_IN_END.get();
         allowObsidianOreVariants = ALLOW_OBSIDIAN_ORE_VARIANTS.get();
+        netherOreAttemptsMultiplier = NETHER_ORE_ATTEMPTS_MULTIPLIER.get();
+        endOreAttemptsMultiplier = END_ORE_ATTEMPTS_MULTIPLIER.get();
         allowOvergrownStrata = ALLOW_OVERGROWN_STRATA.get();
         allowSnowedStrata = ALLOW_SNOWED_STRATA.get();
         allowOvergrownVanillaVariants = ALLOW_OVERGROWN_VANILLA_VARIANTS.get();

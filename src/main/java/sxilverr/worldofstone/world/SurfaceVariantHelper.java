@@ -38,7 +38,7 @@ public final class SurfaceVariantHelper {
     }
 
     private static Block lookup(String name) {
-        ResourceLocation rl = new ResourceLocation(ModInfo.MODID, name);
+        ResourceLocation rl = ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, name);
         return ForgeRegistries.BLOCKS.containsKey(rl) ? ForgeRegistries.BLOCKS.getValue(rl) : null;
     }
 }

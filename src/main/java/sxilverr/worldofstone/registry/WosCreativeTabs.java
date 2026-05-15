@@ -20,7 +20,7 @@ public final class WosCreativeTabs {
 
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ModInfo.MODID);
 
-    public static final RegistryObject<CreativeModeTab> UB_TAB = TABS.register("ub_tab",
+    public static final RegistryObject<CreativeModeTab> WOS_TAB = TABS.register("wos_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.worldofstone"))
                     .icon(() -> WosBlocks.IGNEOUS_STONE.get(IgneousVariant.ADAMELLITE).get().asItem().getDefaultInstance())

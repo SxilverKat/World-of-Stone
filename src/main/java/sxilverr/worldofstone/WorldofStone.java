@@ -22,6 +22,7 @@ public class WorldofStone {
 
     public static final Logger LOGGER = LogUtils.getLogger();
 
+    @SuppressWarnings("removal")
     public WorldofStone(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 

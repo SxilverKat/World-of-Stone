@@ -22,10 +22,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 @Mixin(value = WorldGenWrapper.class, remap = false)
 public abstract class JERWorldGenWrapperMixin {
@@ -35,9 +33,6 @@ public abstract class JERWorldGenWrapperMixin {
 
     private static volatile Map<Block, OreVariant> WOS$VANILLA_ORES;
     private static volatile boolean WOS$LOGGED_ONCE;
-    private static final Set<String> WOS$NON_OVERWORLD_HOSTS = new HashSet<>(java.util.Arrays.asList(
-            "netherrack", "blackstone", "basalt", "end_stone", "obsidian"
-    ));
 
     private static Map<Block, OreVariant> wos$vanillaOres() {
         Map<Block, OreVariant> m = WOS$VANILLA_ORES;
@@ -62,34 +57,20 @@ public abstract class JERWorldGenWrapperMixin {
         ItemStack primary = blocks.get(0);
         Block block = Block.byItem(primary.getItem());
         OreVariant ore = wos$vanillaOres().get(block);
-        if (ore != null) {
-            int before = blocks.size();
-            for (IgneousVariant v : IgneousVariant.VALUES) wos$add(blocks, v.toString(), ore);
-            for (MetamorphicVariant v : MetamorphicVariant.VALUES) wos$add(blocks, v.toString(), ore);
-            for (SedimentaryVariant v : SedimentaryVariant.VALUES) wos$add(blocks, v.toString(), ore);
-            for (VanillaOreHost h : VanillaOreHost.VALUES) {
-                if (WOS$NON_OVERWORLD_HOSTS.contains(h.getRegistryName())) continue;
-                wos$add(blocks, h.getRegistryName(), ore);
-            }
-            if (!WOS$LOGGED_ONCE) {
-                WOS$LOGGED_ONCE = true;
-                WOS$LOGGER.info("[WorldOfStone] JER mixin appended {} variants for {}", blocks.size() - before, ore);
-            }
-            return;
-        }
-        OreVariant netherOre = wos$detectHostOre(block, "netherrack");
-        if (netherOre != null) {
-            wos$add(blocks, "blackstone", netherOre);
-            wos$add(blocks, "basalt", netherOre);
-        }
-    }
+        if (ore == null) return;
 
-    private static OreVariant wos$detectHostOre(Block block, String hostName) {
-        for (OreVariant ore : OreVariant.VALUES) {
-            RegistryObject<Block> ro = WosBlocks.ORES.get(hostName + "_" + ore.suffix);
-            if (ro != null && ro.isPresent() && ro.get() == block) return ore;
+        int before = blocks.size();
+        for (IgneousVariant v : IgneousVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (MetamorphicVariant v : MetamorphicVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (SedimentaryVariant v : SedimentaryVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (VanillaOreHost h : VanillaOreHost.VALUES) {
+            if (h.getDimension() != VanillaOreHost.HostDimension.OVERWORLD) continue;
+            wos$add(blocks, h.getRegistryName(), ore);
         }
-        return null;
+        if (!WOS$LOGGED_ONCE) {
+            WOS$LOGGED_ONCE = true;
+            WOS$LOGGER.info("[WorldOfStone] JER mixin appended {} variants for {}", blocks.size() - before, ore);
+        }
     }
 
     private static void wos$add(List<ItemStack> blocks, String hostName, OreVariant ore) {

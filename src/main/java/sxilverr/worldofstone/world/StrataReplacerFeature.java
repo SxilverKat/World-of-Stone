@@ -134,7 +134,7 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
 
     private static Block lookupRegisteredBlock(String template, String variantName) {
         if (variantName == null) return null;
-        ResourceLocation rl = new ResourceLocation(ModInfo.MODID, template.replace("{}", variantName));
+        ResourceLocation rl = ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, template.replace("{}", variantName));
         return ForgeRegistries.BLOCKS.containsKey(rl) ? ForgeRegistries.BLOCKS.getValue(rl) : null;
     }
 
@@ -313,23 +313,23 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
                             variantStone = SurfaceVariantHelper.surfaceVariantFor(level, pos, stratumVariant, WosConfig.allowSnowedStrata, WosConfig.allowOvergrownStrata);
                         }
                         if (variantStone == null) {
-                            variantStone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, stratumVariant));
+                            variantStone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant));
                         }
                         if (variantStone != null) {
                             chunk.setBlockState(pos, variantStone.defaultBlockState(), false);
                         }
                     } else if (isSand) {
-                        Block variantSand = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, stratumVariant + "_sand"));
+                        Block variantSand = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant + "_sand"));
                         if (variantSand != null) {
                             chunk.setBlockState(pos, variantSand.defaultBlockState(), false);
                         }
                     } else if (isSandstone) {
-                        Block variantSandstone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, stratumVariant + "_sandstone"));
+                        Block variantSandstone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant + "_sandstone"));
                         if (variantSandstone != null) {
                             chunk.setBlockState(pos, variantSandstone.defaultBlockState(), false);
                         }
                     } else if (isGravel) {
-                        Block variantGravel = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(ModInfo.MODID, stratumVariant + "_gravel"));
+                        Block variantGravel = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant + "_gravel"));
                         if (variantGravel != null) {
                             chunk.setBlockState(pos, variantGravel.defaultBlockState(), false);
                         }

@@ -182,7 +182,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
     }
 
     private static void mapIceHost(Map<Block, Block> map, String hostId, DecorativeSpeleothemVariant variant) {
-        Block host = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(hostId));
+        Block host = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(hostId));
         RegistryObject<Block> spRo = WosBlocks.DECORATIVE_SPELEOTHEM.get(variant);
         if (host != null && spRo != null && spRo.isPresent()) {
             map.put(host, spRo.get());
@@ -258,7 +258,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         vanillaMap.put("minecraft:red_sandstone", VanillaSpeleothemVariant.RED_SANDSTONE);
         for (Map.Entry<String, VanillaSpeleothemVariant> e : vanillaMap.entrySet()) {
             if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-            Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+            Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
             RegistryObject<Block> spRo = WosBlocks.VANILLA_SPELEOTHEM.get(e.getValue());
             if (stone != null && spRo != null && spRo.isPresent()) {
                 map.put(stone, spRo.get());
@@ -268,7 +268,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (WosConfig.terracottaSpeleothemsEnabled) {
             for (TerracottaSpeleothemVariant v : TerracottaSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(v.getHostBlock()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(v.getHostBlock()));
                 RegistryObject<Block> spRo = WosBlocks.TERRACOTTA_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) {
                     map.put(stone, spRo.get());
@@ -292,7 +292,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             quarkMap.put("quark:dusky_myalite", QuarkSpeleothemVariant.QUARK_DUSKY_MYALITE);
             for (Map.Entry<String, QuarkSpeleothemVariant> e : quarkMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.QUARK_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) {
                     map.put(stone, spRo.get());
@@ -306,7 +306,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             ugMap.put("undergarden:shiverstone", sxilverr.worldofstone.api.enums.UndergardenSpeleothemVariant.UNDERGARDEN_SHIVERSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.UndergardenSpeleothemVariant> e : ugMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.UNDERGARDEN_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -323,7 +323,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             cMap.put("create:crimsite", sxilverr.worldofstone.api.enums.CreateSpeleothemVariant.CREATE_CRIMSITE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.CreateSpeleothemVariant> e : cMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.CREATE_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -341,7 +341,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             beMap.put("betterend:brimstone", sxilverr.worldofstone.api.enums.BetterEndSpeleothemVariant.BETTEREND_BRIMSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.BetterEndSpeleothemVariant> e : beMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.BETTEREND_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -353,7 +353,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             gMap.put("galosphere:lumiere_block", sxilverr.worldofstone.api.enums.GalosphereSpeleothemVariant.GALOSPHERE_LUMIERE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.GalosphereSpeleothemVariant> e : gMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.GALOSPHERE_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -372,7 +372,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             bwgMap.put("biomeswevegone:windswept_sandstone", sxilverr.worldofstone.api.enums.BwgSpeleothemVariant.BWG_WINDSWEPT_SANDSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.BwgSpeleothemVariant> e : bwgMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.BWG_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -385,7 +385,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             tfMap.put("twilightforest:trollsteinn", sxilverr.worldofstone.api.enums.TwilightForestSpeleothemVariant.TWILIGHTFOREST_TROLLSTEINN);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.TwilightForestSpeleothemVariant> e : tfMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.TWILIGHTFOREST_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -397,7 +397,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             aMap.put("aether:aerogel", sxilverr.worldofstone.api.enums.AetherSpeleothemVariant.AETHER_AEROGEL);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.AetherSpeleothemVariant> e : aMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.AETHER_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -411,7 +411,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             bsMap.put("blue_skies:crystal_sandstone", sxilverr.worldofstone.api.enums.BlueSkiesSpeleothemVariant.BLUE_SKIES_CRYSTAL_SANDSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.BlueSkiesSpeleothemVariant> e : bsMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.BLUE_SKIES_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -423,7 +423,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             spMap.put("spelunkery:nephrite", sxilverr.worldofstone.api.enums.SpelunkerySpeleothemVariant.SPELUNKERY_NEPHRITE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.SpelunkerySpeleothemVariant> e : spMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.SPELUNKERY_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -432,7 +432,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("iceandfire")) {
             for (sxilverr.worldofstone.api.enums.IceAndFireSpeleothemVariant v : sxilverr.worldofstone.api.enums.IceAndFireSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("iceandfire:dread_stone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("iceandfire:dread_stone"));
                 RegistryObject<Block> spRo = WosBlocks.ICEANDFIRE_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -441,7 +441,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("mysticalagriculture")) {
             for (sxilverr.worldofstone.api.enums.MysticalAgricultureSpeleothemVariant v : sxilverr.worldofstone.api.enums.MysticalAgricultureSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("mysticalagriculture:soulstone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("mysticalagriculture:soulstone"));
                 RegistryObject<Block> spRo = WosBlocks.MYSTICALAGRICULTURE_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -455,7 +455,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             bopMap.put("biomesoplenty:brimstone", sxilverr.worldofstone.api.enums.BiomesOPlentySpeleothemVariant.BIOMESOPLENTY_BRIMSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.BiomesOPlentySpeleothemVariant> e : bopMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.BIOMESOPLENTY_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -467,7 +467,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             faMap.put("forbidden_arcanus:soulless_sandstone", sxilverr.worldofstone.api.enums.ForbiddenArcanusSpeleothemVariant.FORBIDDEN_ARCANUS_SOULLESS_SANDSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.ForbiddenArcanusSpeleothemVariant> e : faMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.FORBIDDEN_ARCANUS_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -484,7 +484,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             acMap.put("alexscaves:gingerbread_block", sxilverr.worldofstone.api.enums.AlexsCavesSpeleothemVariant.ALEXSCAVES_GINGERBREAD_BLOCK);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.AlexsCavesSpeleothemVariant> e : acMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.ALEXSCAVES_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -493,7 +493,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("ars_nouveau")) {
             for (sxilverr.worldofstone.api.enums.ArsNouveauSpeleothemVariant v : sxilverr.worldofstone.api.enums.ArsNouveauSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("ars_nouveau:sourcestone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("ars_nouveau:sourcestone"));
                 RegistryObject<Block> spRo = WosBlocks.ARS_NOUVEAU_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -502,7 +502,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("cataclysm")) {
             for (sxilverr.worldofstone.api.enums.CataclysmSpeleothemVariant v : sxilverr.worldofstone.api.enums.CataclysmSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("cataclysm:azure_seastone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("cataclysm:azure_seastone"));
                 RegistryObject<Block> spRo = WosBlocks.CATACLYSM_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -515,7 +515,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             twMap.put("twigs:bloodstone", sxilverr.worldofstone.api.enums.TwigsSpeleothemVariant.TWIGS_BLOODSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.TwigsSpeleothemVariant> e : twMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.TWIGS_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -533,7 +533,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             apMap.put("architects_palette:nebulite", sxilverr.worldofstone.api.enums.ArchitectsPaletteSpeleothemVariant.ARCHITECTS_PALETTE_NEBULITE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.ArchitectsPaletteSpeleothemVariant> e : apMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.ARCHITECTS_PALETTE_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -547,7 +547,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             oeMap.put("outer_end:ancient_stone", sxilverr.worldofstone.api.enums.OuterEndSpeleothemVariant.OUTER_END_ANCIENT_STONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.OuterEndSpeleothemVariant> e : oeMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.OUTER_END_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -567,7 +567,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             boMap.put("botania:metamorphic_mesa_stone", sxilverr.worldofstone.api.enums.BotaniaSpeleothemVariant.BOTANIA_METAMORPHIC_MESA_STONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.BotaniaSpeleothemVariant> e : boMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.BOTANIA_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -586,7 +586,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             aaMap.put("ad_astra:permafrost", sxilverr.worldofstone.api.enums.AdAstraSpeleothemVariant.AD_ASTRA_PERMAFROST);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.AdAstraSpeleothemVariant> e : aaMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.AD_ASTRA_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -598,7 +598,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             daMap.put("deep_aether:raw_clorite", sxilverr.worldofstone.api.enums.DeepAetherSpeleothemVariant.DEEP_AETHER_RAW_CLORITE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.DeepAetherSpeleothemVariant> e : daMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.DEEP_AETHER_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -611,7 +611,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             ccMap.put("caverns_and_chasms:rhyolite", sxilverr.worldofstone.api.enums.CavernsAndChasmsSpeleothemVariant.CAVERNS_AND_CHASMS_RHYOLITE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.CavernsAndChasmsSpeleothemVariant> e : ccMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.CAVERNS_AND_CHASMS_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -628,7 +628,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             atMap.put("atmospheric:red_arid_sandstone", sxilverr.worldofstone.api.enums.AtmosphericSpeleothemVariant.ATMOSPHERIC_RED_ARID_SANDSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.AtmosphericSpeleothemVariant> e : atMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.ATMOSPHERIC_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -637,7 +637,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("endergetic")) {
             for (sxilverr.worldofstone.api.enums.EndergeticSpeleothemVariant v : sxilverr.worldofstone.api.enums.EndergeticSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("endergetic:eumus"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("endergetic:eumus"));
                 RegistryObject<Block> spRo = WosBlocks.ENDERGETIC_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -650,7 +650,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             wwMap.put("wilder_wilds:cream_hardened_clay", sxilverr.worldofstone.api.enums.WilderWildsSpeleothemVariant.WILDER_WILDS_CREAM_HARDENED_CLAY);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.WilderWildsSpeleothemVariant> e : wwMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.WILDER_WILDS_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -663,7 +663,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             ruMap.put("regions_unexplored:mossy_stone", sxilverr.worldofstone.api.enums.RegionsUnexploredSpeleothemVariant.REGIONS_UNEXPLORED_MOSSY_STONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.RegionsUnexploredSpeleothemVariant> e : ruMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.REGIONS_UNEXPLORED_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -672,7 +672,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("born_in_chaos_v1")) {
             for (sxilverr.worldofstone.api.enums.BornInChaosSpeleothemVariant v : sxilverr.worldofstone.api.enums.BornInChaosSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("born_in_chaos_v1:black_argillite"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("born_in_chaos_v1:black_argillite"));
                 RegistryObject<Block> spRo = WosBlocks.BORN_IN_CHAOS_V1_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -681,7 +681,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("naturalist")) {
             for (sxilverr.worldofstone.api.enums.NaturalistSpeleothemVariant v : sxilverr.worldofstone.api.enums.NaturalistSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("naturalist:shellstone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("naturalist:shellstone"));
                 RegistryObject<Block> spRo = WosBlocks.NATURALIST_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -690,7 +690,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("yungscavebiomes")) {
             for (sxilverr.worldofstone.api.enums.YungsCaveBiomesSpeleothemVariant v : sxilverr.worldofstone.api.enums.YungsCaveBiomesSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("yungscavebiomes:ancient_sandstone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("yungscavebiomes:ancient_sandstone"));
                 RegistryObject<Block> spRo = WosBlocks.YUNGSCAVEBIOMES_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -703,7 +703,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             nsMap.put("natures_spirit:pink_sandstone", sxilverr.worldofstone.api.enums.NaturesSpiritSpeleothemVariant.NATURES_SPIRIT_PINK_SANDSTONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.NaturesSpiritSpeleothemVariant> e : nsMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.NATURES_SPIRIT_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -716,7 +716,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             neMap.put("netherexp:black_ice", sxilverr.worldofstone.api.enums.NetherExpSpeleothemVariant.NETHEREXP_BLACK_ICE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.NetherExpSpeleothemVariant> e : neMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.NETHEREXP_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -728,7 +728,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             ddMap.put("deeperdarker:gloomslate", sxilverr.worldofstone.api.enums.DeeperDarkerSpeleothemVariant.DEEPERDARKER_GLOOMSLATE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.DeeperDarkerSpeleothemVariant> e : ddMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.DEEPERDARKER_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -742,7 +742,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
             tdvMap.put("the_deep_void:monolithic_stone", sxilverr.worldofstone.api.enums.TheDeepVoidSpeleothemVariant.THE_DEEP_VOID_MONOLITHIC_STONE);
             for (Map.Entry<String, sxilverr.worldofstone.api.enums.TheDeepVoidSpeleothemVariant> e : tdvMap.entrySet()) {
                 if (!WosConfig.isSpeleothemEnabled(e.getValue())) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation(e.getKey()));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse(e.getKey()));
                 RegistryObject<Block> spRo = WosBlocks.THE_DEEP_VOID_SPELEOTHEM.get(e.getValue());
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }
@@ -751,7 +751,7 @@ public class SpeleothemFeature extends Feature<NoneFeatureConfiguration> {
         if (ModList.get().isLoaded("defiled_lands_preborn")) {
             for (sxilverr.worldofstone.api.enums.DefiledLandsSpeleothemVariant v : sxilverr.worldofstone.api.enums.DefiledLandsSpeleothemVariant.VALUES) {
                 if (!WosConfig.isSpeleothemEnabled(v)) continue;
-                Block stone = ForgeRegistries.BLOCKS.getValue(new ResourceLocation("defiled_lands_preborn:defiled_stone"));
+                Block stone = ForgeRegistries.BLOCKS.getValue(ResourceLocation.parse("defiled_lands_preborn:defiled_stone"));
                 RegistryObject<Block> spRo = WosBlocks.DEFILED_LANDS_PREBORN_SPELEOTHEM.get(v);
                 if (stone != null && spRo != null && spRo.isPresent()) map.put(stone, spRo.get());
             }

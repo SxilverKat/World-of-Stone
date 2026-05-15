@@ -43,7 +43,7 @@ public class OtherDimensionOreFeature extends Feature<NoneFeatureConfiguration> 
         if (genNether || genEnd) {
             int yMax = isNether ? 128 : level.getMaxBuildHeight();
             for (OreVariant ore : OreVariant.VALUES) {
-                int attempts = attemptsForOre(ore);
+                int attempts = isNether ? attemptsForOreNether(ore) : attemptsForOreEnd(ore);
                 int veinSize = veinSizeForOre(ore);
                 for (int i = 0; i < attempts; i++) {
                     int x = origin.getX() + rand.nextInt(16);
@@ -108,31 +108,51 @@ public class OtherDimensionOreFeature extends Feature<NoneFeatureConfiguration> 
         return placed > 0;
     }
 
-    private static int attemptsForOre(OreVariant ore) {
+    public static final int OBSIDIAN_ATTEMPTS_PER_CHUNK = 16;
+
+    public static int attemptsForOreNether(OreVariant ore) {
+        int base;
         switch (ore) {
-            case COAL: return 25;
-            case IRON: return 30;
-            case COPPER: return 16;
-            case GOLD: return 8;
-            case DIAMOND: return 4;
-            case EMERALD: return 2;
-            case REDSTONE: return 8;
-            case LAPIS: return 6;
-            default: return 5;
+            case COAL: base = 6; break;
+            case IRON: base = 8; break;
+            case COPPER: base = 4; break;
+            case GOLD: base = 2; break;
+            case DIAMOND: base = 1; break;
+            case EMERALD: base = 1; break;
+            case REDSTONE: base = 2; break;
+            case LAPIS: base = 1; break;
+            default: base = 2; break;
         }
+        return Math.max(0, (int) Math.round(base * sxilverr.worldofstone.config.WosConfig.netherOreAttemptsMultiplier));
     }
 
-    private static int veinSizeForOre(OreVariant ore) {
+    public static int attemptsForOreEnd(OreVariant ore) {
+        int base;
         switch (ore) {
-            case COAL: return 17;
-            case IRON: return 9;
-            case COPPER: return 20;
-            case GOLD: return 9;
-            case DIAMOND: return 8;
-            case EMERALD: return 5;
-            case REDSTONE: return 8;
-            case LAPIS: return 7;
-            default: return 8;
+            case COAL: base = 4; break;
+            case IRON: base = 6; break;
+            case COPPER: base = 3; break;
+            case GOLD: base = 1; break;
+            case DIAMOND: base = 1; break;
+            case EMERALD: base = 1; break;
+            case REDSTONE: base = 1; break;
+            case LAPIS: base = 1; break;
+            default: base = 1; break;
+        }
+        return Math.max(0, (int) Math.round(base * sxilverr.worldofstone.config.WosConfig.endOreAttemptsMultiplier));
+    }
+
+    public static int veinSizeForOre(OreVariant ore) {
+        switch (ore) {
+            case COAL: return 12;
+            case IRON: return 6;
+            case COPPER: return 12;
+            case GOLD: return 5;
+            case DIAMOND: return 4;
+            case EMERALD: return 3;
+            case REDSTONE: return 5;
+            case LAPIS: return 4;
+            default: return 5;
         }
     }
 }
