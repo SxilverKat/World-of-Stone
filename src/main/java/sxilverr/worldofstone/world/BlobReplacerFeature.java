@@ -11,6 +11,7 @@ import sxilverr.worldofstone.registry.WosBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -77,6 +78,8 @@ public class BlobReplacerFeature extends Feature<NoneFeatureConfiguration> {
         int seaLevel = level.getSeaLevel();
         int range = seaLevel - minY;
         if (range <= 0) return false;
+        int strataBottomY = WosConfig.allowStrataInDeepslate ? minY : 0;
+        int strataRange = Math.max(1, seaLevel - strataBottomY);
 
         int blobsPerChunk = Math.max(0, WosConfig.blobsPerChunk);
         int blobSize = Math.max(1, WosConfig.blobSize);
@@ -93,18 +96,18 @@ public class BlobReplacerFeature extends Feature<NoneFeatureConfiguration> {
             int z = chunkZ + rand.nextInt(16);
             int y = minY + rand.nextInt(yScanRange);
 
-            String variantName = pickVariantForY(y, minY, range, bottomRatio, middleRatio, rand);
+            String variantName = pickVariantForY(y, strataBottomY, strataRange, bottomRatio, middleRatio, rand);
             if (variantName == null) continue;
-            placeBlob(level, new BlockPos(x, y, z), blobSize, variantName, rand);
+            placeBlob(level, chunk.getPos(), new BlockPos(x, y, z), blobSize, variantName, rand);
         }
         return true;
     }
 
-    private String pickVariantForY(int y, int minY, int range, double bottomRatio, double middleRatio, RandomSource rand) {
+    private String pickVariantForY(int y, int baseY, int range, double bottomRatio, double middleRatio, RandomSource rand) {
         if (WosConfig.ignoreStrataHeightRestrictions) {
             return pickAnyWeighted(rand);
         }
-        double ratio = (double) (y - minY) / range;
+        double ratio = (double) (y - baseY) / range;
         if (ratio < bottomRatio) {
             IgneousVariant v = pickIgneousWeighted(rand);
             return v != null ? v.toString() : null;
@@ -197,15 +200,23 @@ public class BlobReplacerFeature extends Feature<NoneFeatureConfiguration> {
         return null;
     }
 
-    private void placeBlob(WorldGenLevel level, BlockPos center, int size, String variantName, RandomSource rand) {
+    private void placeBlob(WorldGenLevel level, ChunkPos cpos, BlockPos center, int size, String variantName, RandomSource rand) {
         Block stoneVariant = lookup(variantName);
         if (stoneVariant == null) return;
+        int minWX = cpos.getMinBlockX();
+        int maxWX = cpos.getMaxBlockX();
+        int minWZ = cpos.getMinBlockZ();
+        int maxWZ = cpos.getMaxBlockZ();
+        int minBuildY = level.getMinBuildHeight();
+        int maxBuildY = level.getMaxBuildHeight();
         Block sandVariant = lookup(variantName + "_sand");
         Block sandstoneVariant = lookup(variantName + "_sandstone");
         Block gravelVariant = lookup(variantName + "_gravel");
+        Block clayVariant = lookup(variantName + "_clay");
         boolean replaceSand = WosConfig.replaceSand;
         boolean replaceSandstone = WosConfig.replaceSandstone;
         boolean replaceGravel = WosConfig.replaceGravel;
+        boolean replaceClay = WosConfig.replaceClay;
         boolean replaceRed = WosConfig.replaceRedSandAndSandstone;
         boolean replaceOres = WosConfig.replaceVanillaOres;
 
@@ -221,7 +232,12 @@ public class BlobReplacerFeature extends Feature<NoneFeatureConfiguration> {
                     double distSq = dx * dx + dy * dy + dz * dz;
                     if (distSq > rSq) continue;
                     if (distSq > edgeSq && rand.nextFloat() < 0.45f) continue;
-                    pos.set(center.getX() + dx, center.getY() + dy, center.getZ() + dz);
+                    int px = center.getX() + dx;
+                    int py = center.getY() + dy;
+                    int pz = center.getZ() + dz;
+                    if (px < minWX || px > maxWX || pz < minWZ || pz > maxWZ) continue;
+                    if (py < minBuildY || py >= maxBuildY) continue;
+                    pos.set(px, py, pz);
                     BlockState s = level.getBlockState(pos);
                     Block target = null;
                     if (s.is(Blocks.STONE) || (WosConfig.allowStrataInDeepslate && s.is(Blocks.DEEPSLATE))) {
@@ -234,9 +250,10 @@ public class BlobReplacerFeature extends Feature<NoneFeatureConfiguration> {
                     else if (replaceSand && s.is(Blocks.SAND)) target = sandVariant;
                     else if (replaceSandstone && s.is(Blocks.SANDSTONE)) target = sandstoneVariant;
                     else if (replaceGravel && s.is(Blocks.GRAVEL)) target = gravelVariant;
+                    else if (replaceClay && s.is(Blocks.CLAY)) target = clayVariant;
                     else if (replaceRed && s.is(Blocks.RED_SAND)) target = sandVariant;
                     else if (replaceRed && s.is(Blocks.RED_SANDSTONE)) target = sandstoneVariant;
-                    else if (replaceOres && !DEEPSLATE_ORES.contains(s.getBlock())) {
+                    else if (replaceOres && (WosConfig.allowStrataInDeepslate || !DEEPSLATE_ORES.contains(s.getBlock()))) {
                         OreVariant ore = VANILLA_ORE_TO_VARIANT.get(s.getBlock());
                         if (ore != null) {
                             RegistryObject<Block> variantOre = WosBlocks.ORES.get(variantName + "_" + ore.suffix);

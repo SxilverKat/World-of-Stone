@@ -188,6 +188,8 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
         int seaLevel = level.getSeaLevel();
         int range = seaLevel - minY;
         if (range <= 0) return false;
+        int strataBottomY = WosConfig.allowStrataInDeepslate ? minY : 0;
+        int strataRange = Math.max(1, seaLevel - strataBottomY);
         int loopMaxY = WosConfig.replaceStoneAboveGround ? level.getMaxBuildHeight() : seaLevel;
 
         double bottomRatio = WosConfig.strataBottomRatio;
@@ -199,7 +201,7 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
 
         int xzDither = Math.max(0, WosConfig.strataXZDither);
         int yDither = Math.max(0, WosConfig.strataYDither);
-        double yDitherRatio = (range > 0) ? ((double) yDither / range) : 0.0;
+        double yDitherRatio = (double) yDither / strataRange;
 
         IgneousVariant[][] igneousNbh = new IgneousVariant[3][3];
         MetamorphicVariant[][] metamorphicNbh = new MetamorphicVariant[3][3];
@@ -257,20 +259,21 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
                     boolean isSand = WosConfig.replaceSand && state.is(Blocks.SAND);
                     boolean isSandstone = WosConfig.replaceSandstone && state.is(Blocks.SANDSTONE);
                     boolean isGravel = WosConfig.replaceGravel && state.is(Blocks.GRAVEL);
+                    boolean isClay = WosConfig.replaceClay && state.is(Blocks.CLAY);
                     if (WosConfig.replaceRedSandAndSandstone) {
                         if (!isSand && state.is(Blocks.RED_SAND)) isSand = true;
                         if (!isSandstone && state.is(Blocks.RED_SANDSTONE)) isSandstone = true;
                     }
                     String structTemplate = null;
-                    if (WosConfig.enableStructureVariantGeneration && !isStone && !isSand && !isSandstone && !isGravel) {
+                    if (WosConfig.enableStructureVariantGeneration && !isStone && !isSand && !isSandstone && !isGravel && !isClay) {
                         structTemplate = STRUCTURE_TEMPLATES.get(state.getBlock());
                         if (structTemplate == null && WosConfig.replaceRedSandAndSandstone) {
                             structTemplate = RED_SANDSTONE_TEMPLATES.get(state.getBlock());
                         }
                     }
-                    boolean isOre = !isStone && !isSand && !isSandstone && !isGravel && structTemplate == null
+                    boolean isOre = !isStone && !isSand && !isSandstone && !isGravel && !isClay && structTemplate == null
                             && replaceOres && VANILLA_ORE_TO_VARIANT.containsKey(state.getBlock());
-                    if (!isStone && !isSand && !isSandstone && !isGravel && !isOre && structTemplate == null) continue;
+                    if (!isStone && !isSand && !isSandstone && !isGravel && !isClay && !isOre && structTemplate == null) continue;
 
                     if (isOre) {
                         VanillaOreHost host = findVanillaHost(chunk, cpos, wx, y, wz);
@@ -285,10 +288,10 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
                                 }
                             }
                         }
-                        if (DEEPSLATE_ORES.contains(state.getBlock())) continue;
+                        if (!WosConfig.allowStrataInDeepslate && DEEPSLATE_ORES.contains(state.getBlock())) continue;
                     }
 
-                    double ratio = (double) (y - minY) / range;
+                    double ratio = (double) (y - strataBottomY) / strataRange;
                     if (yDitherRatio > 0.0) {
                         double n = noise01(wx, y, wz, 999L);
                         ratio += (n * 2.0 - 1.0) * yDitherRatio;
@@ -332,6 +335,11 @@ public class StrataReplacerFeature extends Feature<NoneFeatureConfiguration> {
                         Block variantGravel = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant + "_gravel"));
                         if (variantGravel != null) {
                             chunk.setBlockState(pos, variantGravel.defaultBlockState(), false);
+                        }
+                    } else if (isClay) {
+                        Block variantClay = ForgeRegistries.BLOCKS.getValue(ResourceLocation.fromNamespaceAndPath(ModInfo.MODID, stratumVariant + "_clay"));
+                        if (variantClay != null) {
+                            chunk.setBlockState(pos, variantClay.defaultBlockState(), false);
                         }
                     } else {
                         OreVariant ore = VANILLA_ORE_TO_VARIANT.get(state.getBlock());

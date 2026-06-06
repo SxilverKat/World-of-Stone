@@ -93,6 +93,8 @@ public class NoiseReplacerFeature extends Feature<NoneFeatureConfiguration> {
         int seaLevel = level.getSeaLevel();
         int range = seaLevel - minY;
         if (range <= 0) return false;
+        int strataBottomY = WosConfig.allowStrataInDeepslate ? minY : 0;
+        int strataRange = Math.max(1, seaLevel - strataBottomY);
 
         int loopMaxY = WosConfig.replaceStoneAboveGround ? level.getMaxBuildHeight() : seaLevel;
         double bottomRatio = WosConfig.strataBottomRatio;
@@ -128,7 +130,7 @@ public class NoiseReplacerFeature extends Feature<NoneFeatureConfiguration> {
                     boolean isSand = replaceSand && state.is(Blocks.SAND);
                     boolean isSandstone = replaceSandstone && state.is(Blocks.SANDSTONE);
                     boolean isGravel = replaceGravel && state.is(Blocks.GRAVEL);
-                    boolean isClay = state.is(Blocks.CLAY);
+                    boolean isClay = WosConfig.replaceClay && state.is(Blocks.CLAY);
                     if (replaceRed) {
                         if (!isSand && state.is(Blocks.RED_SAND)) isSand = true;
                         if (!isSandstone && state.is(Blocks.RED_SANDSTONE)) isSandstone = true;
@@ -153,14 +155,14 @@ public class NoiseReplacerFeature extends Feature<NoneFeatureConfiguration> {
                                 continue;
                             }
                         }
-                        if (DEEPSLATE_ORES.contains(state.getBlock())) continue;
+                        if (!WosConfig.allowStrataInDeepslate && DEEPSLATE_ORES.contains(state.getBlock())) continue;
                     }
 
                     String variantName;
                     if (WosConfig.ignoreStrataHeightRestrictions) {
                         variantName = pickAny(wx, y, wz, scale, seed, igneousTotal + metamorphicTotal + sedimentaryTotal, noiseType, octaves);
                     } else {
-                        double ratio = (double) (y - minY) / range;
+                        double ratio = (double) (y - strataBottomY) / strataRange;
                         if (ratio < bottomRatio) {
                             variantName = pickIgneous(wx, y, wz, scale, seed, igneousTotal, noiseType, octaves);
                         } else if (ratio < middleRatio) {

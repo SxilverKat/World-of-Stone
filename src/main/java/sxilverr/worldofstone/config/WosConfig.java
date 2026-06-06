@@ -35,6 +35,7 @@ public final class WosConfig {
     public static final ForgeConfigSpec.BooleanValue REPLACE_SAND;
     public static final ForgeConfigSpec.BooleanValue REPLACE_SANDSTONE;
     public static final ForgeConfigSpec.BooleanValue REPLACE_GRAVEL;
+    public static final ForgeConfigSpec.BooleanValue REPLACE_CLAY;
     public static final ForgeConfigSpec.BooleanValue REPLACE_RED_SAND_AND_SANDSTONE;
     public static final ForgeConfigSpec.IntValue VARIANT_CHANCE;
     public static final ForgeConfigSpec.DoubleValue STRATA_BOTTOM_RATIO;
@@ -188,6 +189,7 @@ public final class WosConfig {
     public static boolean replaceSand = true;
     public static boolean replaceSandstone = true;
     public static boolean replaceGravel = true;
+    public static boolean replaceClay = true;
     public static boolean replaceRedSandAndSandstone = false;
     public static int variantChance = 70;
     public static boolean enableStructureVariantGeneration = true;
@@ -234,6 +236,9 @@ public final class WosConfig {
         REPLACE_GRAVEL = builder
                 .comment("Replace vanilla gravel with variants.")
                 .define("replaceGravel", true);
+        REPLACE_CLAY = builder
+                .comment("Replace vanilla clay with variants.")
+                .define("replaceClay", true);
         REPLACE_RED_SAND_AND_SANDSTONE = builder
                 .comment("Replace red sand and red sandstone with variants.")
                 .define("replaceRedSandAndSandstone", false);
@@ -1070,6 +1075,7 @@ public final class WosConfig {
         replaceSand = REPLACE_SAND.get();
         replaceSandstone = REPLACE_SANDSTONE.get();
         replaceGravel = REPLACE_GRAVEL.get();
+        replaceClay = REPLACE_CLAY.get();
         replaceRedSandAndSandstone = REPLACE_RED_SAND_AND_SANDSTONE.get();
         variantChance = VARIANT_CHANCE.get();
         enableStructureVariantGeneration = ENABLE_STRUCTURE_VARIANT_GENERATION.get();
