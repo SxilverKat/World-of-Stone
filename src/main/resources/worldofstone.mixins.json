@@ -4,7 +4,7 @@
   "package": "sxilverr.worldofstone.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "worldofstone.refmap.json",
-  "mixins": ["InfestedBlockMixin"],
+  "mixins": ["InfestedBlockMixin", "RecipeManagerMixin"],
   "client": ["JERWorldGenWrapperMixin"],
   "injectors": {
     "defaultRequire": 1

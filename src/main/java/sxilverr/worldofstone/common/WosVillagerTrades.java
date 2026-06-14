@@ -28,6 +28,7 @@ public final class WosVillagerTrades {
     @SubscribeEvent
     public static void onVillagerTrades(VillagerTradesEvent event) {
         if (!WosConfig.masonTradesEnabled) return;
+        if (!WosConfig.stoneReplacementEnabled) return;
         if (event.getType() != VillagerProfession.MASON) return;
 
         List<Block> sellPool = new ArrayList<>();

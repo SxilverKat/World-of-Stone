@@ -13,6 +13,18 @@
     "#worldofstone:marble/polished",
     "#worldofstone:marble/tiles",
     "#worldofstone:marble/pillar",
-    "#worldofstone:marble/speleothem"
+    "#worldofstone:marble/speleothem",
+    "worldofstone:cracked_marble_bricks",
+    "worldofstone:chiseled_marble_bricks",
+    "worldofstone:infested_marble",
+    "worldofstone:infested_marble_cobblestone",
+    "worldofstone:infested_marble_bricks",
+    "worldofstone:infested_mossy_marble_bricks",
+    "worldofstone:infested_cracked_marble_bricks",
+    "worldofstone:infested_chiseled_marble_bricks",
+    "worldofstone:marble_button",
+    "worldofstone:marble_sand",
+    "worldofstone:marble_gravel",
+    "worldofstone:marble_clay"
   ]
 }

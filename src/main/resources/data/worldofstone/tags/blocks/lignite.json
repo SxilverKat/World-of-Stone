@@ -13,6 +13,18 @@
     "#worldofstone:lignite/polished",
     "#worldofstone:lignite/tiles",
     "#worldofstone:lignite/pillar",
-    "#worldofstone:lignite/speleothem"
+    "#worldofstone:lignite/speleothem",
+    "worldofstone:cracked_lignite_bricks",
+    "worldofstone:chiseled_lignite_bricks",
+    "worldofstone:infested_lignite",
+    "worldofstone:infested_lignite_cobblestone",
+    "worldofstone:infested_lignite_bricks",
+    "worldofstone:infested_mossy_lignite_bricks",
+    "worldofstone:infested_cracked_lignite_bricks",
+    "worldofstone:infested_chiseled_lignite_bricks",
+    "worldofstone:lignite_button",
+    "worldofstone:lignite_sand",
+    "worldofstone:lignite_gravel",
+    "worldofstone:lignite_clay"
   ]
 }

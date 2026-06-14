@@ -13,6 +13,18 @@
     "#worldofstone:chert/polished",
     "#worldofstone:chert/tiles",
     "#worldofstone:chert/pillar",
-    "#worldofstone:chert/speleothem"
+    "#worldofstone:chert/speleothem",
+    "worldofstone:cracked_chert_bricks",
+    "worldofstone:chiseled_chert_bricks",
+    "worldofstone:infested_chert",
+    "worldofstone:infested_chert_cobblestone",
+    "worldofstone:infested_chert_bricks",
+    "worldofstone:infested_mossy_chert_bricks",
+    "worldofstone:infested_cracked_chert_bricks",
+    "worldofstone:infested_chiseled_chert_bricks",
+    "worldofstone:chert_button",
+    "worldofstone:chert_sand",
+    "worldofstone:chert_gravel",
+    "worldofstone:chert_clay"
   ]
 }

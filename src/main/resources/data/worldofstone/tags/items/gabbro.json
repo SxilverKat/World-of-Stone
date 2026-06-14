@@ -13,6 +13,18 @@
     "#worldofstone:gabbro/polished",
     "#worldofstone:gabbro/tiles",
     "#worldofstone:gabbro/pillar",
-    "#worldofstone:gabbro/speleothem"
+    "#worldofstone:gabbro/speleothem",
+    "worldofstone:cracked_gabbro_bricks",
+    "worldofstone:chiseled_gabbro_bricks",
+    "worldofstone:infested_gabbro",
+    "worldofstone:infested_gabbro_cobblestone",
+    "worldofstone:infested_gabbro_bricks",
+    "worldofstone:infested_mossy_gabbro_bricks",
+    "worldofstone:infested_cracked_gabbro_bricks",
+    "worldofstone:infested_chiseled_gabbro_bricks",
+    "worldofstone:gabbro_button",
+    "worldofstone:gabbro_sand",
+    "worldofstone:gabbro_gravel",
+    "worldofstone:gabbro_clay"
   ]
 }

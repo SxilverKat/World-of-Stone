@@ -13,6 +13,18 @@
     "#worldofstone:shale/polished",
     "#worldofstone:shale/tiles",
     "#worldofstone:shale/pillar",
-    "#worldofstone:shale/speleothem"
+    "#worldofstone:shale/speleothem",
+    "worldofstone:cracked_shale_bricks",
+    "worldofstone:chiseled_shale_bricks",
+    "worldofstone:infested_shale",
+    "worldofstone:infested_shale_cobblestone",
+    "worldofstone:infested_shale_bricks",
+    "worldofstone:infested_mossy_shale_bricks",
+    "worldofstone:infested_cracked_shale_bricks",
+    "worldofstone:infested_chiseled_shale_bricks",
+    "worldofstone:shale_button",
+    "worldofstone:shale_sand",
+    "worldofstone:shale_gravel",
+    "worldofstone:shale_clay"
   ]
 }

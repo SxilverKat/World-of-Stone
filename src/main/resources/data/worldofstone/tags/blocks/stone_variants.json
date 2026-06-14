@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#worldofstone:igneous",
+    "#worldofstone:metamorphic",
+    "#worldofstone:sedimentary"
+  ]
+}

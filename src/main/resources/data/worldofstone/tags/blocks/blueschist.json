@@ -13,6 +13,18 @@
     "#worldofstone:blueschist/polished",
     "#worldofstone:blueschist/tiles",
     "#worldofstone:blueschist/pillar",
-    "#worldofstone:blueschist/speleothem"
+    "#worldofstone:blueschist/speleothem",
+    "worldofstone:cracked_blueschist_bricks",
+    "worldofstone:chiseled_blueschist_bricks",
+    "worldofstone:infested_blueschist",
+    "worldofstone:infested_blueschist_cobblestone",
+    "worldofstone:infested_blueschist_bricks",
+    "worldofstone:infested_mossy_blueschist_bricks",
+    "worldofstone:infested_cracked_blueschist_bricks",
+    "worldofstone:infested_chiseled_blueschist_bricks",
+    "worldofstone:blueschist_button",
+    "worldofstone:blueschist_sand",
+    "worldofstone:blueschist_gravel",
+    "worldofstone:blueschist_clay"
   ]
 }

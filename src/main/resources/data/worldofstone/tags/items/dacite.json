@@ -13,6 +13,18 @@
     "#worldofstone:dacite/polished",
     "#worldofstone:dacite/tiles",
     "#worldofstone:dacite/pillar",
-    "#worldofstone:dacite/speleothem"
+    "#worldofstone:dacite/speleothem",
+    "worldofstone:cracked_dacite_bricks",
+    "worldofstone:chiseled_dacite_bricks",
+    "worldofstone:infested_dacite",
+    "worldofstone:infested_dacite_cobblestone",
+    "worldofstone:infested_dacite_bricks",
+    "worldofstone:infested_mossy_dacite_bricks",
+    "worldofstone:infested_cracked_dacite_bricks",
+    "worldofstone:infested_chiseled_dacite_bricks",
+    "worldofstone:dacite_button",
+    "worldofstone:dacite_sand",
+    "worldofstone:dacite_gravel",
+    "worldofstone:dacite_clay"
   ]
 }

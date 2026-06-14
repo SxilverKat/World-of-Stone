@@ -13,6 +13,18 @@
     "#worldofstone:komatiite/polished",
     "#worldofstone:komatiite/tiles",
     "#worldofstone:komatiite/pillar",
-    "#worldofstone:komatiite/speleothem"
+    "#worldofstone:komatiite/speleothem",
+    "worldofstone:cracked_komatiite_bricks",
+    "worldofstone:chiseled_komatiite_bricks",
+    "worldofstone:infested_komatiite",
+    "worldofstone:infested_komatiite_cobblestone",
+    "worldofstone:infested_komatiite_bricks",
+    "worldofstone:infested_mossy_komatiite_bricks",
+    "worldofstone:infested_cracked_komatiite_bricks",
+    "worldofstone:infested_chiseled_komatiite_bricks",
+    "worldofstone:komatiite_button",
+    "worldofstone:komatiite_sand",
+    "worldofstone:komatiite_gravel",
+    "worldofstone:komatiite_clay"
   ]
 }

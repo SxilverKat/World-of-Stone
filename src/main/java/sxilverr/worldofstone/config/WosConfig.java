@@ -83,6 +83,7 @@ public final class WosConfig {
     public static final ForgeConfigSpec.BooleanValue SPELEOTHEMS_ALLOW_SKY_VIEW_END;
     public static final ForgeConfigSpec.BooleanValue SPELEOTHEMS_ALLOW_ABOVE_GROUND;
     public static final ForgeConfigSpec.BooleanValue SPELEOTHEMS_ALLOW_POINTING_UP_ABOVE_GROUND;
+    public static final ForgeConfigSpec.BooleanValue FOSSILS_ENABLED;
     public static final ForgeConfigSpec.DoubleValue FOSSIL_DROP_CHANCE;
     public static final ForgeConfigSpec.ConfigValue<List<? extends String>> FOSSIL_DROP_BLOCKS;
     public static final ForgeConfigSpec.BooleanValue MASON_TRADES_ENABLED;
@@ -148,6 +149,7 @@ public final class WosConfig {
     public static final Map<VanillaOreHost, ForgeConfigSpec.BooleanValue> VANILLA_ORE_HOST_ENABLED = new EnumMap<>(VanillaOreHost.class);
     public static final ForgeConfigSpec.BooleanValue TERRACOTTA_SPELEOTHEMS_ENABLED;
     public static final ForgeConfigSpec.BooleanValue ICE_SPELEOTHEM_ENABLED;
+    public static final ForgeConfigSpec.BooleanValue CREATIVE_SPELEOTHEMS_ENABLED;
 
     public static boolean stoneReplacementEnabled = true;
     public static int patchSize = 8;
@@ -201,6 +203,8 @@ public final class WosConfig {
     public static int noiseOctaves = 4;
     public static boolean terracottaSpeleothemsEnabled = false;
     public static boolean iceSpeleothemEnabled = false;
+    public static boolean creativeSpeleothemsEnabled = true;
+    public static boolean fossilsEnabled = true;
     public static double fossilDropChance = 0.05;
     public static Set<String> fossilDropBlocks = Collections.emptySet();
     public static List<String> mimicSpeleothemBlocks = Collections.emptyList();
@@ -711,6 +715,10 @@ public final class WosConfig {
                 .comment("Enable generation of Ice, Packed Ice, and Blue Ice speleothems.")
                 .define("iceSpeleothemEnabled", false);
 
+        CREATIVE_SPELEOTHEMS_ENABLED = builder
+                .comment("Enable decorative creative speleothems.")
+                .define("creativeSpeleothemsEnabled", true);
+
         TERRACOTTA_SPELEOTHEMS_ENABLED = builder
                 .comment("Toggle for terracotta speleothem generation.")
                 .define("terracottaEnabled", false);
@@ -725,6 +733,9 @@ public final class WosConfig {
         builder.pop();
 
         builder.push("fossils");
+        FOSSILS_ENABLED = builder
+                .comment("Enable fossils.")
+                .define("fossilsEnabled", true);
         FOSSIL_DROP_CHANCE = builder
                 .comment("Chance of a fossil dropping when a defined block is broken without silk touch")
                 .defineInRange("dropChance", 0.05, 0.0, 1.0);
@@ -1009,6 +1020,43 @@ public final class WosConfig {
         return val == null || val.get();
     }
 
+    public static boolean isFossilsEnabled() {
+        return fossilsEnabled;
+    }
+
+    public static boolean isCreativeSpeleothemEnabled(sxilverr.worldofstone.api.enums.DecorativeSpeleothemVariant v) {
+        if (!speleothemsEnabled) return false;
+        switch (v) {
+            case ICE:
+            case PACKED_ICE:
+            case BLUE_ICE:
+                return iceSpeleothemEnabled;
+            default:
+                return creativeSpeleothemsEnabled;
+        }
+    }
+
+    private static volatile Set<String> strataVariantBases;
+
+    private static Set<String> strataVariantBases() {
+        Set<String> cached = strataVariantBases;
+        if (cached == null) {
+            cached = new HashSet<>();
+            for (IgneousVariant v : IgneousVariant.VALUES) cached.add(v.toString());
+            for (MetamorphicVariant v : MetamorphicVariant.VALUES) cached.add(v.toString());
+            for (SedimentaryVariant v : SedimentaryVariant.VALUES) cached.add(v.toString());
+            strataVariantBases = cached;
+        }
+        return cached;
+    }
+
+    public static boolean isStrataVariantPath(String path) {
+        for (String base : strataVariantBases()) {
+            if (path.contains(base)) return true;
+        }
+        return false;
+    }
+
     @SubscribeEvent
     static void onLoad(ModConfigEvent.Loading event) {
         sync();
@@ -1087,6 +1135,8 @@ public final class WosConfig {
         noiseOctaves = NOISE_OCTAVES.get();
         terracottaSpeleothemsEnabled = TERRACOTTA_SPELEOTHEMS_ENABLED.get();
         iceSpeleothemEnabled = ICE_SPELEOTHEM_ENABLED.get();
+        creativeSpeleothemsEnabled = CREATIVE_SPELEOTHEMS_ENABLED.get();
+        fossilsEnabled = FOSSILS_ENABLED.get();
         fossilDropChance = FOSSIL_DROP_CHANCE.get();
         fossilDropBlocks = new HashSet<>(FOSSIL_DROP_BLOCKS.get());
         mimicSpeleothemBlocks = new java.util.ArrayList<>(MIMIC_SPELEOTHEM_BLOCKS.get());

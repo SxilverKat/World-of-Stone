@@ -80,11 +80,18 @@ repositories {
             includeGroup 'curse.maven'
         }
     }
+    maven {
+        name 'BlameJared'
+        url 'https://maven.blamejared.com'
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     compileOnly fg.deobf("curse.maven:just-enough-resources-jer-240630:5057220")
+    compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}"
+    runtimeOnly "mezz.jei:jei-${minecraft_version}-forge:${jei_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 

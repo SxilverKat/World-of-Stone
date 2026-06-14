@@ -13,6 +13,18 @@
     "#worldofstone:chalk/polished",
     "#worldofstone:chalk/tiles",
     "#worldofstone:chalk/pillar",
-    "#worldofstone:chalk/speleothem"
+    "#worldofstone:chalk/speleothem",
+    "worldofstone:cracked_chalk_bricks",
+    "worldofstone:chiseled_chalk_bricks",
+    "worldofstone:infested_chalk",
+    "worldofstone:infested_chalk_cobblestone",
+    "worldofstone:infested_chalk_bricks",
+    "worldofstone:infested_mossy_chalk_bricks",
+    "worldofstone:infested_cracked_chalk_bricks",
+    "worldofstone:infested_chiseled_chalk_bricks",
+    "worldofstone:chalk_button",
+    "worldofstone:chalk_sand",
+    "worldofstone:chalk_gravel",
+    "worldofstone:chalk_clay"
   ]
 }

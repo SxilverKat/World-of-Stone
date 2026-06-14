@@ -13,6 +13,18 @@
     "#worldofstone:greywacke/polished",
     "#worldofstone:greywacke/tiles",
     "#worldofstone:greywacke/pillar",
-    "#worldofstone:greywacke/speleothem"
+    "#worldofstone:greywacke/speleothem",
+    "worldofstone:cracked_greywacke_bricks",
+    "worldofstone:chiseled_greywacke_bricks",
+    "worldofstone:infested_greywacke",
+    "worldofstone:infested_greywacke_cobblestone",
+    "worldofstone:infested_greywacke_bricks",
+    "worldofstone:infested_mossy_greywacke_bricks",
+    "worldofstone:infested_cracked_greywacke_bricks",
+    "worldofstone:infested_chiseled_greywacke_bricks",
+    "worldofstone:greywacke_button",
+    "worldofstone:greywacke_sand",
+    "worldofstone:greywacke_gravel",
+    "worldofstone:greywacke_clay"
   ]
 }

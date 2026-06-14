@@ -13,6 +13,18 @@
     "#worldofstone:siltstone/polished",
     "#worldofstone:siltstone/tiles",
     "#worldofstone:siltstone/pillar",
-    "#worldofstone:siltstone/speleothem"
+    "#worldofstone:siltstone/speleothem",
+    "worldofstone:cracked_siltstone_bricks",
+    "worldofstone:chiseled_siltstone_bricks",
+    "worldofstone:infested_siltstone",
+    "worldofstone:infested_siltstone_cobblestone",
+    "worldofstone:infested_siltstone_bricks",
+    "worldofstone:infested_mossy_siltstone_bricks",
+    "worldofstone:infested_cracked_siltstone_bricks",
+    "worldofstone:infested_chiseled_siltstone_bricks",
+    "worldofstone:siltstone_button",
+    "worldofstone:siltstone_sand",
+    "worldofstone:siltstone_gravel",
+    "worldofstone:siltstone_clay"
   ]
 }

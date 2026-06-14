@@ -13,6 +13,18 @@
     "#worldofstone:tonalite/polished",
     "#worldofstone:tonalite/tiles",
     "#worldofstone:tonalite/pillar",
-    "#worldofstone:tonalite/speleothem"
+    "#worldofstone:tonalite/speleothem",
+    "worldofstone:cracked_tonalite_bricks",
+    "worldofstone:chiseled_tonalite_bricks",
+    "worldofstone:infested_tonalite",
+    "worldofstone:infested_tonalite_cobblestone",
+    "worldofstone:infested_tonalite_bricks",
+    "worldofstone:infested_mossy_tonalite_bricks",
+    "worldofstone:infested_cracked_tonalite_bricks",
+    "worldofstone:infested_chiseled_tonalite_bricks",
+    "worldofstone:tonalite_button",
+    "worldofstone:tonalite_sand",
+    "worldofstone:tonalite_gravel",
+    "worldofstone:tonalite_clay"
   ]
 }

@@ -65,6 +65,9 @@ public final class WorldOfStoneJERPlugin {
     }
 
     private static int registerOverworldSedimentary(IWorldGenRegistry registry) {
+        if (!WosConfig.stoneReplacementEnabled) {
+            return 0;
+        }
         Restriction overworld = new Restriction(DimensionRestriction.OVERWORLD);
         int yMin = sedimentaryMinY();
         int yMax = sedimentaryMaxY();
@@ -85,6 +88,10 @@ public final class WorldOfStoneJERPlugin {
             } catch (Throwable t) {
                 LOGGER.warn("[WorldOfStone] failed to register lignite distribution: {}", t.toString());
             }
+        }
+
+        if (!WosConfig.isFossilsEnabled()) {
+            return registered;
         }
 
         SedimentaryVariant[] fossilStones = {
@@ -119,6 +126,9 @@ public final class WorldOfStoneJERPlugin {
     }
 
     private static int registerNonOverworldVariants(IWorldGenRegistry registry) {
+        if (!WosConfig.replaceVanillaOres) {
+            return 0;
+        }
         Map<OreVariant, LootDrop> drops = oreDrops();
         Function<OreVariant, DistributionBase> netherDist = netherDistribution();
         Function<OreVariant, DistributionBase> endDist = endDistribution();

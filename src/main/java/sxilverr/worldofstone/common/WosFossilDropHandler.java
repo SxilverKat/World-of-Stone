@@ -29,6 +29,7 @@ public final class WosFossilDropHandler {
 
     @SubscribeEvent
     public static void onBlockBreak(BlockEvent.BreakEvent event) {
+        if (!WosConfig.isFossilsEnabled()) return;
         if (WosConfig.fossilDropBlocks.isEmpty()) return;
         if (event.getPlayer() == null || event.getPlayer().isCreative()) return;
         if (!(event.getLevel() instanceof ServerLevel level)) return;

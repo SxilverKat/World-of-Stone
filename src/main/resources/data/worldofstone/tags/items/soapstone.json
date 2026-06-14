@@ -13,6 +13,18 @@
     "#worldofstone:soapstone/polished",
     "#worldofstone:soapstone/tiles",
     "#worldofstone:soapstone/pillar",
-    "#worldofstone:soapstone/speleothem"
+    "#worldofstone:soapstone/speleothem",
+    "worldofstone:cracked_soapstone_bricks",
+    "worldofstone:chiseled_soapstone_bricks",
+    "worldofstone:infested_soapstone",
+    "worldofstone:infested_soapstone_cobblestone",
+    "worldofstone:infested_soapstone_bricks",
+    "worldofstone:infested_mossy_soapstone_bricks",
+    "worldofstone:infested_cracked_soapstone_bricks",
+    "worldofstone:infested_chiseled_soapstone_bricks",
+    "worldofstone:soapstone_button",
+    "worldofstone:soapstone_sand",
+    "worldofstone:soapstone_gravel",
+    "worldofstone:soapstone_clay"
   ]
 }

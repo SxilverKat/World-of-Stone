@@ -13,6 +13,18 @@
     "#worldofstone:pyroxenite/polished",
     "#worldofstone:pyroxenite/tiles",
     "#worldofstone:pyroxenite/pillar",
-    "#worldofstone:pyroxenite/speleothem"
+    "#worldofstone:pyroxenite/speleothem",
+    "worldofstone:cracked_pyroxenite_bricks",
+    "worldofstone:chiseled_pyroxenite_bricks",
+    "worldofstone:infested_pyroxenite",
+    "worldofstone:infested_pyroxenite_cobblestone",
+    "worldofstone:infested_pyroxenite_bricks",
+    "worldofstone:infested_mossy_pyroxenite_bricks",
+    "worldofstone:infested_cracked_pyroxenite_bricks",
+    "worldofstone:infested_chiseled_pyroxenite_bricks",
+    "worldofstone:pyroxenite_button",
+    "worldofstone:pyroxenite_sand",
+    "worldofstone:pyroxenite_gravel",
+    "worldofstone:pyroxenite_clay"
   ]
 }

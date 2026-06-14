@@ -13,6 +13,18 @@
     "#worldofstone:greenschist/polished",
     "#worldofstone:greenschist/tiles",
     "#worldofstone:greenschist/pillar",
-    "#worldofstone:greenschist/speleothem"
+    "#worldofstone:greenschist/speleothem",
+    "worldofstone:cracked_greenschist_bricks",
+    "worldofstone:chiseled_greenschist_bricks",
+    "worldofstone:infested_greenschist",
+    "worldofstone:infested_greenschist_cobblestone",
+    "worldofstone:infested_greenschist_bricks",
+    "worldofstone:infested_mossy_greenschist_bricks",
+    "worldofstone:infested_cracked_greenschist_bricks",
+    "worldofstone:infested_chiseled_greenschist_bricks",
+    "worldofstone:greenschist_button",
+    "worldofstone:greenschist_sand",
+    "worldofstone:greenschist_gravel",
+    "worldofstone:greenschist_clay"
   ]
 }

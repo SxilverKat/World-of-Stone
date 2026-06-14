@@ -13,6 +13,18 @@
     "#worldofstone:adamellite/polished",
     "#worldofstone:adamellite/tiles",
     "#worldofstone:adamellite/pillar",
-    "#worldofstone:adamellite/speleothem"
+    "#worldofstone:adamellite/speleothem",
+    "worldofstone:cracked_adamellite_bricks",
+    "worldofstone:chiseled_adamellite_bricks",
+    "worldofstone:infested_adamellite",
+    "worldofstone:infested_adamellite_cobblestone",
+    "worldofstone:infested_adamellite_bricks",
+    "worldofstone:infested_mossy_adamellite_bricks",
+    "worldofstone:infested_cracked_adamellite_bricks",
+    "worldofstone:infested_chiseled_adamellite_bricks",
+    "worldofstone:adamellite_button",
+    "worldofstone:adamellite_sand",
+    "worldofstone:adamellite_gravel",
+    "worldofstone:adamellite_clay"
   ]
 }

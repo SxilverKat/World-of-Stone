@@ -13,6 +13,18 @@
     "#worldofstone:dolomite/polished",
     "#worldofstone:dolomite/tiles",
     "#worldofstone:dolomite/pillar",
-    "#worldofstone:dolomite/speleothem"
+    "#worldofstone:dolomite/speleothem",
+    "worldofstone:cracked_dolomite_bricks",
+    "worldofstone:chiseled_dolomite_bricks",
+    "worldofstone:infested_dolomite",
+    "worldofstone:infested_dolomite_cobblestone",
+    "worldofstone:infested_dolomite_bricks",
+    "worldofstone:infested_mossy_dolomite_bricks",
+    "worldofstone:infested_cracked_dolomite_bricks",
+    "worldofstone:infested_chiseled_dolomite_bricks",
+    "worldofstone:dolomite_button",
+    "worldofstone:dolomite_sand",
+    "worldofstone:dolomite_gravel",
+    "worldofstone:dolomite_clay"
   ]
 }

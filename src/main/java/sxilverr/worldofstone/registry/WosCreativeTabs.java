@@ -25,6 +25,7 @@ public final class WosCreativeTabs {
                     .title(Component.translatable("itemGroup.worldofstone"))
                     .icon(() -> WosBlocks.IGNEOUS_STONE.get(IgneousVariant.ADAMELLITE).get().asItem().getDefaultInstance())
                     .displayItems((parameters, output) -> {
+                        if (sxilverr.worldofstone.config.WosConfig.stoneReplacementEnabled)
                         for (IgneousVariant v : IgneousVariant.VALUES) {
                             output.accept(WosBlocks.IGNEOUS_STONE.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_COBBLE.get(v).get());
@@ -69,8 +70,8 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.IGNEOUS_CLAY.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSpeleothemEnabled(v)) output.accept(WosBlocks.IGNEOUS_SPELEOTHEM.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSandstoneSpeleothemEnabled(v)) output.accept(WosBlocks.IGNEOUS_SANDSTONE_SPELEOTHEM.get(v).get());
-                            output.accept(WosBlocks.IGNEOUS_OVERGROWN.get(v).get());
-                            output.accept(WosBlocks.IGNEOUS_OVERGROWN_SNOWED.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowOvergrownStrata) output.accept(WosBlocks.IGNEOUS_OVERGROWN.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowSnowedStrata) output.accept(WosBlocks.IGNEOUS_OVERGROWN_SNOWED.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_SMOOTH.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_SMOOTH_SLAB.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_POLISHED.get(v).get());
@@ -83,10 +84,12 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.IGNEOUS_TILE_SLAB.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_TILE_WALL.get(v).get());
                             output.accept(WosBlocks.IGNEOUS_PILLAR.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.replaceVanillaOres)
                             for (OreVariant ore : OreVariant.VALUES) {
                                 output.accept(WosBlocks.ORES.get(v.toString() + "_" + ore.suffix).get());
                             }
                         }
+                        if (sxilverr.worldofstone.config.WosConfig.stoneReplacementEnabled)
                         for (MetamorphicVariant v : MetamorphicVariant.VALUES) {
                             output.accept(WosBlocks.METAMORPHIC_STONE.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_COBBLE.get(v).get());
@@ -131,8 +134,8 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.METAMORPHIC_CLAY.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSpeleothemEnabled(v)) output.accept(WosBlocks.METAMORPHIC_SPELEOTHEM.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSandstoneSpeleothemEnabled(v)) output.accept(WosBlocks.METAMORPHIC_SANDSTONE_SPELEOTHEM.get(v).get());
-                            output.accept(WosBlocks.METAMORPHIC_OVERGROWN.get(v).get());
-                            output.accept(WosBlocks.METAMORPHIC_OVERGROWN_SNOWED.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowOvergrownStrata) output.accept(WosBlocks.METAMORPHIC_OVERGROWN.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowSnowedStrata) output.accept(WosBlocks.METAMORPHIC_OVERGROWN_SNOWED.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_SMOOTH.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_SMOOTH_SLAB.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_POLISHED.get(v).get());
@@ -145,10 +148,12 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.METAMORPHIC_TILE_SLAB.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_TILE_WALL.get(v).get());
                             output.accept(WosBlocks.METAMORPHIC_PILLAR.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.replaceVanillaOres)
                             for (OreVariant ore : OreVariant.VALUES) {
                                 output.accept(WosBlocks.ORES.get(v.toString() + "_" + ore.suffix).get());
                             }
                         }
+                        if (sxilverr.worldofstone.config.WosConfig.stoneReplacementEnabled)
                         for (SedimentaryVariant v : SedimentaryVariant.VALUES) {
                             output.accept(WosBlocks.SEDIMENTARY_STONE.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_COBBLE.get(v).get());
@@ -193,8 +198,8 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.SEDIMENTARY_CLAY.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSpeleothemEnabled(v)) output.accept(WosBlocks.SEDIMENTARY_SPELEOTHEM.get(v).get());
                             if (sxilverr.worldofstone.config.WosConfig.isSandstoneSpeleothemEnabled(v)) output.accept(WosBlocks.SEDIMENTARY_SANDSTONE_SPELEOTHEM.get(v).get());
-                            output.accept(WosBlocks.SEDIMENTARY_OVERGROWN.get(v).get());
-                            output.accept(WosBlocks.SEDIMENTARY_OVERGROWN_SNOWED.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowOvergrownStrata) output.accept(WosBlocks.SEDIMENTARY_OVERGROWN.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowSnowedStrata) output.accept(WosBlocks.SEDIMENTARY_OVERGROWN_SNOWED.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_SMOOTH.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_SMOOTH_SLAB.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_POLISHED.get(v).get());
@@ -207,18 +212,26 @@ public final class WosCreativeTabs {
                             output.accept(WosBlocks.SEDIMENTARY_TILE_SLAB.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_TILE_WALL.get(v).get());
                             output.accept(WosBlocks.SEDIMENTARY_PILLAR.get(v).get());
+                            if (sxilverr.worldofstone.config.WosConfig.replaceVanillaOres)
                             for (OreVariant ore : OreVariant.VALUES) {
                                 output.accept(WosBlocks.ORES.get(v.toString() + "_" + ore.suffix).get());
                             }
                         }
+                        if (sxilverr.worldofstone.config.WosConfig.replaceVanillaOres)
                         for (VanillaOreHost host : VanillaOreHost.VALUES) {
+                            if (host.getDimension() == VanillaOreHost.HostDimension.NETHER
+                                    && !sxilverr.worldofstone.config.WosConfig.allowVanillaOresInNether) continue;
+                            if (host.getDimension() == VanillaOreHost.HostDimension.END
+                                    && !sxilverr.worldofstone.config.WosConfig.allowVanillaOresInEnd) continue;
+                            if (host.getDimension() == VanillaOreHost.HostDimension.ANY
+                                    && !sxilverr.worldofstone.config.WosConfig.allowObsidianOreVariants) continue;
                             for (OreVariant ore : OreVariant.VALUES) {
                                 output.accept(WosBlocks.ORES.get(host.getRegistryName() + "_" + ore.suffix).get());
                             }
                         }
                         for (String host : new String[]{"stone", "granite", "diorite", "andesite", "tuff"}) {
-                            output.accept(WosBlocks.VANILLA_HOST_OVERGROWN.get(host).get());
-                            output.accept(WosBlocks.VANILLA_HOST_SNOWED.get(host).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowOvergrownVanillaVariants) output.accept(WosBlocks.VANILLA_HOST_OVERGROWN.get(host).get());
+                            if (sxilverr.worldofstone.config.WosConfig.allowSnowedVanillaVariants) output.accept(WosBlocks.VANILLA_HOST_SNOWED.get(host).get());
                         }
                         for (VanillaSpeleothemVariant v : VanillaSpeleothemVariant.VALUES) {
                             if (sxilverr.worldofstone.config.WosConfig.isSpeleothemEnabled(v)) output.accept(WosBlocks.VANILLA_SPELEOTHEM.get(v).get());
@@ -370,12 +383,11 @@ public final class WosCreativeTabs {
                             net.minecraftforge.registries.RegistryObject<net.minecraft.world.level.block.Block> ro = WosBlocks.DEFILED_LANDS_PREBORN_SPELEOTHEM.get(v);
                             if (ro != null && sxilverr.worldofstone.config.WosConfig.isSpeleothemEnabled(v)) output.accept(ro.get());
                         }
-                        if (sxilverr.worldofstone.config.WosConfig.speleothemsEnabled) {
-                            for (DecorativeSpeleothemVariant v : DecorativeSpeleothemVariant.VALUES) {
-                                net.minecraftforge.registries.RegistryObject<net.minecraft.world.level.block.Block> ro = WosBlocks.DECORATIVE_SPELEOTHEM.get(v);
-                                if (ro != null && ro.isPresent()) output.accept(ro.get());
-                            }
+                        for (DecorativeSpeleothemVariant v : DecorativeSpeleothemVariant.VALUES) {
+                            net.minecraftforge.registries.RegistryObject<net.minecraft.world.level.block.Block> ro = WosBlocks.DECORATIVE_SPELEOTHEM.get(v);
+                            if (ro != null && ro.isPresent() && sxilverr.worldofstone.config.WosConfig.isCreativeSpeleothemEnabled(v)) output.accept(ro.get());
                         }
+                        if (sxilverr.worldofstone.config.WosConfig.speleothemsEnabled)
                         for (String blockId : sxilverr.worldofstone.config.WosConfig.mimicSpeleothemBlocks) {
                             net.minecraft.resources.ResourceLocation rl = net.minecraft.resources.ResourceLocation.tryParse(blockId);
                             if (rl == null) continue;
@@ -388,8 +400,8 @@ public final class WosCreativeTabs {
                             stack.setHoverName(net.minecraft.network.chat.Component.literal(source.getName().getString() + " Speleothem"));
                             output.accept(stack);
                         }
-                        output.accept(WosItems.LIGNITE_COAL.get());
-                        WosItems.FOSSILS.forEach((k, ro) -> output.accept(ro.get()));
+                        if (sxilverr.worldofstone.config.WosConfig.stoneReplacementEnabled) output.accept(WosItems.LIGNITE_COAL.get());
+                        if (sxilverr.worldofstone.config.WosConfig.isFossilsEnabled()) WosItems.FOSSILS.forEach((k, ro) -> output.accept(ro.get()));
                     })
                     .build());
 

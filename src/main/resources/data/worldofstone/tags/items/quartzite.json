@@ -13,6 +13,18 @@
     "#worldofstone:quartzite/polished",
     "#worldofstone:quartzite/tiles",
     "#worldofstone:quartzite/pillar",
-    "#worldofstone:quartzite/speleothem"
+    "#worldofstone:quartzite/speleothem",
+    "worldofstone:cracked_quartzite_bricks",
+    "worldofstone:chiseled_quartzite_bricks",
+    "worldofstone:infested_quartzite",
+    "worldofstone:infested_quartzite_cobblestone",
+    "worldofstone:infested_quartzite_bricks",
+    "worldofstone:infested_mossy_quartzite_bricks",
+    "worldofstone:infested_cracked_quartzite_bricks",
+    "worldofstone:infested_chiseled_quartzite_bricks",
+    "worldofstone:quartzite_button",
+    "worldofstone:quartzite_sand",
+    "worldofstone:quartzite_gravel",
+    "worldofstone:quartzite_clay"
   ]
 }
