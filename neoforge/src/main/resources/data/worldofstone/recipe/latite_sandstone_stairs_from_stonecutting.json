@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:latite_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:latite_sandstone_stairs",
+    "count": 1
+  }
+}

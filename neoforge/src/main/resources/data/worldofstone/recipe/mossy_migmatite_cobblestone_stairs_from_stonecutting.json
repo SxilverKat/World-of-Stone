@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_migmatite_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:mossy_migmatite_cobblestone_stairs",
+    "count": 1
+  }
+}

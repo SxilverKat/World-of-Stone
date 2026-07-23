@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gneiss"
+  },
+  "result": {
+    "id": "worldofstone:gneiss_brick_wall",
+    "count": 1
+  }
+}

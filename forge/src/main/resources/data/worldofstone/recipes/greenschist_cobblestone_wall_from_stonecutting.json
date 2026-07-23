@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greenschist_cobblestone"
+  },
+  "result": "worldofstone:greenschist_cobblestone_wall",
+  "count": 1
+}

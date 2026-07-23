@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:migmatite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:migmatite_button",
+    "count": 1
+  }
+}

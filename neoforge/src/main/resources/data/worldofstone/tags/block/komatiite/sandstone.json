@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:komatiite_sandstone",
+    "worldofstone:cut_komatiite_sandstone",
+    "worldofstone:chiseled_komatiite_sandstone",
+    "worldofstone:smooth_komatiite_sandstone",
+    "worldofstone:komatiite_sandstone_stairs",
+    "worldofstone:komatiite_sandstone_slab",
+    "worldofstone:komatiite_sandstone_wall",
+    "worldofstone:cut_komatiite_sandstone_slab",
+    "worldofstone:smooth_komatiite_sandstone_stairs",
+    "worldofstone:smooth_komatiite_sandstone_slab"
+  ]
+}

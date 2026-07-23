@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_gabbro_sandstone"
+  },
+  "result": "worldofstone:smooth_gabbro_sandstone_slab",
+  "count": 2
+}

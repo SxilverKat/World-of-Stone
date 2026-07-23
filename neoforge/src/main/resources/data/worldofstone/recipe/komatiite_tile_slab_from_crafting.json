@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:komatiite_tiles"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:komatiite_tile_slab"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_button",
+    "worldofstone:pyroxenite_button",
+    "worldofstone:rhyolite_button",
+    "worldofstone:tonalite_button",
+    "worldofstone:gabbro_button",
+    "worldofstone:latite_button",
+    "worldofstone:komatiite_button",
+    "worldofstone:dacite_button",
+    "worldofstone:gneiss_button",
+    "worldofstone:eclogite_button",
+    "worldofstone:marble_button",
+    "worldofstone:quartzite_button",
+    "worldofstone:blueschist_button",
+    "worldofstone:greenschist_button",
+    "worldofstone:soapstone_button",
+    "worldofstone:migmatite_button",
+    "worldofstone:limestone_button",
+    "worldofstone:chalk_button",
+    "worldofstone:shale_button",
+    "worldofstone:siltstone_button",
+    "worldofstone:lignite_button",
+    "worldofstone:dolomite_button",
+    "worldofstone:greywacke_button",
+    "worldofstone:chert_button"
+  ]
+}

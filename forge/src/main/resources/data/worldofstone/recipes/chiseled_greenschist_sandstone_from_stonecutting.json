@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greenschist_sandstone"
+  },
+  "result": "worldofstone:chiseled_greenschist_sandstone",
+  "count": 1
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:lignite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:lignite_button",
+    "count": 1
+  }
+}

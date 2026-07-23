@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/magenta_stained_glass",
+    "all": "minecraft:block/magenta_stained_glass"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#all",
+          "uv": [
+            4,
+            4,
+            12,
+            12
+          ],
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            4,
+            0,
+            12,
+            16
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_blueschist"
+  },
+  "result": "worldofstone:polished_blueschist_wall",
+  "count": 1
+}

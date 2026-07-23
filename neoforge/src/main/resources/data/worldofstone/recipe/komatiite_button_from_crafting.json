@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:komatiite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:komatiite_button"
+  }
+}

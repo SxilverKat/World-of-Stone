@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:lignite_bricks"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:lignite_brick_slab"
+  }
+}

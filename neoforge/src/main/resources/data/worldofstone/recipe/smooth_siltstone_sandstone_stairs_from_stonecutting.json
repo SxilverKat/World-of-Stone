@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_siltstone_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:smooth_siltstone_sandstone_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greenschist_sandstone",
+    "worldofstone:cut_greenschist_sandstone",
+    "worldofstone:chiseled_greenschist_sandstone",
+    "worldofstone:smooth_greenschist_sandstone",
+    "worldofstone:greenschist_sandstone_stairs",
+    "worldofstone:greenschist_sandstone_slab",
+    "worldofstone:greenschist_sandstone_wall",
+    "worldofstone:cut_greenschist_sandstone_slab",
+    "worldofstone:smooth_greenschist_sandstone_stairs",
+    "worldofstone:smooth_greenschist_sandstone_slab"
+  ]
+}

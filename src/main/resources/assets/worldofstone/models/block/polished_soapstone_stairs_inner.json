@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/polished_soapstone",
+    "top": "worldofstone:block/polished_soapstone",
+    "side": "worldofstone:block/polished_soapstone"
+  }
+}

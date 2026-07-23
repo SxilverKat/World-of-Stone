@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gabbro_sandstone",
+    "worldofstone:cut_gabbro_sandstone",
+    "worldofstone:chiseled_gabbro_sandstone",
+    "worldofstone:smooth_gabbro_sandstone",
+    "worldofstone:gabbro_sandstone_stairs",
+    "worldofstone:gabbro_sandstone_slab",
+    "worldofstone:gabbro_sandstone_wall",
+    "worldofstone:cut_gabbro_sandstone_slab",
+    "worldofstone:smooth_gabbro_sandstone_stairs",
+    "worldofstone:smooth_gabbro_sandstone_slab"
+  ]
+}

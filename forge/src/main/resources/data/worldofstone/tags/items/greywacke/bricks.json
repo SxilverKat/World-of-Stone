@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greywacke_bricks",
+    "worldofstone:greywacke_brick_stairs",
+    "worldofstone:greywacke_brick_slab",
+    "worldofstone:greywacke_brick_wall"
+  ]
+}

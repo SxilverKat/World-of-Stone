@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:marble_sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chiseled_marble_sandstone",
+    "count": 1
+  }
+}

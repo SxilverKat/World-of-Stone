@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:chert_cobblestone"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:mossy_chert_cobblestone"
+  }
+}

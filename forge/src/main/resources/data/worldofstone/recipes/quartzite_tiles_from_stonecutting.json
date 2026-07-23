@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:quartzite"
+  },
+  "result": "worldofstone:quartzite_tiles",
+  "count": 1
+}

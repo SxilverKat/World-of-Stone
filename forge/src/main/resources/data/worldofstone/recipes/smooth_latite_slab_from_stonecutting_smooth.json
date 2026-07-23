@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_latite"
+  },
+  "result": "worldofstone:smooth_latite_slab",
+  "count": 2
+}

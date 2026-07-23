@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke_cobblestone"
+  },
+  "result": "worldofstone:greywacke_cobblestone_slab",
+  "count": 2
+}

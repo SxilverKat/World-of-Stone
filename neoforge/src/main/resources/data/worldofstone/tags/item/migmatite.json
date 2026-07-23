@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite",
+    "#worldofstone:migmatite/ores",
+    "#worldofstone:migmatite/sandstone",
+    "#worldofstone:migmatite/cobblestone",
+    "#worldofstone:migmatite/mossy_cobblestone",
+    "#worldofstone:migmatite/bricks",
+    "#worldofstone:migmatite/mossy_bricks",
+    "#worldofstone:migmatite/smooth_stone",
+    "#worldofstone:migmatite/overgrown",
+    "#worldofstone:migmatite/polished",
+    "#worldofstone:migmatite/tiles",
+    "#worldofstone:migmatite/pillar",
+    "#worldofstone:migmatite/speleothem",
+    "worldofstone:cracked_migmatite_bricks",
+    "worldofstone:chiseled_migmatite_bricks",
+    "worldofstone:infested_migmatite",
+    "worldofstone:infested_migmatite_cobblestone",
+    "worldofstone:infested_migmatite_bricks",
+    "worldofstone:infested_mossy_migmatite_bricks",
+    "worldofstone:infested_cracked_migmatite_bricks",
+    "worldofstone:infested_chiseled_migmatite_bricks",
+    "worldofstone:migmatite_button",
+    "worldofstone:migmatite_sand",
+    "worldofstone:migmatite_gravel",
+    "worldofstone:migmatite_clay"
+  ]
+}

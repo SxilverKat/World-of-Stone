@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:gneiss_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_gneiss_bricks",
+      "count": 1
+    }
+  ]
+}

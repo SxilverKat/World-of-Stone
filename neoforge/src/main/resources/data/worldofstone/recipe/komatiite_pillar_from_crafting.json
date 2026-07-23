@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:komatiite"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "worldofstone:komatiite_pillar"
+  }
+}

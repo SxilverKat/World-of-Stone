@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:siltstone_sandstone",
+    "worldofstone:cut_siltstone_sandstone",
+    "worldofstone:chiseled_siltstone_sandstone",
+    "worldofstone:smooth_siltstone_sandstone",
+    "worldofstone:siltstone_sandstone_stairs",
+    "worldofstone:siltstone_sandstone_slab",
+    "worldofstone:siltstone_sandstone_wall",
+    "worldofstone:cut_siltstone_sandstone_slab",
+    "worldofstone:smooth_siltstone_sandstone_stairs",
+    "worldofstone:smooth_siltstone_sandstone_slab"
+  ]
+}

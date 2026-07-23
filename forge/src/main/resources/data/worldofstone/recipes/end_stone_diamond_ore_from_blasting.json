@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "worldofstone:end_stone_diamond_ore"
+  },
+  "result": "minecraft:diamond",
+  "experience": 1.0,
+  "cookingtime": 100
+}

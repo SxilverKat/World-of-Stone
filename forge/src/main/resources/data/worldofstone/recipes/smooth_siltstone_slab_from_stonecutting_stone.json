@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:siltstone"
+  },
+  "result": "worldofstone:smooth_siltstone_slab",
+  "count": 2
+}

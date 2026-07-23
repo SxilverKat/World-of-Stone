@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_gabbro"
+  },
+  "result": "worldofstone:polished_gabbro_stairs",
+  "count": 1
+}

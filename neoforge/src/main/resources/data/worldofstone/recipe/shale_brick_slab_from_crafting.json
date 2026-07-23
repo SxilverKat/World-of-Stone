@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:shale_bricks"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:shale_brick_slab"
+  }
+}

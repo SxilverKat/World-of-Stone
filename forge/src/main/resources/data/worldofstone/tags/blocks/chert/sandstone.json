@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chert_sandstone",
+    "worldofstone:cut_chert_sandstone",
+    "worldofstone:chiseled_chert_sandstone",
+    "worldofstone:smooth_chert_sandstone",
+    "worldofstone:chert_sandstone_stairs",
+    "worldofstone:chert_sandstone_slab",
+    "worldofstone:chert_sandstone_wall",
+    "worldofstone:cut_chert_sandstone_slab",
+    "worldofstone:smooth_chert_sandstone_stairs",
+    "worldofstone:smooth_chert_sandstone_slab"
+  ]
+}

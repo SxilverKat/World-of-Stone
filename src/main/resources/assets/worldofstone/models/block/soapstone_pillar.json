@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "worldofstone:block/soapstone_pillar",
+    "end": "worldofstone:block/soapstone_pillar_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:dolomite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:dolomite_button"
+  }
+}

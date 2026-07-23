@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:migmatite_tiles",
+    "worldofstone:cracked_migmatite_tiles",
+    "worldofstone:migmatite_tile_stairs",
+    "worldofstone:migmatite_tile_slab",
+    "worldofstone:migmatite_tile_wall"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:rhyolite_tiles"
+  },
+  "result": {
+    "id": "worldofstone:cracked_rhyolite_tiles"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

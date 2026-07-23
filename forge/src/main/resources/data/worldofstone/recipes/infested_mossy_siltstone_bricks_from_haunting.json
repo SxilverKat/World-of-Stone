@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:mossy_siltstone_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_mossy_siltstone_bricks",
+      "count": 1
+    }
+  ]
+}

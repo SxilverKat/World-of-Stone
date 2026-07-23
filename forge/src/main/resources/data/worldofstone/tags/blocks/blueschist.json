@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:blueschist",
+    "#worldofstone:blueschist/ores",
+    "#worldofstone:blueschist/sandstone",
+    "#worldofstone:blueschist/cobblestone",
+    "#worldofstone:blueschist/mossy_cobblestone",
+    "#worldofstone:blueschist/bricks",
+    "#worldofstone:blueschist/mossy_bricks",
+    "#worldofstone:blueschist/smooth_stone",
+    "#worldofstone:blueschist/overgrown",
+    "#worldofstone:blueschist/polished",
+    "#worldofstone:blueschist/tiles",
+    "#worldofstone:blueschist/pillar",
+    "#worldofstone:blueschist/speleothem",
+    "worldofstone:cracked_blueschist_bricks",
+    "worldofstone:chiseled_blueschist_bricks",
+    "worldofstone:infested_blueschist",
+    "worldofstone:infested_blueschist_cobblestone",
+    "worldofstone:infested_blueschist_bricks",
+    "worldofstone:infested_mossy_blueschist_bricks",
+    "worldofstone:infested_cracked_blueschist_bricks",
+    "worldofstone:infested_chiseled_blueschist_bricks",
+    "worldofstone:blueschist_button",
+    "worldofstone:blueschist_sand",
+    "worldofstone:blueschist_gravel",
+    "worldofstone:blueschist_clay"
+  ]
+}

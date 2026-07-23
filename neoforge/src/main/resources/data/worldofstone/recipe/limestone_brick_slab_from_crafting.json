@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:limestone_bricks"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:limestone_brick_slab"
+  }
+}

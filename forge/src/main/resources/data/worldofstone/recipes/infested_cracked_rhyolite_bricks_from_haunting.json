@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:cracked_rhyolite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_cracked_rhyolite_bricks",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_gravel",
+    "worldofstone:pyroxenite_gravel",
+    "worldofstone:rhyolite_gravel",
+    "worldofstone:tonalite_gravel",
+    "worldofstone:gabbro_gravel",
+    "worldofstone:latite_gravel",
+    "worldofstone:komatiite_gravel",
+    "worldofstone:dacite_gravel",
+    "worldofstone:gneiss_gravel",
+    "worldofstone:eclogite_gravel",
+    "worldofstone:marble_gravel",
+    "worldofstone:quartzite_gravel",
+    "worldofstone:blueschist_gravel",
+    "worldofstone:greenschist_gravel",
+    "worldofstone:soapstone_gravel",
+    "worldofstone:migmatite_gravel",
+    "worldofstone:limestone_gravel",
+    "worldofstone:chalk_gravel",
+    "worldofstone:shale_gravel",
+    "worldofstone:siltstone_gravel",
+    "worldofstone:lignite_gravel",
+    "worldofstone:dolomite_gravel",
+    "worldofstone:greywacke_gravel",
+    "worldofstone:chert_gravel"
+  ]
+}

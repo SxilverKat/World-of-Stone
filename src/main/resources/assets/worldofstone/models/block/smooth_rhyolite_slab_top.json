@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_rhyolite",
+    "top": "worldofstone:block/smooth_rhyolite",
+    "side": "worldofstone:block/smooth_rhyolite"
+  }
+}

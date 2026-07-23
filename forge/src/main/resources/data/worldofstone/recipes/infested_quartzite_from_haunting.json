@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:quartzite"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_quartzite",
+      "count": 1
+    }
+  ]
+}

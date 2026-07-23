@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dacite_tiles",
+    "worldofstone:cracked_dacite_tiles",
+    "worldofstone:dacite_tile_stairs",
+    "worldofstone:dacite_tile_slab",
+    "worldofstone:dacite_tile_wall"
+  ]
+}

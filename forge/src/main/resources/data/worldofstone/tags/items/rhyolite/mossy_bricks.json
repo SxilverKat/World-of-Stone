@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_rhyolite_bricks",
+    "worldofstone:mossy_rhyolite_brick_stairs",
+    "worldofstone:mossy_rhyolite_brick_slab",
+    "worldofstone:mossy_rhyolite_brick_wall"
+  ]
+}

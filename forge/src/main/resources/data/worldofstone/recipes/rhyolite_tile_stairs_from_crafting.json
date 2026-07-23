@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:rhyolite_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:rhyolite_tile_stairs",
+    "count": 4
+  }
+}

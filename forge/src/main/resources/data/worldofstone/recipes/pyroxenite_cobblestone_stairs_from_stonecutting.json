@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite_cobblestone"
+  },
+  "result": "worldofstone:pyroxenite_cobblestone_stairs",
+  "count": 1
+}

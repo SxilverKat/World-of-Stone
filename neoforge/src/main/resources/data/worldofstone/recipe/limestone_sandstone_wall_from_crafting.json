@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:limestone_sandstone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:limestone_sandstone_wall"
+  }
+}

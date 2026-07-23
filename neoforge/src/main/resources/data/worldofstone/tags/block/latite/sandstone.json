@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:latite_sandstone",
+    "worldofstone:cut_latite_sandstone",
+    "worldofstone:chiseled_latite_sandstone",
+    "worldofstone:smooth_latite_sandstone",
+    "worldofstone:latite_sandstone_stairs",
+    "worldofstone:latite_sandstone_slab",
+    "worldofstone:latite_sandstone_wall",
+    "worldofstone:cut_latite_sandstone_slab",
+    "worldofstone:smooth_latite_sandstone_stairs",
+    "worldofstone:smooth_latite_sandstone_slab"
+  ]
+}

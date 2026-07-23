@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:marble"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:marble_button",
+    "count": 1
+  }
+}

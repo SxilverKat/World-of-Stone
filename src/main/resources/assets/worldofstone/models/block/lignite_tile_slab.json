@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/lignite_tiles",
+    "top": "worldofstone:block/lignite_tiles",
+    "side": "worldofstone:block/lignite_tiles"
+  }
+}

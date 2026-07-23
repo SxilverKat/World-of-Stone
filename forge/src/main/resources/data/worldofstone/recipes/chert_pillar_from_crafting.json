@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:chert"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chert_pillar",
+    "count": 2
+  }
+}

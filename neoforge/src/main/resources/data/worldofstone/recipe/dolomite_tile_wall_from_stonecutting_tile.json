@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dolomite_tiles"
+  },
+  "result": {
+    "id": "worldofstone:dolomite_tile_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dolomite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:dolomite_brick_stairs",
+    "count": 1
+  }
+}

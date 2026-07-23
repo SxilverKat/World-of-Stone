@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/latite_bricks",
+    "top": "worldofstone:block/latite_bricks",
+    "side": "worldofstone:block/latite_bricks"
+  }
+}

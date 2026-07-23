@@ -1,0 +1,83 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "caverns_and_chasms:block/cylindrite",
+    "all": "caverns_and_chasms:block/cylindrite"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        0,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#all",
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            6,
+            0,
+            10,
+            16
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

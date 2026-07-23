@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_soapstone_bricks",
+    "worldofstone:mossy_soapstone_brick_stairs",
+    "worldofstone:mossy_soapstone_brick_slab",
+    "worldofstone:mossy_soapstone_brick_wall"
+  ]
+}

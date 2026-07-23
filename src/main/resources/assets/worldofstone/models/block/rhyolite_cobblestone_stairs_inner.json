@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/rhyolite_cobblestone",
+    "top": "worldofstone:block/rhyolite_cobblestone",
+    "side": "worldofstone:block/rhyolite_cobblestone"
+  }
+}

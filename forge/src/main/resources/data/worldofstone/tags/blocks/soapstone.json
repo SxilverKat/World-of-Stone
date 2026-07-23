@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:soapstone",
+    "#worldofstone:soapstone/ores",
+    "#worldofstone:soapstone/sandstone",
+    "#worldofstone:soapstone/cobblestone",
+    "#worldofstone:soapstone/mossy_cobblestone",
+    "#worldofstone:soapstone/bricks",
+    "#worldofstone:soapstone/mossy_bricks",
+    "#worldofstone:soapstone/smooth_stone",
+    "#worldofstone:soapstone/overgrown",
+    "#worldofstone:soapstone/polished",
+    "#worldofstone:soapstone/tiles",
+    "#worldofstone:soapstone/pillar",
+    "#worldofstone:soapstone/speleothem",
+    "worldofstone:cracked_soapstone_bricks",
+    "worldofstone:chiseled_soapstone_bricks",
+    "worldofstone:infested_soapstone",
+    "worldofstone:infested_soapstone_cobblestone",
+    "worldofstone:infested_soapstone_bricks",
+    "worldofstone:infested_mossy_soapstone_bricks",
+    "worldofstone:infested_cracked_soapstone_bricks",
+    "worldofstone:infested_chiseled_soapstone_bricks",
+    "worldofstone:soapstone_button",
+    "worldofstone:soapstone_sand",
+    "worldofstone:soapstone_gravel",
+    "worldofstone:soapstone_clay"
+  ]
+}

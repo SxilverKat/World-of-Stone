@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:lignite_sandstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:cut_lignite_sandstone"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_eclogite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:mossy_eclogite_brick_wall",
+    "count": 1
+  }
+}

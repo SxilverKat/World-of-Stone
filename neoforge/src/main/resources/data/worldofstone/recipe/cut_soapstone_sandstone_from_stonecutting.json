@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:soapstone_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:cut_soapstone_sandstone",
+    "count": 1
+  }
+}

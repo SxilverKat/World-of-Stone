@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "worldofstone:noise_replacer",
+  "step": "underground_ores"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "worldofstone:block/marble_sandstone_normal",
+    "top": "worldofstone:block/marble_sandstone_top",
+    "bottom": "worldofstone:block/marble_sandstone_bottom"
+  }
+}

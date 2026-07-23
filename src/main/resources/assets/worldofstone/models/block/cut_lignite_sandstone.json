@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "worldofstone:block/cut_lignite_sandstone",
+    "top": "worldofstone:block/lignite_sandstone_top",
+    "bottom": "worldofstone:block/lignite_sandstone_bottom"
+  }
+}

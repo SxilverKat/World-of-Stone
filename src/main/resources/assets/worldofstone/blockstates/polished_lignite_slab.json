@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/polished_lignite_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/polished_lignite_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/polished_lignite"
+    }
+  }
+}

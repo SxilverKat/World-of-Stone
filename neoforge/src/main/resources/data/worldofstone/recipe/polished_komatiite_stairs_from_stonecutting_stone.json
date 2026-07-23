@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite"
+  },
+  "result": {
+    "id": "worldofstone:polished_komatiite_stairs",
+    "count": 1
+  }
+}

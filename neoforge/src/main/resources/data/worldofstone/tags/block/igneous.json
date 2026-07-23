@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#worldofstone:adamellite",
+    "#worldofstone:pyroxenite",
+    "#worldofstone:rhyolite",
+    "#worldofstone:tonalite",
+    "#worldofstone:gabbro",
+    "#worldofstone:latite",
+    "#worldofstone:komatiite",
+    "#worldofstone:dacite"
+  ]
+}

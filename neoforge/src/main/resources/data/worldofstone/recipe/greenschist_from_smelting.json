@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:greenschist_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:greenschist"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

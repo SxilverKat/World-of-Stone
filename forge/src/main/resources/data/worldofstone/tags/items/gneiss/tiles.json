@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gneiss_tiles",
+    "worldofstone:cracked_gneiss_tiles",
+    "worldofstone:gneiss_tile_stairs",
+    "worldofstone:gneiss_tile_slab",
+    "worldofstone:gneiss_tile_wall"
+  ]
+}

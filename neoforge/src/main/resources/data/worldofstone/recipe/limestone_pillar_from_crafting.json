@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:limestone"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "worldofstone:limestone_pillar"
+  }
+}

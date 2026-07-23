@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:latite_sandstone"
+  },
+  "result": "worldofstone:cut_latite_sandstone",
+  "count": 1
+}

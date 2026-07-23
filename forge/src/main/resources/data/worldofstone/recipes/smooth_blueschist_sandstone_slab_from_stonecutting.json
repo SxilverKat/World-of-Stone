@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_blueschist_sandstone"
+  },
+  "result": "worldofstone:smooth_blueschist_sandstone_slab",
+  "count": 2
+}

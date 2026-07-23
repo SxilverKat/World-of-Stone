@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/gneiss_sandstone_top",
+    "top": "worldofstone:block/gneiss_sandstone_top",
+    "side": "worldofstone:block/gneiss_sandstone_top"
+  }
+}

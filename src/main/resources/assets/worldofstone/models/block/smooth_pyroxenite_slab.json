@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_pyroxenite",
+    "top": "worldofstone:block/smooth_pyroxenite",
+    "side": "worldofstone:block/smooth_pyroxenite"
+  }
+}

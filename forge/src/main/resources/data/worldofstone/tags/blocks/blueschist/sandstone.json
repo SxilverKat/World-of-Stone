@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:blueschist_sandstone",
+    "worldofstone:cut_blueschist_sandstone",
+    "worldofstone:chiseled_blueschist_sandstone",
+    "worldofstone:smooth_blueschist_sandstone",
+    "worldofstone:blueschist_sandstone_stairs",
+    "worldofstone:blueschist_sandstone_slab",
+    "worldofstone:blueschist_sandstone_wall",
+    "worldofstone:cut_blueschist_sandstone_slab",
+    "worldofstone:smooth_blueschist_sandstone_stairs",
+    "worldofstone:smooth_blueschist_sandstone_slab"
+  ]
+}

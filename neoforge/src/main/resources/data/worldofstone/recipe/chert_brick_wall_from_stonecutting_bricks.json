@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:chert_bricks"
+  },
+  "result": {
+    "id": "worldofstone:chert_brick_wall",
+    "count": 1
+  }
+}

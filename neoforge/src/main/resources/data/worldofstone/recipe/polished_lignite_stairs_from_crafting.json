@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_lignite"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:polished_lignite_stairs"
+  }
+}

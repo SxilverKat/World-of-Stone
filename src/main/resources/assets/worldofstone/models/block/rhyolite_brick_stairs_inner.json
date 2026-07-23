@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/rhyolite_bricks",
+    "top": "worldofstone:block/rhyolite_bricks",
+    "side": "worldofstone:block/rhyolite_bricks"
+  }
+}

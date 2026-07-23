@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:quartzite_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:quartzite_sandstone_slab",
+    "count": 6
+  }
+}

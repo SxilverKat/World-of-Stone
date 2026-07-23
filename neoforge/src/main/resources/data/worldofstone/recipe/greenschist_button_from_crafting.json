@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:greenschist"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:greenschist_button"
+  }
+}

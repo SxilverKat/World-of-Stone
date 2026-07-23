@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:komatiite"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:overgrown_komatiite",
+    "count": 1
+  }
+}

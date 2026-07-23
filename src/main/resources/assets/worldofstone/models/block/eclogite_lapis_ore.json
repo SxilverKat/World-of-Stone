@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "worldofstone:block/eclogite_lapis_ore"
+  }
+}

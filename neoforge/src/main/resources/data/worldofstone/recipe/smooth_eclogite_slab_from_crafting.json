@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:smooth_eclogite"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:smooth_eclogite_slab"
+  }
+}

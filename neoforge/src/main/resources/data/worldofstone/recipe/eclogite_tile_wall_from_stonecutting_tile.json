@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite_tiles"
+  },
+  "result": {
+    "id": "worldofstone:eclogite_tile_wall",
+    "count": 1
+  }
+}

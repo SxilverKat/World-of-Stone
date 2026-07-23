@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_greywacke",
+    "top": "worldofstone:block/smooth_greywacke",
+    "side": "worldofstone:block/smooth_greywacke"
+  }
+}

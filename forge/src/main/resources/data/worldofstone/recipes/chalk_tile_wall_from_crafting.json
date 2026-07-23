@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:chalk_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chalk_tile_wall",
+    "count": 6
+  }
+}

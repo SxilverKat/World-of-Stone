@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_lignite"
+  },
+  "result": {
+    "id": "worldofstone:smooth_lignite_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:cut_blueschist_sandstone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:cut_blueschist_sandstone_slab"
+  }
+}

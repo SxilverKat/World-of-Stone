@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_marble",
+    "top": "worldofstone:block/smooth_marble",
+    "side": "worldofstone:block/smooth_marble"
+  }
+}

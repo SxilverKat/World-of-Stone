@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:lignite_tiles"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:lignite_tile_stairs"
+  }
+}

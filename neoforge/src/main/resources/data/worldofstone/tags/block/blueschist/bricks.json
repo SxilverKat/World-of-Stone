@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:blueschist_bricks",
+    "worldofstone:blueschist_brick_stairs",
+    "worldofstone:blueschist_brick_slab",
+    "worldofstone:blueschist_brick_wall"
+  ]
+}

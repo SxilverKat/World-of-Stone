@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:adamellite"
+  },
+  "result": {
+    "id": "worldofstone:smooth_adamellite_slab",
+    "count": 2
+  }
+}

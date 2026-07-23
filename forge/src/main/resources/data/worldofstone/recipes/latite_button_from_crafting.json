@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:latite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:latite_button",
+    "count": 1
+  }
+}

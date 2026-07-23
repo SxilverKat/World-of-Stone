@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:lignite_coal_ore",
+    "worldofstone:lignite_iron_ore",
+    "worldofstone:lignite_gold_ore",
+    "worldofstone:lignite_diamond_ore",
+    "worldofstone:lignite_emerald_ore",
+    "worldofstone:lignite_redstone_ore",
+    "worldofstone:lignite_lapis_ore",
+    "worldofstone:lignite_copper_ore"
+  ]
+}

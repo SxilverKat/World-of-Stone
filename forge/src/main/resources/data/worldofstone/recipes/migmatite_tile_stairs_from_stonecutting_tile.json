@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:migmatite_tiles"
+  },
+  "result": "worldofstone:migmatite_tile_stairs",
+  "count": 1
+}

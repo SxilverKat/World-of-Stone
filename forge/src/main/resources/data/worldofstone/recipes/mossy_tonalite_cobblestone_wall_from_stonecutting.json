@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_tonalite_cobblestone"
+  },
+  "result": "worldofstone:mossy_tonalite_cobblestone_wall",
+  "count": 1
+}

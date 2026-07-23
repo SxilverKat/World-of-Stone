@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/komatiite_sandstone_bottom",
+    "top": "worldofstone:block/komatiite_sandstone_top",
+    "side": "worldofstone:block/cut_komatiite_sandstone"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:dacite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:dacite_button"
+  }
+}

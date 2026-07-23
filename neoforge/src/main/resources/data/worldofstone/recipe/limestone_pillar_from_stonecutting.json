@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:limestone"
+  },
+  "result": {
+    "id": "worldofstone:limestone_pillar",
+    "count": 1
+  }
+}

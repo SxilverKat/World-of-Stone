@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:tonalite_tiles"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:tonalite_tile_wall"
+  }
+}

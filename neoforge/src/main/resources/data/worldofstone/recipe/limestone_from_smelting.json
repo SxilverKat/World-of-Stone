@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:limestone_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:limestone"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

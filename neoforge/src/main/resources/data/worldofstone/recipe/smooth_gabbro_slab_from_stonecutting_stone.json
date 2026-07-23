@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gabbro"
+  },
+  "result": {
+    "id": "worldofstone:smooth_gabbro_slab",
+    "count": 2
+  }
+}

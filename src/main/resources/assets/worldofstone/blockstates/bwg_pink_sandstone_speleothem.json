@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "size=small,tip_direction=up": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_small"
+    },
+    "size=medium,tip_direction=up": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_medium"
+    },
+    "size=large,tip_direction=up": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_large"
+    },
+    "size=small,tip_direction=down": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_small",
+      "x": 180
+    },
+    "size=medium,tip_direction=down": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_medium",
+      "x": 180
+    },
+    "size=large,tip_direction=down": {
+      "model": "worldofstone:block/bwg_pink_sandstone_speleothem_large",
+      "x": 180
+    }
+  }
+}

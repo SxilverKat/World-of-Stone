@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:gabbro"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:gabbro_button"
+  }
+}

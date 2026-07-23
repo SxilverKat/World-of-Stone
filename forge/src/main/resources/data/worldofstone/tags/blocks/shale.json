@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:shale",
+    "#worldofstone:shale/ores",
+    "#worldofstone:shale/sandstone",
+    "#worldofstone:shale/cobblestone",
+    "#worldofstone:shale/mossy_cobblestone",
+    "#worldofstone:shale/bricks",
+    "#worldofstone:shale/mossy_bricks",
+    "#worldofstone:shale/smooth_stone",
+    "#worldofstone:shale/overgrown",
+    "#worldofstone:shale/polished",
+    "#worldofstone:shale/tiles",
+    "#worldofstone:shale/pillar",
+    "#worldofstone:shale/speleothem",
+    "worldofstone:cracked_shale_bricks",
+    "worldofstone:chiseled_shale_bricks",
+    "worldofstone:infested_shale",
+    "worldofstone:infested_shale_cobblestone",
+    "worldofstone:infested_shale_bricks",
+    "worldofstone:infested_mossy_shale_bricks",
+    "worldofstone:infested_cracked_shale_bricks",
+    "worldofstone:infested_chiseled_shale_bricks",
+    "worldofstone:shale_button",
+    "worldofstone:shale_sand",
+    "worldofstone:shale_gravel",
+    "worldofstone:shale_clay"
+  ]
+}

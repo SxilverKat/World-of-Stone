@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_pyroxenite_bricks",
+    "worldofstone:mossy_pyroxenite_brick_stairs",
+    "worldofstone:mossy_pyroxenite_brick_slab",
+    "worldofstone:mossy_pyroxenite_brick_wall"
+  ]
+}

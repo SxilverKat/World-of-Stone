@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gabbro_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:gabbro_cobblestone_wall",
+    "count": 1
+  }
+}

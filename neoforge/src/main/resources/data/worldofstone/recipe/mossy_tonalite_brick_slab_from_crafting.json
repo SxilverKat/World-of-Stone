@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_tonalite_bricks"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:mossy_tonalite_brick_slab"
+  }
+}

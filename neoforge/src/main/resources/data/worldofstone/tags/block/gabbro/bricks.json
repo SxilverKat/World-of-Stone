@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gabbro_bricks",
+    "worldofstone:gabbro_brick_stairs",
+    "worldofstone:gabbro_brick_slab",
+    "worldofstone:gabbro_brick_wall"
+  ]
+}

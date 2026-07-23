@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite"
+  },
+  "result": {
+    "id": "worldofstone:polished_pyroxenite",
+    "count": 1
+  }
+}

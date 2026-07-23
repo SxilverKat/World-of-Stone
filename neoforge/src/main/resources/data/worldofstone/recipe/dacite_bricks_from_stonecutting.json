@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dacite"
+  },
+  "result": {
+    "id": "worldofstone:dacite_bricks",
+    "count": 1
+  }
+}

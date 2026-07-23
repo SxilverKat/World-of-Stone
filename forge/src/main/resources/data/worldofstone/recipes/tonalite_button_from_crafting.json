@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:tonalite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:tonalite_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:tonalite_cobblestone"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:mossy_tonalite_cobblestone"
+  }
+}

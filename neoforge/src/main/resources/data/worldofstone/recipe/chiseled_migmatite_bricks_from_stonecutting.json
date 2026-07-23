@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:migmatite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:chiseled_migmatite_bricks",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:shale_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:shale_sandstone_stairs",
+    "count": 4
+  }
+}

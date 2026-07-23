@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:marble_bricks"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:marble_brick_stairs"
+  }
+}

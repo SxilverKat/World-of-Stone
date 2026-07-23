@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/marble_sandstone_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/marble_sandstone_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/marble_sandstone"
+    }
+  }
+}

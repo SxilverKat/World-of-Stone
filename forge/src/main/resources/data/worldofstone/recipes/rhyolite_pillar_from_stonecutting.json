@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:rhyolite"
+  },
+  "result": "worldofstone:rhyolite_pillar",
+  "count": 1
+}

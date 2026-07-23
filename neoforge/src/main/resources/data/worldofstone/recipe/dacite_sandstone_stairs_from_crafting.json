@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:dacite_sandstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:dacite_sandstone_stairs"
+  }
+}

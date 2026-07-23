@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "worldofstone:chalk_bricks"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "worldofstone:infested_chalk_bricks"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

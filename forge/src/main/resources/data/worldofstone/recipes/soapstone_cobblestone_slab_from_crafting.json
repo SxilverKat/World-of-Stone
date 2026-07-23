@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:soapstone_cobblestone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:soapstone_cobblestone_slab",
+    "count": 6
+  }
+}

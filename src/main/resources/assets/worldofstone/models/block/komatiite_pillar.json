@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "worldofstone:block/komatiite_pillar",
+    "end": "worldofstone:block/komatiite_pillar_top"
+  }
+}

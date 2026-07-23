@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke"
+  },
+  "result": "worldofstone:polished_greywacke_stairs",
+  "count": 1
+}

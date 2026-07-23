@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:chalk"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:chalk_button"
+  }
+}

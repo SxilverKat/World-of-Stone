@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/polished_rhyolite_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/polished_rhyolite_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/polished_rhyolite"
+    }
+  }
+}

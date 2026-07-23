@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:overgrown_chalk"
+  },
+  "result": "worldofstone:chalk",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:pyroxenite_brick_slab",
+    "count": 2
+  }
+}

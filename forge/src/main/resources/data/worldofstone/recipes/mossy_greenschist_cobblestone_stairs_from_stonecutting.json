@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_greenschist_cobblestone"
+  },
+  "result": "worldofstone:mossy_greenschist_cobblestone_stairs",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite"
+  },
+  "result": "worldofstone:polished_eclogite_stairs",
+  "count": 1
+}

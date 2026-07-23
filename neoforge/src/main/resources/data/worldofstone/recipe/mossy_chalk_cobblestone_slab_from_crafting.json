@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_chalk_cobblestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:mossy_chalk_cobblestone_slab"
+  }
+}

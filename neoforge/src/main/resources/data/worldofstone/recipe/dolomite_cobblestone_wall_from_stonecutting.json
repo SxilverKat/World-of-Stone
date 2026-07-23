@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dolomite_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:dolomite_cobblestone_wall",
+    "count": 1
+  }
+}

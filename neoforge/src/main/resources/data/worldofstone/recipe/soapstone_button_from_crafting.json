@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:soapstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:soapstone_button"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/migmatite_bricks",
+    "top": "worldofstone:block/migmatite_bricks",
+    "side": "worldofstone:block/migmatite_bricks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:marble"
+  },
+  "result": {
+    "id": "worldofstone:polished_marble_stairs",
+    "count": 1
+  }
+}

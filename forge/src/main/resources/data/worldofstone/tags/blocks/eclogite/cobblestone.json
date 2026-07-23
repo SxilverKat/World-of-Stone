@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite_cobblestone",
+    "worldofstone:eclogite_cobblestone_stairs",
+    "worldofstone:eclogite_cobblestone_slab",
+    "worldofstone:eclogite_cobblestone_wall"
+  ]
+}

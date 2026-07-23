@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/komatiite"
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/komatiite",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

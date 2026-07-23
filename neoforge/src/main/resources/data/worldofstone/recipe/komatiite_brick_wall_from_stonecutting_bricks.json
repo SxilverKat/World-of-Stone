@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:komatiite_brick_wall",
+    "count": 1
+  }
+}

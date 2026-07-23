@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "${forge_range}"
+license = "GPL-2.0-only"
+issueTrackerURL = "https://www.curseforge.com/minecraft/mc-mods/world-of-stone"
+
+[[mods]]
+modId = "${id}"
+version = "${version}"
+displayName = "${name}"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/world-of-stone"
+authors = "sxilverr"
+credits = "A revamp of the Underground Biomes mod by ExterminatorJeff, CurtisA, LouisDB, Aang234, Kreezxil, and LemADEC."
+description = '''A geological overhaul mod.'''
+logoFile = "icon.png"
+
+[[mixins]]
+config = "worldofstone.mixins.json"
+
+[[dependencies.${id}]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "${forge_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${id}]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "${minecraft}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${id}]]
+    modId = "jeresources"
+    mandatory = false
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${id}]]
+    modId = "jei"
+    mandatory = false
+    versionRange = "*"
+    ordering = "AFTER"
+    side = "BOTH"

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:pyroxenite_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:pyroxenite_tile_stairs",
+    "count": 4
+  }
+}

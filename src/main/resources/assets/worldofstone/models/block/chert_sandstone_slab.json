@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/chert_sandstone_bottom",
+    "top": "worldofstone:block/chert_sandstone_top",
+    "side": "worldofstone:block/chert_sandstone_normal"
+  }
+}

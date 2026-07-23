@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:rhyolite"
+    }
+  },
+  "result": {
+    "count": 2,
+    "id": "worldofstone:rhyolite_pillar"
+  }
+}

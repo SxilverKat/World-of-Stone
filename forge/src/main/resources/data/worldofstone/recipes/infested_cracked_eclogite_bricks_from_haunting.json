@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:cracked_eclogite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_cracked_eclogite_bricks",
+      "count": 1
+    }
+  ]
+}

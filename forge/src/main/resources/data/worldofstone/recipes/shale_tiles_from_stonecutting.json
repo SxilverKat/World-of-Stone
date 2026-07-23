@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:shale"
+  },
+  "result": "worldofstone:shale_tiles",
+  "count": 1
+}

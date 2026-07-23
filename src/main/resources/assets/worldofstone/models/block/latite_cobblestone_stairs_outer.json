@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/latite_cobblestone",
+    "top": "worldofstone:block/latite_cobblestone",
+    "side": "worldofstone:block/latite_cobblestone"
+  }
+}

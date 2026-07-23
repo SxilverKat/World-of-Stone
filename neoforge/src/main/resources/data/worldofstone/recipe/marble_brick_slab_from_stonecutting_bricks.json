@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:marble_bricks"
+  },
+  "result": {
+    "id": "worldofstone:marble_brick_slab",
+    "count": 2
+  }
+}

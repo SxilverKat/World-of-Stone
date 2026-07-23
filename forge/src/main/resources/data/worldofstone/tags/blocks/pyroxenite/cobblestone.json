@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite_cobblestone",
+    "worldofstone:pyroxenite_cobblestone_stairs",
+    "worldofstone:pyroxenite_cobblestone_slab",
+    "worldofstone:pyroxenite_cobblestone_wall"
+  ]
+}

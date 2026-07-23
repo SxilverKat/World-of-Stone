@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_dacite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:mossy_dacite_brick_slab",
+    "count": 2
+  }
+}

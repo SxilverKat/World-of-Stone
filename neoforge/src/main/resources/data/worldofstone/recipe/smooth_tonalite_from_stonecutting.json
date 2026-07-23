@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite"
+  },
+  "result": {
+    "id": "worldofstone:smooth_tonalite",
+    "count": 1
+  }
+}

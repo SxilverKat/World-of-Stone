@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chalk_tiles",
+    "worldofstone:cracked_chalk_tiles",
+    "worldofstone:chalk_tile_stairs",
+    "worldofstone:chalk_tile_slab",
+    "worldofstone:chalk_tile_wall"
+  ]
+}

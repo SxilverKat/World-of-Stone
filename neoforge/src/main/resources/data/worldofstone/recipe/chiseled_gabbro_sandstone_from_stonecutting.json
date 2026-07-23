@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gabbro_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:chiseled_gabbro_sandstone",
+    "count": 1
+  }
+}

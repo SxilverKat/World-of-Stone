@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_lignite_cobblestone"
+  },
+  "result": "worldofstone:mossy_lignite_cobblestone_stairs",
+  "count": 1
+}

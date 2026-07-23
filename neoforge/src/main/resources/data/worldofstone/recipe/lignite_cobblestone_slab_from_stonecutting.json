@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:lignite_cobblestone_slab",
+    "count": 2
+  }
+}

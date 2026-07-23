@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite",
+    "worldofstone:pyroxenite",
+    "worldofstone:rhyolite",
+    "worldofstone:tonalite",
+    "worldofstone:gabbro",
+    "worldofstone:latite",
+    "worldofstone:komatiite",
+    "worldofstone:dacite",
+    "worldofstone:gneiss",
+    "worldofstone:eclogite",
+    "worldofstone:marble",
+    "worldofstone:quartzite",
+    "worldofstone:blueschist",
+    "worldofstone:greenschist",
+    "worldofstone:soapstone",
+    "worldofstone:migmatite",
+    "worldofstone:limestone",
+    "worldofstone:chalk",
+    "worldofstone:shale",
+    "worldofstone:siltstone",
+    "worldofstone:lignite",
+    "worldofstone:dolomite",
+    "worldofstone:greywacke",
+    "worldofstone:chert"
+  ]
+}

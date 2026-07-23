@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:soapstone_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:soapstone_brick_stairs",
+    "count": 4
+  }
+}

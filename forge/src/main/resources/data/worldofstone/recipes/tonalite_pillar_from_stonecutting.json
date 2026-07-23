@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite"
+  },
+  "result": "worldofstone:tonalite_pillar",
+  "count": 1
+}

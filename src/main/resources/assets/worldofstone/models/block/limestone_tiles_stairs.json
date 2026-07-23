@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "worldofstone:block/limestone_tiles",
+    "top": "worldofstone:block/limestone_tiles",
+    "side": "worldofstone:block/limestone_tiles"
+  }
+}

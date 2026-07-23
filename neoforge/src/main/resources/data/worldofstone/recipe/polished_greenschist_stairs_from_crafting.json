@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_greenschist"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:polished_greenschist_stairs"
+  }
+}

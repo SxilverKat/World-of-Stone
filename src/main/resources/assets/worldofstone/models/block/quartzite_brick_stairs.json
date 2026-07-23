@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "worldofstone:block/quartzite_bricks",
+    "top": "worldofstone:block/quartzite_bricks",
+    "side": "worldofstone:block/quartzite_bricks"
+  }
+}

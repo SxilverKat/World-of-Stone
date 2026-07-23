@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_coal_ore",
+    "worldofstone:adamellite_iron_ore",
+    "worldofstone:adamellite_gold_ore",
+    "worldofstone:adamellite_diamond_ore",
+    "worldofstone:adamellite_emerald_ore",
+    "worldofstone:adamellite_redstone_ore",
+    "worldofstone:adamellite_lapis_ore",
+    "worldofstone:adamellite_copper_ore"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "worldofstone:block/greenschist_pillar",
+    "end": "worldofstone:block/greenschist_pillar_top"
+  }
+}

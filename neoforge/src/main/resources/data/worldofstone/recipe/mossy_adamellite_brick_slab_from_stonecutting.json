@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_adamellite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:mossy_adamellite_brick_slab",
+    "count": 2
+  }
+}

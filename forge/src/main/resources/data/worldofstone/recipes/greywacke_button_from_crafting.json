@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:greywacke"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:greywacke_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:eclogite_sandstone_stairs",
+    "count": 1
+  }
+}

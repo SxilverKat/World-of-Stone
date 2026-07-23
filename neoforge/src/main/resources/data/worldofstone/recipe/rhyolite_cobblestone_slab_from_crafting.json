@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:rhyolite_cobblestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:rhyolite_cobblestone_slab"
+  }
+}

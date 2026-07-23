@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldofstone:block/komatiite_brick_slab"
+    },
+    "type=top": {
+      "model": "worldofstone:block/komatiite_brick_slab_top"
+    },
+    "type=double": {
+      "model": "worldofstone:block/komatiite_bricks"
+    }
+  }
+}

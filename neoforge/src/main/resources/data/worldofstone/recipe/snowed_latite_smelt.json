@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:snowed_latite"
+  },
+  "result": {
+    "id": "worldofstone:latite"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

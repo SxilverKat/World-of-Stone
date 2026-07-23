@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:chalk"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:overgrown_chalk",
+    "count": 1
+  }
+}

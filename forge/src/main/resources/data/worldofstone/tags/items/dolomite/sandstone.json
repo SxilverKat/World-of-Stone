@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dolomite_sandstone",
+    "worldofstone:cut_dolomite_sandstone",
+    "worldofstone:chiseled_dolomite_sandstone",
+    "worldofstone:smooth_dolomite_sandstone",
+    "worldofstone:dolomite_sandstone_stairs",
+    "worldofstone:dolomite_sandstone_slab",
+    "worldofstone:dolomite_sandstone_wall",
+    "worldofstone:cut_dolomite_sandstone_slab",
+    "worldofstone:smooth_dolomite_sandstone_stairs",
+    "worldofstone:smooth_dolomite_sandstone_slab"
+  ]
+}

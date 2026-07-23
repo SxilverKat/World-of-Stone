@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite_tiles",
+    "worldofstone:cracked_pyroxenite_tiles",
+    "worldofstone:pyroxenite_tile_stairs",
+    "worldofstone:pyroxenite_tile_slab",
+    "worldofstone:pyroxenite_tile_wall"
+  ]
+}

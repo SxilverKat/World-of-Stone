@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:latite"
+  },
+  "result": {
+    "id": "worldofstone:latite_tiles",
+    "count": 1
+  }
+}

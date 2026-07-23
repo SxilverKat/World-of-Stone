@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite_coal_ore",
+    "worldofstone:eclogite_iron_ore",
+    "worldofstone:eclogite_gold_ore",
+    "worldofstone:eclogite_diamond_ore",
+    "worldofstone:eclogite_emerald_ore",
+    "worldofstone:eclogite_redstone_ore",
+    "worldofstone:eclogite_lapis_ore",
+    "worldofstone:eclogite_copper_ore"
+  ]
+}

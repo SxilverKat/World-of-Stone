@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gabbro_coal_ore",
+    "worldofstone:gabbro_iron_ore",
+    "worldofstone:gabbro_gold_ore",
+    "worldofstone:gabbro_diamond_ore",
+    "worldofstone:gabbro_emerald_ore",
+    "worldofstone:gabbro_redstone_ore",
+    "worldofstone:gabbro_lapis_ore",
+    "worldofstone:gabbro_copper_ore"
+  ]
+}

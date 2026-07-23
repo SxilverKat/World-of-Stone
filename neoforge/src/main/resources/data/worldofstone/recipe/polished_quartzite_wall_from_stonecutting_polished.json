@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_quartzite"
+  },
+  "result": {
+    "id": "worldofstone:polished_quartzite_wall",
+    "count": 1
+  }
+}

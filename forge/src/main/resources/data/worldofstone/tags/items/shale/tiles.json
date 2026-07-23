@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:shale_tiles",
+    "worldofstone:cracked_shale_tiles",
+    "worldofstone:shale_tile_stairs",
+    "worldofstone:shale_tile_slab",
+    "worldofstone:shale_tile_wall"
+  ]
+}

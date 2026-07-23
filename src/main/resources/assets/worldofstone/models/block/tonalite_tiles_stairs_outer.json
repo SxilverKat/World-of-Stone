@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/tonalite_tiles",
+    "top": "worldofstone:block/tonalite_tiles",
+    "side": "worldofstone:block/tonalite_tiles"
+  }
+}

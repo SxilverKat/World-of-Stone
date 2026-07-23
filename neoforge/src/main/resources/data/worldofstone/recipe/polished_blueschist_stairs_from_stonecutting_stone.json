@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:blueschist"
+  },
+  "result": {
+    "id": "worldofstone:polished_blueschist_stairs",
+    "count": 1
+  }
+}

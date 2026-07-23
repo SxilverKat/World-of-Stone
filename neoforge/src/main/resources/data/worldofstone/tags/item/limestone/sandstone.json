@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:limestone_sandstone",
+    "worldofstone:cut_limestone_sandstone",
+    "worldofstone:chiseled_limestone_sandstone",
+    "worldofstone:smooth_limestone_sandstone",
+    "worldofstone:limestone_sandstone_stairs",
+    "worldofstone:limestone_sandstone_slab",
+    "worldofstone:limestone_sandstone_wall",
+    "worldofstone:cut_limestone_sandstone_slab",
+    "worldofstone:smooth_limestone_sandstone_stairs",
+    "worldofstone:smooth_limestone_sandstone_slab"
+  ]
+}

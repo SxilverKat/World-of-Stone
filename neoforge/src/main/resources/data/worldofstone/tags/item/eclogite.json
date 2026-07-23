@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite",
+    "#worldofstone:eclogite/ores",
+    "#worldofstone:eclogite/sandstone",
+    "#worldofstone:eclogite/cobblestone",
+    "#worldofstone:eclogite/mossy_cobblestone",
+    "#worldofstone:eclogite/bricks",
+    "#worldofstone:eclogite/mossy_bricks",
+    "#worldofstone:eclogite/smooth_stone",
+    "#worldofstone:eclogite/overgrown",
+    "#worldofstone:eclogite/polished",
+    "#worldofstone:eclogite/tiles",
+    "#worldofstone:eclogite/pillar",
+    "#worldofstone:eclogite/speleothem",
+    "worldofstone:cracked_eclogite_bricks",
+    "worldofstone:chiseled_eclogite_bricks",
+    "worldofstone:infested_eclogite",
+    "worldofstone:infested_eclogite_cobblestone",
+    "worldofstone:infested_eclogite_bricks",
+    "worldofstone:infested_mossy_eclogite_bricks",
+    "worldofstone:infested_cracked_eclogite_bricks",
+    "worldofstone:infested_chiseled_eclogite_bricks",
+    "worldofstone:eclogite_button",
+    "worldofstone:eclogite_sand",
+    "worldofstone:eclogite_gravel",
+    "worldofstone:eclogite_clay"
+  ]
+}

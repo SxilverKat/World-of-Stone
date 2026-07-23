@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:shale_lapis_ore"
+  },
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

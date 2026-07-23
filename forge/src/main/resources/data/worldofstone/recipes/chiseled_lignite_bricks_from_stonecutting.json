@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite_bricks"
+  },
+  "result": "worldofstone:chiseled_lignite_bricks",
+  "count": 1
+}

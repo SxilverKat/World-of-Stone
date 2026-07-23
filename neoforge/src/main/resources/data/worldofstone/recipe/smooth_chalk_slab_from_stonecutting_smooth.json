@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_chalk"
+  },
+  "result": {
+    "id": "worldofstone:smooth_chalk_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_siltstone_bricks"
+  },
+  "result": {
+    "id": "worldofstone:mossy_siltstone_brick_wall",
+    "count": 1
+  }
+}

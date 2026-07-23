@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:quartzite_tiles",
+    "worldofstone:cracked_quartzite_tiles",
+    "worldofstone:quartzite_tile_stairs",
+    "worldofstone:quartzite_tile_slab",
+    "worldofstone:quartzite_tile_wall"
+  ]
+}

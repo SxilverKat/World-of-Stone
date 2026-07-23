@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:lignite_brick_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_greywacke"
+  },
+  "result": {
+    "id": "worldofstone:polished_greywacke_slab",
+    "count": 2
+  }
+}

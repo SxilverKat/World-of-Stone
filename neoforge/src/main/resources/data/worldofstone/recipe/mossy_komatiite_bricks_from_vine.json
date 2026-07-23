@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:komatiite_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:mossy_komatiite_bricks"
+  }
+}

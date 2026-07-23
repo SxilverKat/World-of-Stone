@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "worldofstone:cracked_adamellite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "worldofstone:infested_cracked_adamellite_bricks"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

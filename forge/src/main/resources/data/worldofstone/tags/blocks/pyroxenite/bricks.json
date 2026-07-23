@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite_bricks",
+    "worldofstone:pyroxenite_brick_stairs",
+    "worldofstone:pyroxenite_brick_slab",
+    "worldofstone:pyroxenite_brick_wall"
+  ]
+}

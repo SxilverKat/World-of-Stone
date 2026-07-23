@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:rhyolite_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:mossy_rhyolite_bricks",
+    "count": 1
+  }
+}

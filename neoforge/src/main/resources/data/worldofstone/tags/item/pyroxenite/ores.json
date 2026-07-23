@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite_coal_ore",
+    "worldofstone:pyroxenite_iron_ore",
+    "worldofstone:pyroxenite_gold_ore",
+    "worldofstone:pyroxenite_diamond_ore",
+    "worldofstone:pyroxenite_emerald_ore",
+    "worldofstone:pyroxenite_redstone_ore",
+    "worldofstone:pyroxenite_lapis_ore",
+    "worldofstone:pyroxenite_copper_ore"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_bricks"
+  },
+  "result": "worldofstone:chiseled_komatiite_bricks",
+  "count": 1
+}

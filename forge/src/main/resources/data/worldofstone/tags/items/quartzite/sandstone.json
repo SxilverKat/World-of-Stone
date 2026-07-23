@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:quartzite_sandstone",
+    "worldofstone:cut_quartzite_sandstone",
+    "worldofstone:chiseled_quartzite_sandstone",
+    "worldofstone:smooth_quartzite_sandstone",
+    "worldofstone:quartzite_sandstone_stairs",
+    "worldofstone:quartzite_sandstone_slab",
+    "worldofstone:quartzite_sandstone_wall",
+    "worldofstone:cut_quartzite_sandstone_slab",
+    "worldofstone:smooth_quartzite_sandstone_stairs",
+    "worldofstone:smooth_quartzite_sandstone_slab"
+  ]
+}

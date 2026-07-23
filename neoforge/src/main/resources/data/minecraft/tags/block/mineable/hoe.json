@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:oak_leaves_speleothem",
+    "worldofstone:spruce_leaves_speleothem",
+    "worldofstone:birch_leaves_speleothem",
+    "worldofstone:jungle_leaves_speleothem",
+    "worldofstone:acacia_leaves_speleothem",
+    "worldofstone:dark_oak_leaves_speleothem",
+    "worldofstone:mangrove_leaves_speleothem",
+    "worldofstone:cherry_leaves_speleothem",
+    "worldofstone:azalea_leaves_speleothem",
+    "worldofstone:flowering_azalea_leaves_speleothem"
+  ]
+}

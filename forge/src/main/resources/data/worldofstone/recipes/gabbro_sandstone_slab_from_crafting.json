@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:gabbro_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:gabbro_sandstone_slab",
+    "count": 6
+  }
+}

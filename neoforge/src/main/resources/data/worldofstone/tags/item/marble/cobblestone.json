@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:marble_cobblestone",
+    "worldofstone:marble_cobblestone_stairs",
+    "worldofstone:marble_cobblestone_slab",
+    "worldofstone:marble_cobblestone_wall"
+  ]
+}

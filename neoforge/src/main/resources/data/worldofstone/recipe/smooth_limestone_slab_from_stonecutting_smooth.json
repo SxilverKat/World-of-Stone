@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_limestone"
+  },
+  "result": {
+    "id": "worldofstone:smooth_limestone_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:polished_siltstone",
+    "worldofstone:polished_siltstone_stairs",
+    "worldofstone:polished_siltstone_slab",
+    "worldofstone:polished_siltstone_wall"
+  ]
+}

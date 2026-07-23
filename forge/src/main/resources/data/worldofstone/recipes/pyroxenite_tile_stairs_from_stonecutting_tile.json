@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:pyroxenite_tiles"
+  },
+  "result": "worldofstone:pyroxenite_tile_stairs",
+  "count": 1
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:marble"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_marble",
+      "count": 1
+    }
+  ]
+}

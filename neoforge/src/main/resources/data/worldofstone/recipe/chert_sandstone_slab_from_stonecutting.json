@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:chert_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:chert_sandstone_slab",
+    "count": 2
+  }
+}

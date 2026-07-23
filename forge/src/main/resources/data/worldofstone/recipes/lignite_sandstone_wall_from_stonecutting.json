@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite_sandstone"
+  },
+  "result": "worldofstone:lignite_sandstone_wall",
+  "count": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_lignite_bricks"
+  },
+  "result": "worldofstone:mossy_lignite_brick_slab",
+  "count": 2
+}

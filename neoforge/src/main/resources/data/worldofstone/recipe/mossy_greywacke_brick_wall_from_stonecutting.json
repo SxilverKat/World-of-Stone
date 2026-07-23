@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_greywacke_bricks"
+  },
+  "result": {
+    "id": "worldofstone:mossy_greywacke_brick_wall",
+    "count": 1
+  }
+}

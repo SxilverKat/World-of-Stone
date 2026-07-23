@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite",
+    "#worldofstone:tonalite/ores",
+    "#worldofstone:tonalite/sandstone",
+    "#worldofstone:tonalite/cobblestone",
+    "#worldofstone:tonalite/mossy_cobblestone",
+    "#worldofstone:tonalite/bricks",
+    "#worldofstone:tonalite/mossy_bricks",
+    "#worldofstone:tonalite/smooth_stone",
+    "#worldofstone:tonalite/overgrown",
+    "#worldofstone:tonalite/polished",
+    "#worldofstone:tonalite/tiles",
+    "#worldofstone:tonalite/pillar",
+    "#worldofstone:tonalite/speleothem",
+    "worldofstone:cracked_tonalite_bricks",
+    "worldofstone:chiseled_tonalite_bricks",
+    "worldofstone:infested_tonalite",
+    "worldofstone:infested_tonalite_cobblestone",
+    "worldofstone:infested_tonalite_bricks",
+    "worldofstone:infested_mossy_tonalite_bricks",
+    "worldofstone:infested_cracked_tonalite_bricks",
+    "worldofstone:infested_chiseled_tonalite_bricks",
+    "worldofstone:tonalite_button",
+    "worldofstone:tonalite_sand",
+    "worldofstone:tonalite_gravel",
+    "worldofstone:tonalite_clay"
+  ]
+}

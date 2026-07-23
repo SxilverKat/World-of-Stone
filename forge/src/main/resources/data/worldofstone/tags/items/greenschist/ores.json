@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greenschist_coal_ore",
+    "worldofstone:greenschist_iron_ore",
+    "worldofstone:greenschist_gold_ore",
+    "worldofstone:greenschist_diamond_ore",
+    "worldofstone:greenschist_emerald_ore",
+    "worldofstone:greenschist_redstone_ore",
+    "worldofstone:greenschist_lapis_ore",
+    "worldofstone:greenschist_copper_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:quartzite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:quartzite_button",
+    "count": 1
+  }
+}

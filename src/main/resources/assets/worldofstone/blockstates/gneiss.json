@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/gneiss"
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/gneiss",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

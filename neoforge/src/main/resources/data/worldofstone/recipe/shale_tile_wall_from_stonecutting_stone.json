@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:shale"
+  },
+  "result": {
+    "id": "worldofstone:shale_tile_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldofstone:mimic_speleothem",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Source",
+                  "target": "BlockEntityTag.Source",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:silk_touch",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

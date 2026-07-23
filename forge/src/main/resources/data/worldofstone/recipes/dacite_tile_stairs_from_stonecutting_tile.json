@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dacite_tiles"
+  },
+  "result": "worldofstone:dacite_tile_stairs",
+  "count": 1
+}

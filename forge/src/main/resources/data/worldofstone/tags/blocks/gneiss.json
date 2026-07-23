@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gneiss",
+    "#worldofstone:gneiss/ores",
+    "#worldofstone:gneiss/sandstone",
+    "#worldofstone:gneiss/cobblestone",
+    "#worldofstone:gneiss/mossy_cobblestone",
+    "#worldofstone:gneiss/bricks",
+    "#worldofstone:gneiss/mossy_bricks",
+    "#worldofstone:gneiss/smooth_stone",
+    "#worldofstone:gneiss/overgrown",
+    "#worldofstone:gneiss/polished",
+    "#worldofstone:gneiss/tiles",
+    "#worldofstone:gneiss/pillar",
+    "#worldofstone:gneiss/speleothem",
+    "worldofstone:cracked_gneiss_bricks",
+    "worldofstone:chiseled_gneiss_bricks",
+    "worldofstone:infested_gneiss",
+    "worldofstone:infested_gneiss_cobblestone",
+    "worldofstone:infested_gneiss_bricks",
+    "worldofstone:infested_mossy_gneiss_bricks",
+    "worldofstone:infested_cracked_gneiss_bricks",
+    "worldofstone:infested_chiseled_gneiss_bricks",
+    "worldofstone:gneiss_button",
+    "worldofstone:gneiss_sand",
+    "worldofstone:gneiss_gravel",
+    "worldofstone:gneiss_clay"
+  ]
+}

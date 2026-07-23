@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:tonalite_sandstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:tonalite_sandstone_stairs"
+  }
+}

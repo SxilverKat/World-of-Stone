@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_greenschist"
+    }
+  },
+  "result": {
+    "item": "worldofstone:polished_greenschist_slab",
+    "count": 6
+  }
+}

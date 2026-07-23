@@ -1,0 +1,82 @@
+package com.sxilverr.worldofstone.mixin;
+
+import com.sxilverr.worldofstone.api.enums.IgneousVariant;
+import com.sxilverr.worldofstone.api.enums.MetamorphicVariant;
+import com.sxilverr.worldofstone.api.enums.OreVariant;
+import com.sxilverr.worldofstone.api.enums.SedimentaryVariant;
+import com.sxilverr.worldofstone.api.enums.VanillaOreHost;
+import com.sxilverr.worldofstone.registry.WosBlocks;
+import com.mojang.logging.LogUtils;
+import jeresources.entry.WorldGenEntry;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import dev.architectury.registry.registries.RegistrySupplier;
+import org.slf4j.Logger;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+@Mixin(value = WorldGenEntry.class, remap = false)
+public abstract class JERWorldGenWrapperMixin {
+    private static final Logger WOS$LOGGER = LogUtils.getLogger();
+
+    private static volatile Map<Block, OreVariant> WOS$VANILLA_ORES;
+    private static volatile boolean WOS$LOGGED_ONCE;
+
+    private static Map<Block, OreVariant> wos$vanillaOres() {
+        Map<Block, OreVariant> m = WOS$VANILLA_ORES;
+        if (m != null) return m;
+        m = new HashMap<>();
+        m.put(Blocks.COAL_ORE, OreVariant.COAL);
+        m.put(Blocks.IRON_ORE, OreVariant.IRON);
+        m.put(Blocks.GOLD_ORE, OreVariant.GOLD);
+        m.put(Blocks.DIAMOND_ORE, OreVariant.DIAMOND);
+        m.put(Blocks.EMERALD_ORE, OreVariant.EMERALD);
+        m.put(Blocks.REDSTONE_ORE, OreVariant.REDSTONE);
+        m.put(Blocks.LAPIS_ORE, OreVariant.LAPIS);
+        m.put(Blocks.COPPER_ORE, OreVariant.COPPER);
+        WOS$VANILLA_ORES = m;
+        return m;
+    }
+
+    @Inject(method = "getBlocks", at = @At("RETURN"), cancellable = true, remap = false)
+    private void wos$appendVariants(CallbackInfoReturnable<List<ItemStack>> cir) {
+        List<ItemStack> original = cir.getReturnValue();
+        if (original == null || original.isEmpty()) return;
+        ItemStack primary = original.get(0);
+        Block block = Block.byItem(primary.getItem());
+        OreVariant ore = wos$vanillaOres().get(block);
+        if (ore == null) return;
+
+        List<ItemStack> blocks = new ArrayList<>(original);
+        int before = blocks.size();
+        for (IgneousVariant v : IgneousVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (MetamorphicVariant v : MetamorphicVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (SedimentaryVariant v : SedimentaryVariant.VALUES) wos$add(blocks, v.toString(), ore);
+        for (VanillaOreHost h : VanillaOreHost.VALUES) {
+            if (h.getDimension() != VanillaOreHost.HostDimension.OVERWORLD) continue;
+            wos$add(blocks, h.getRegistryName(), ore);
+        }
+        if (blocks.size() == before) return;
+        cir.setReturnValue(blocks);
+        if (!WOS$LOGGED_ONCE) {
+            WOS$LOGGED_ONCE = true;
+            WOS$LOGGER.info("[WorldOfStone] JER mixin appended {} variants for {}", blocks.size() - before, ore);
+        }
+    }
+
+    private static void wos$add(List<ItemStack> blocks, String hostName, OreVariant ore) {
+        String name = hostName + "_" + ore.suffix;
+        RegistrySupplier<Block> ro = WosBlocks.ORES.get(name);
+        if (ro != null && ro.isPresent()) {
+            blocks.add(new ItemStack(ro.get()));
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_chert"
+  },
+  "result": {
+    "id": "worldofstone:chert_tiles",
+    "count": 1
+  }
+}

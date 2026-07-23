@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:siltstone"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:siltstone_button",
+    "count": 1
+  }
+}

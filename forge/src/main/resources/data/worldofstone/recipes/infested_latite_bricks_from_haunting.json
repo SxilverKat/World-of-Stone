@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:latite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_latite_bricks",
+      "count": 1
+    }
+  ]
+}

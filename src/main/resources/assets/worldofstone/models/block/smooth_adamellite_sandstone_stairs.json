@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "worldofstone:block/adamellite_sandstone_top",
+    "top": "worldofstone:block/adamellite_sandstone_top",
+    "side": "worldofstone:block/adamellite_sandstone_top"
+  }
+}

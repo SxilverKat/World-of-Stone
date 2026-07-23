@@ -1,0 +1,144 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "worldofstone:block/tonalite",
+    "stone": "worldofstone:block/tonalite",
+    "grass_top": "minecraft:block/grass_block_top",
+    "grass_overlay": "worldofstone:block/ub_grass_side_overlay"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grass_top",
+          "cullface": "up",
+          "tintindex": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stone",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.005,
+        -0.005,
+        -0.005
+      ],
+      "to": [
+        16.005,
+        16.005,
+        16.005
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grass_overlay",
+          "cullface": "north",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grass_overlay",
+          "cullface": "south",
+          "tintindex": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grass_overlay",
+          "cullface": "west",
+          "tintindex": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#grass_overlay",
+          "cullface": "east",
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

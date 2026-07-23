@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_soapstone"
+  },
+  "result": "worldofstone:smooth_soapstone_slab",
+  "count": 2
+}

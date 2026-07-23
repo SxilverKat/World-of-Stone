@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dacite_sandstone",
+    "worldofstone:cut_dacite_sandstone",
+    "worldofstone:chiseled_dacite_sandstone",
+    "worldofstone:smooth_dacite_sandstone",
+    "worldofstone:dacite_sandstone_stairs",
+    "worldofstone:dacite_sandstone_slab",
+    "worldofstone:dacite_sandstone_wall",
+    "worldofstone:cut_dacite_sandstone_slab",
+    "worldofstone:smooth_dacite_sandstone_stairs",
+    "worldofstone:smooth_dacite_sandstone_slab"
+  ]
+}

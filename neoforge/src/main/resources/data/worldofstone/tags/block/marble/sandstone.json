@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:marble_sandstone",
+    "worldofstone:cut_marble_sandstone",
+    "worldofstone:chiseled_marble_sandstone",
+    "worldofstone:smooth_marble_sandstone",
+    "worldofstone:marble_sandstone_stairs",
+    "worldofstone:marble_sandstone_slab",
+    "worldofstone:marble_sandstone_wall",
+    "worldofstone:cut_marble_sandstone_slab",
+    "worldofstone:smooth_marble_sandstone_stairs",
+    "worldofstone:smooth_marble_sandstone_slab"
+  ]
+}

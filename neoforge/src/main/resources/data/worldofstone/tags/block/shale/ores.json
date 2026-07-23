@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:shale_coal_ore",
+    "worldofstone:shale_iron_ore",
+    "worldofstone:shale_gold_ore",
+    "worldofstone:shale_diamond_ore",
+    "worldofstone:shale_emerald_ore",
+    "worldofstone:shale_redstone_ore",
+    "worldofstone:shale_lapis_ore",
+    "worldofstone:shale_copper_ore"
+  ]
+}

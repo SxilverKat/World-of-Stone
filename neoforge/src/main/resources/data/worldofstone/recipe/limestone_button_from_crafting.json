@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:limestone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:limestone_button"
+  }
+}

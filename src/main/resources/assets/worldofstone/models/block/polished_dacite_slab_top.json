@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "worldofstone:block/polished_dacite",
+    "top": "worldofstone:block/polished_dacite",
+    "side": "worldofstone:block/polished_dacite"
+  }
+}

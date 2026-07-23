@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_quartzite_cobblestone",
+    "worldofstone:mossy_quartzite_cobblestone_stairs",
+    "worldofstone:mossy_quartzite_cobblestone_slab",
+    "worldofstone:mossy_quartzite_cobblestone_wall"
+  ]
+}

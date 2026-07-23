@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_gneiss"
+  },
+  "result": {
+    "id": "worldofstone:smooth_gneiss_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite_tiles",
+    "worldofstone:cracked_eclogite_tiles",
+    "worldofstone:eclogite_tile_stairs",
+    "worldofstone:eclogite_tile_slab",
+    "worldofstone:eclogite_tile_wall"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "worldofstone:chert_lapis_ore"
+  },
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

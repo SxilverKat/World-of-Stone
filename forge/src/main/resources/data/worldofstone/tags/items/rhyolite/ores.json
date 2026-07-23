@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:rhyolite_coal_ore",
+    "worldofstone:rhyolite_iron_ore",
+    "worldofstone:rhyolite_gold_ore",
+    "worldofstone:rhyolite_diamond_ore",
+    "worldofstone:rhyolite_emerald_ore",
+    "worldofstone:rhyolite_redstone_ore",
+    "worldofstone:rhyolite_lapis_ore",
+    "worldofstone:rhyolite_copper_ore"
+  ]
+}

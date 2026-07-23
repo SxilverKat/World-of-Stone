@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:limestone_tiles"
+  },
+  "result": {
+    "id": "worldofstone:limestone_tile_wall",
+    "count": 1
+  }
+}

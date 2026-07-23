@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/smooth_gneiss",
+    "top": "worldofstone:block/smooth_gneiss",
+    "side": "worldofstone:block/smooth_gneiss"
+  }
+}

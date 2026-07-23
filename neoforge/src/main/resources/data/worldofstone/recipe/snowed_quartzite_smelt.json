@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:snowed_quartzite"
+  },
+  "result": {
+    "id": "worldofstone:quartzite"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

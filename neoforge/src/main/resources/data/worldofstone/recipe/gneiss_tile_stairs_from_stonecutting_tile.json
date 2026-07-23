@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gneiss_tiles"
+  },
+  "result": {
+    "id": "worldofstone:gneiss_tile_stairs",
+    "count": 1
+  }
+}

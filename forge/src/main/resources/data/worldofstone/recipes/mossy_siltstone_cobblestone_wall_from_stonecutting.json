@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:mossy_siltstone_cobblestone"
+  },
+  "result": "worldofstone:mossy_siltstone_cobblestone_wall",
+  "count": 1
+}

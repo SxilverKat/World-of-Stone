@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#worldofstone:gneiss",
+    "#worldofstone:eclogite",
+    "#worldofstone:marble",
+    "#worldofstone:quartzite",
+    "#worldofstone:blueschist",
+    "#worldofstone:greenschist",
+    "#worldofstone:soapstone",
+    "#worldofstone:migmatite"
+  ]
+}

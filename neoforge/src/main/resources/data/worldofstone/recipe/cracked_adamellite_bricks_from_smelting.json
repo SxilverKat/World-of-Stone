@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "worldofstone:adamellite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:cracked_adamellite_bricks"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

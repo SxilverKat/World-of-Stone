@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite"
+  },
+  "result": {
+    "id": "worldofstone:eclogite_pillar",
+    "count": 1
+  }
+}

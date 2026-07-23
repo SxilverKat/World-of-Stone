@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:greywacke_tiles",
+    "worldofstone:cracked_greywacke_tiles",
+    "worldofstone:greywacke_tile_stairs",
+    "worldofstone:greywacke_tile_slab",
+    "worldofstone:greywacke_tile_wall"
+  ]
+}

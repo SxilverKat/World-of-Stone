@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:blueschist"
+  },
+  "result": {
+    "id": "worldofstone:blueschist_tiles",
+    "count": 1
+  }
+}

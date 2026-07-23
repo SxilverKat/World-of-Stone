@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:limestone_coal_ore",
+    "worldofstone:limestone_iron_ore",
+    "worldofstone:limestone_gold_ore",
+    "worldofstone:limestone_diamond_ore",
+    "worldofstone:limestone_emerald_ore",
+    "worldofstone:limestone_redstone_ore",
+    "worldofstone:limestone_lapis_ore",
+    "worldofstone:limestone_copper_ore"
+  ]
+}

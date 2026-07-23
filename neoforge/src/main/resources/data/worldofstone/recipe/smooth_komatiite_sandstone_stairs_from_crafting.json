@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:smooth_komatiite_sandstone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:smooth_komatiite_sandstone_stairs"
+  }
+}

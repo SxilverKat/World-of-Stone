@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:gneiss_sandstone"
+  },
+  "result": "worldofstone:chiseled_gneiss_sandstone",
+  "count": 1
+}

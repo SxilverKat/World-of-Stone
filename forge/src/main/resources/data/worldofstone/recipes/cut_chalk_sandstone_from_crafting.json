@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:chalk_sandstone"
+    }
+  },
+  "result": {
+    "item": "worldofstone:cut_chalk_sandstone",
+    "count": 4
+  }
+}

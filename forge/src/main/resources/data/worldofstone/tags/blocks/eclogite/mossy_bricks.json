@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:mossy_eclogite_bricks",
+    "worldofstone:mossy_eclogite_brick_stairs",
+    "worldofstone:mossy_eclogite_brick_slab",
+    "worldofstone:mossy_eclogite_brick_wall"
+  ]
+}

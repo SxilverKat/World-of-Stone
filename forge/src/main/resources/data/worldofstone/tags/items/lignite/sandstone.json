@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:lignite_sandstone",
+    "worldofstone:cut_lignite_sandstone",
+    "worldofstone:chiseled_lignite_sandstone",
+    "worldofstone:smooth_lignite_sandstone",
+    "worldofstone:lignite_sandstone_stairs",
+    "worldofstone:lignite_sandstone_slab",
+    "worldofstone:lignite_sandstone_wall",
+    "worldofstone:cut_lignite_sandstone_slab",
+    "worldofstone:smooth_lignite_sandstone_stairs",
+    "worldofstone:smooth_lignite_sandstone_slab"
+  ]
+}

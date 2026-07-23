@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite"
+  },
+  "result": {
+    "id": "worldofstone:smooth_eclogite_slab",
+    "count": 2
+  }
+}

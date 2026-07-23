@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_greenschist"
+  },
+  "result": {
+    "id": "worldofstone:smooth_greenschist_slab",
+    "count": 2
+  }
+}

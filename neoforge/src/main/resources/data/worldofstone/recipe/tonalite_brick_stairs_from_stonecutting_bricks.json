@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite_bricks"
+  },
+  "result": {
+    "id": "worldofstone:tonalite_brick_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:rhyolite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:rhyolite_button",
+    "count": 1
+  }
+}

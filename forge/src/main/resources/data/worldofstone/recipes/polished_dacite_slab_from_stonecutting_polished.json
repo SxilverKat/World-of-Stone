@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_dacite"
+  },
+  "result": "worldofstone:polished_dacite_slab",
+  "count": 2
+}

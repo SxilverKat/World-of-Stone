@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chert_coal_ore",
+    "worldofstone:chert_iron_ore",
+    "worldofstone:chert_gold_ore",
+    "worldofstone:chert_diamond_ore",
+    "worldofstone:chert_emerald_ore",
+    "worldofstone:chert_redstone_ore",
+    "worldofstone:chert_lapis_ore",
+    "worldofstone:chert_copper_ore"
+  ]
+}

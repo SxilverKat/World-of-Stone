@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:gabbro_sand"
+    }
+  },
+  "result": {
+    "item": "worldofstone:gabbro_sandstone",
+    "count": 1
+  }
+}

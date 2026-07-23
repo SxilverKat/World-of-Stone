@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "worldofstone:block/adamellite_iron_ore"
+  }
+}

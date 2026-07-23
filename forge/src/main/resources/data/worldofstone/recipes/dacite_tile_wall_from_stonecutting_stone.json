@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dacite"
+  },
+  "result": "worldofstone:dacite_tile_wall",
+  "count": 1
+}

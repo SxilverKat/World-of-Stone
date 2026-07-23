@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:dolomite_bricks"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:mossy_dolomite_bricks"
+  }
+}

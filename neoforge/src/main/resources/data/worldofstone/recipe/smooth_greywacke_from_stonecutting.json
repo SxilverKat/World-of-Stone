@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greywacke"
+  },
+  "result": {
+    "id": "worldofstone:smooth_greywacke",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gabbro",
+    "#worldofstone:gabbro/ores",
+    "#worldofstone:gabbro/sandstone",
+    "#worldofstone:gabbro/cobblestone",
+    "#worldofstone:gabbro/mossy_cobblestone",
+    "#worldofstone:gabbro/bricks",
+    "#worldofstone:gabbro/mossy_bricks",
+    "#worldofstone:gabbro/smooth_stone",
+    "#worldofstone:gabbro/overgrown",
+    "#worldofstone:gabbro/polished",
+    "#worldofstone:gabbro/tiles",
+    "#worldofstone:gabbro/pillar",
+    "#worldofstone:gabbro/speleothem",
+    "worldofstone:cracked_gabbro_bricks",
+    "worldofstone:chiseled_gabbro_bricks",
+    "worldofstone:infested_gabbro",
+    "worldofstone:infested_gabbro_cobblestone",
+    "worldofstone:infested_gabbro_bricks",
+    "worldofstone:infested_mossy_gabbro_bricks",
+    "worldofstone:infested_cracked_gabbro_bricks",
+    "worldofstone:infested_chiseled_gabbro_bricks",
+    "worldofstone:gabbro_button",
+    "worldofstone:gabbro_sand",
+    "worldofstone:gabbro_gravel",
+    "worldofstone:gabbro_clay"
+  ]
+}

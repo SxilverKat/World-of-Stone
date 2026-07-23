@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:cut_dacite_sandstone"
+  },
+  "result": {
+    "id": "worldofstone:cut_dacite_sandstone_slab",
+    "count": 2
+  }
+}

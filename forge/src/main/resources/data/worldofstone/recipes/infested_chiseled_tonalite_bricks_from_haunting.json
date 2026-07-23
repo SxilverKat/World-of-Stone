@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "worldofstone:chiseled_tonalite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "worldofstone:infested_chiseled_tonalite_bricks",
+      "count": 1
+    }
+  ]
+}

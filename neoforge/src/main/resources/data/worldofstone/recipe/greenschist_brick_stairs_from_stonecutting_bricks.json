@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:greenschist_bricks"
+  },
+  "result": {
+    "id": "worldofstone:greenschist_brick_stairs",
+    "count": 1
+  }
+}

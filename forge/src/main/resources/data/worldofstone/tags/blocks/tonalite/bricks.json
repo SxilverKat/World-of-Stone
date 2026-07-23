@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:tonalite_bricks",
+    "worldofstone:tonalite_brick_stairs",
+    "worldofstone:tonalite_brick_slab",
+    "worldofstone:tonalite_brick_wall"
+  ]
+}

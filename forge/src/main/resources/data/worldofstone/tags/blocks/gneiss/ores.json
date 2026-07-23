@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:gneiss_coal_ore",
+    "worldofstone:gneiss_iron_ore",
+    "worldofstone:gneiss_gold_ore",
+    "worldofstone:gneiss_diamond_ore",
+    "worldofstone:gneiss_emerald_ore",
+    "worldofstone:gneiss_redstone_ore",
+    "worldofstone:gneiss_lapis_ore",
+    "worldofstone:gneiss_copper_ore"
+  ]
+}

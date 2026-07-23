@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:latite"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:polished_latite"
+  }
+}

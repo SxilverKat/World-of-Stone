@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:chert",
+    "#worldofstone:chert/ores",
+    "#worldofstone:chert/sandstone",
+    "#worldofstone:chert/cobblestone",
+    "#worldofstone:chert/mossy_cobblestone",
+    "#worldofstone:chert/bricks",
+    "#worldofstone:chert/mossy_bricks",
+    "#worldofstone:chert/smooth_stone",
+    "#worldofstone:chert/overgrown",
+    "#worldofstone:chert/polished",
+    "#worldofstone:chert/tiles",
+    "#worldofstone:chert/pillar",
+    "#worldofstone:chert/speleothem",
+    "worldofstone:cracked_chert_bricks",
+    "worldofstone:chiseled_chert_bricks",
+    "worldofstone:infested_chert",
+    "worldofstone:infested_chert_cobblestone",
+    "worldofstone:infested_chert_bricks",
+    "worldofstone:infested_mossy_chert_bricks",
+    "worldofstone:infested_cracked_chert_bricks",
+    "worldofstone:infested_chiseled_chert_bricks",
+    "worldofstone:chert_button",
+    "worldofstone:chert_sand",
+    "worldofstone:chert_gravel",
+    "worldofstone:chert_clay"
+  ]
+}

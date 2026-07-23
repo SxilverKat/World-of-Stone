@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:lignite"
+  },
+  "result": {
+    "id": "worldofstone:polished_lignite",
+    "count": 1
+  }
+}

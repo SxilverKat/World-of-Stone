@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_adamellite_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:mossy_adamellite_brick_wall",
+    "count": 6
+  }
+}

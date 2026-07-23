@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:rhyolite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "worldofstone:chiseled_rhyolite_bricks",
+    "count": 1
+  }
+}

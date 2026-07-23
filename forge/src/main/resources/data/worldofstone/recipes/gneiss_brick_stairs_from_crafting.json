@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:gneiss_bricks"
+    }
+  },
+  "result": {
+    "item": "worldofstone:gneiss_brick_stairs",
+    "count": 4
+  }
+}

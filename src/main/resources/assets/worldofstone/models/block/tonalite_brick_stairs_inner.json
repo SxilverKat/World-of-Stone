@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "worldofstone:block/tonalite_bricks",
+    "top": "worldofstone:block/tonalite_bricks",
+    "side": "worldofstone:block/tonalite_bricks"
+  }
+}

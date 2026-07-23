@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_greywacke_cobblestone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:mossy_greywacke_cobblestone_stairs"
+  }
+}

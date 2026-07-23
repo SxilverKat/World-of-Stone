@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:mossy_limestone_cobblestone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "worldofstone:mossy_limestone_cobblestone_stairs"
+  }
+}

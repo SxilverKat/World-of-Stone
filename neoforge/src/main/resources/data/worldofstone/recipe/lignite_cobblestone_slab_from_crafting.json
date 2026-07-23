@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:lignite_cobblestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:lignite_cobblestone_slab"
+  }
+}

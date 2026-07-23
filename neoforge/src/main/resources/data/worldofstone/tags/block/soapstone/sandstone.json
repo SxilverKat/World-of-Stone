@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:soapstone_sandstone",
+    "worldofstone:cut_soapstone_sandstone",
+    "worldofstone:chiseled_soapstone_sandstone",
+    "worldofstone:smooth_soapstone_sandstone",
+    "worldofstone:soapstone_sandstone_stairs",
+    "worldofstone:soapstone_sandstone_slab",
+    "worldofstone:soapstone_sandstone_wall",
+    "worldofstone:cut_soapstone_sandstone_slab",
+    "worldofstone:smooth_soapstone_sandstone_stairs",
+    "worldofstone:smooth_soapstone_sandstone_slab"
+  ]
+}

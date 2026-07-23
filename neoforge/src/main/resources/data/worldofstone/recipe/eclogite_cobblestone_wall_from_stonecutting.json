@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:eclogite_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:eclogite_cobblestone_wall",
+    "count": 1
+  }
+}

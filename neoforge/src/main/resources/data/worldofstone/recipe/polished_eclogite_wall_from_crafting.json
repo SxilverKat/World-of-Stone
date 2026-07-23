@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:polished_eclogite"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:polished_eclogite_wall"
+  }
+}

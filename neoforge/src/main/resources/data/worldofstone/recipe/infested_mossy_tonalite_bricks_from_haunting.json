@@ -1,0 +1,20 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "worldofstone:mossy_tonalite_bricks"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "worldofstone:infested_mossy_tonalite_bricks"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

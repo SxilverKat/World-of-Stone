@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:eclogite"
+    }
+  ],
+  "result": {
+    "item": "worldofstone:eclogite_button",
+    "count": 1
+  }
+}

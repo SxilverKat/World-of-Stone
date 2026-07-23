@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#worldofstone:limestone",
+    "#worldofstone:chalk",
+    "#worldofstone:shale",
+    "#worldofstone:siltstone",
+    "#worldofstone:lignite",
+    "#worldofstone:dolomite",
+    "#worldofstone:greywacke",
+    "#worldofstone:chert"
+  ]
+}

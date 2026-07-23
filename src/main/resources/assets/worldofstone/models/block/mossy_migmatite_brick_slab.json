@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/mossy_migmatite_bricks",
+    "top": "worldofstone:block/mossy_migmatite_bricks",
+    "side": "worldofstone:block/mossy_migmatite_bricks"
+  }
+}

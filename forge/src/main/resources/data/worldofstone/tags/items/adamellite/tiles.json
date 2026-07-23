@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:adamellite_tiles",
+    "worldofstone:cracked_adamellite_tiles",
+    "worldofstone:adamellite_tile_stairs",
+    "worldofstone:adamellite_tile_slab",
+    "worldofstone:adamellite_tile_wall"
+  ]
+}

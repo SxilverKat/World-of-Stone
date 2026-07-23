@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_adamellite"
+  },
+  "result": {
+    "id": "worldofstone:adamellite_tiles",
+    "count": 1
+  }
+}

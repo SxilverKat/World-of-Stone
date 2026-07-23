@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "worldofstone:chert"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "worldofstone:chert_button"
+  }
+}

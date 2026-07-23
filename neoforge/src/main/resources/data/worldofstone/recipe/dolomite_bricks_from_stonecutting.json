@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:dolomite"
+  },
+  "result": {
+    "id": "worldofstone:dolomite_bricks",
+    "count": 1
+  }
+}

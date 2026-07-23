@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:eclogite_tiles"
+    }
+  },
+  "result": {
+    "item": "worldofstone:eclogite_tile_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:smooth_adamellite"
+    }
+  },
+  "result": {
+    "item": "worldofstone:smooth_adamellite_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:smooth_migmatite_sandstone"
+  },
+  "result": "worldofstone:smooth_migmatite_sandstone_slab",
+  "count": 2
+}

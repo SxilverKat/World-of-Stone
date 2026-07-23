@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:pyroxenite_sandstone",
+    "worldofstone:cut_pyroxenite_sandstone",
+    "worldofstone:chiseled_pyroxenite_sandstone",
+    "worldofstone:smooth_pyroxenite_sandstone",
+    "worldofstone:pyroxenite_sandstone_stairs",
+    "worldofstone:pyroxenite_sandstone_slab",
+    "worldofstone:pyroxenite_sandstone_wall",
+    "worldofstone:cut_pyroxenite_sandstone_slab",
+    "worldofstone:smooth_pyroxenite_sandstone_stairs",
+    "worldofstone:smooth_pyroxenite_sandstone_slab"
+  ]
+}

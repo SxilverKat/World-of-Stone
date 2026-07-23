@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_dolomite"
+  },
+  "result": {
+    "id": "worldofstone:polished_dolomite_wall",
+    "count": 1
+  }
+}

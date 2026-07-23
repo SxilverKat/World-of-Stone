@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:polished_greenschist"
+  },
+  "result": {
+    "id": "worldofstone:greenschist_tiles",
+    "count": 1
+  }
+}

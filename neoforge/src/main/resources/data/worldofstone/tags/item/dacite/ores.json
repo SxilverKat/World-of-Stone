@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:dacite_coal_ore",
+    "worldofstone:dacite_iron_ore",
+    "worldofstone:dacite_gold_ore",
+    "worldofstone:dacite_diamond_ore",
+    "worldofstone:dacite_emerald_ore",
+    "worldofstone:dacite_redstone_ore",
+    "worldofstone:dacite_lapis_ore",
+    "worldofstone:dacite_copper_ore"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:tonalite"
+  },
+  "result": {
+    "id": "worldofstone:polished_tonalite_wall",
+    "count": 1
+  }
+}

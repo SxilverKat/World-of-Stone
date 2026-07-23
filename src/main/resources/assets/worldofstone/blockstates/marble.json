@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "worldofstone:block/marble"
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 90
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 180
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 270
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "worldofstone:block/marble",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

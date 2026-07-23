@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:latite",
+    "#worldofstone:latite/ores",
+    "#worldofstone:latite/sandstone",
+    "#worldofstone:latite/cobblestone",
+    "#worldofstone:latite/mossy_cobblestone",
+    "#worldofstone:latite/bricks",
+    "#worldofstone:latite/mossy_bricks",
+    "#worldofstone:latite/smooth_stone",
+    "#worldofstone:latite/overgrown",
+    "#worldofstone:latite/polished",
+    "#worldofstone:latite/tiles",
+    "#worldofstone:latite/pillar",
+    "#worldofstone:latite/speleothem",
+    "worldofstone:cracked_latite_bricks",
+    "worldofstone:chiseled_latite_bricks",
+    "worldofstone:infested_latite",
+    "worldofstone:infested_latite_cobblestone",
+    "worldofstone:infested_latite_bricks",
+    "worldofstone:infested_mossy_latite_bricks",
+    "worldofstone:infested_cracked_latite_bricks",
+    "worldofstone:infested_chiseled_latite_bricks",
+    "worldofstone:latite_button",
+    "worldofstone:latite_sand",
+    "worldofstone:latite_gravel",
+    "worldofstone:latite_clay"
+  ]
+}

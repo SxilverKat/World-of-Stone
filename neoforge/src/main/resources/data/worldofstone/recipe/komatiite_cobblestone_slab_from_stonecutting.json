@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "worldofstone:komatiite_cobblestone"
+  },
+  "result": {
+    "id": "worldofstone:komatiite_cobblestone_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:greywacke_cobblestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:greywacke_cobblestone_slab"
+  }
+}

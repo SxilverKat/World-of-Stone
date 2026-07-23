@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:eclogite_sandstone",
+    "worldofstone:cut_eclogite_sandstone",
+    "worldofstone:chiseled_eclogite_sandstone",
+    "worldofstone:smooth_eclogite_sandstone",
+    "worldofstone:eclogite_sandstone_stairs",
+    "worldofstone:eclogite_sandstone_slab",
+    "worldofstone:eclogite_sandstone_wall",
+    "worldofstone:cut_eclogite_sandstone_slab",
+    "worldofstone:smooth_eclogite_sandstone_stairs",
+    "worldofstone:smooth_eclogite_sandstone_slab"
+  ]
+}

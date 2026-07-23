@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "worldofstone:block/rhyolite_sandstone_bottom",
+    "top": "worldofstone:block/rhyolite_sandstone_top",
+    "side": "worldofstone:block/cut_rhyolite_sandstone"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "worldofstone:siltstone_tiles"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "worldofstone:siltstone_tile_wall"
+  }
+}

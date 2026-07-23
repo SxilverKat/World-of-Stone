@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldofstone:rhyolite",
+    "#worldofstone:rhyolite/ores",
+    "#worldofstone:rhyolite/sandstone",
+    "#worldofstone:rhyolite/cobblestone",
+    "#worldofstone:rhyolite/mossy_cobblestone",
+    "#worldofstone:rhyolite/bricks",
+    "#worldofstone:rhyolite/mossy_bricks",
+    "#worldofstone:rhyolite/smooth_stone",
+    "#worldofstone:rhyolite/overgrown",
+    "#worldofstone:rhyolite/polished",
+    "#worldofstone:rhyolite/tiles",
+    "#worldofstone:rhyolite/pillar",
+    "#worldofstone:rhyolite/speleothem",
+    "worldofstone:cracked_rhyolite_bricks",
+    "worldofstone:chiseled_rhyolite_bricks",
+    "worldofstone:infested_rhyolite",
+    "worldofstone:infested_rhyolite_cobblestone",
+    "worldofstone:infested_rhyolite_bricks",
+    "worldofstone:infested_mossy_rhyolite_bricks",
+    "worldofstone:infested_cracked_rhyolite_bricks",
+    "worldofstone:infested_chiseled_rhyolite_bricks",
+    "worldofstone:rhyolite_button",
+    "worldofstone:rhyolite_sand",
+    "worldofstone:rhyolite_gravel",
+    "worldofstone:rhyolite_clay"
+  ]
+}
