@@ -9,6 +9,7 @@ import com.sxilverr.worldofstone.registry.WosCreativeTabs;
 import com.sxilverr.worldofstone.registry.WosFeatures;
 import com.sxilverr.worldofstone.registry.WosItems;
 import com.sxilverr.worldofstone.registry.WosLoaderBlocks;
+import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -26,6 +27,8 @@ public class WorldofStone {
     @SuppressWarnings("removal")
     public WorldofStone(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        EventBuses.registerModEventBus(ModInfo.MODID, modEventBus);
 
         WosLoaderBlocks.register();
 

@@ -31,6 +31,13 @@ config = "worldofstone.mixins.json"
     side = "BOTH"
 
 [[dependencies.${id}]]
+    modId = "architectury"
+    mandatory = true
+    versionRange = "${architectury_range}"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${id}]]
     modId = "jeresources"
     mandatory = false
     versionRange = "*"
