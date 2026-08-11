@@ -75,6 +75,14 @@
     "worldofstone:chert_clay",
     "worldofstone:dirt_speleothem",
     "worldofstone:snow_speleothem",
-    "worldofstone:mud_speleothem"
+    "worldofstone:mud_speleothem",
+    "worldofstone:clay_speleothem",
+    "worldofstone:podzol_speleothem",
+    "worldofstone:mycelium_speleothem",
+    "worldofstone:coarse_dirt_speleothem",
+    "worldofstone:rooted_dirt_speleothem",
+    "worldofstone:soul_sand_speleothem",
+    "worldofstone:soul_soil_speleothem",
+    "worldofstone:grass_speleothem"
   ]
 }

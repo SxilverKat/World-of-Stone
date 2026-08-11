@@ -17,6 +17,14 @@
     "worldofstone:greenschist_bricks",
     "worldofstone:soapstone_bricks",
     "worldofstone:migmatite_bricks",
+    "worldofstone:limestone_bricks",
+    "worldofstone:chalk_bricks",
+    "worldofstone:shale_bricks",
+    "worldofstone:siltstone_bricks",
+    "worldofstone:lignite_bricks",
+    "worldofstone:dolomite_bricks",
+    "worldofstone:greywacke_bricks",
+    "worldofstone:chert_bricks",
     "worldofstone:mossy_adamellite_bricks",
     "worldofstone:mossy_pyroxenite_bricks",
     "worldofstone:mossy_rhyolite_bricks",
@@ -32,6 +40,14 @@
     "worldofstone:mossy_blueschist_bricks",
     "worldofstone:mossy_greenschist_bricks",
     "worldofstone:mossy_soapstone_bricks",
-    "worldofstone:mossy_migmatite_bricks"
+    "worldofstone:mossy_migmatite_bricks",
+    "worldofstone:mossy_limestone_bricks",
+    "worldofstone:mossy_chalk_bricks",
+    "worldofstone:mossy_shale_bricks",
+    "worldofstone:mossy_siltstone_bricks",
+    "worldofstone:mossy_lignite_bricks",
+    "worldofstone:mossy_dolomite_bricks",
+    "worldofstone:mossy_greywacke_bricks",
+    "worldofstone:mossy_chert_bricks"
   ]
 }

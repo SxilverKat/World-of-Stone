@@ -10,6 +10,14 @@
     "worldofstone:mangrove_leaves_speleothem",
     "worldofstone:cherry_leaves_speleothem",
     "worldofstone:azalea_leaves_speleothem",
-    "worldofstone:flowering_azalea_leaves_speleothem"
+    "worldofstone:flowering_azalea_leaves_speleothem",
+    "worldofstone:sponge_speleothem",
+    "worldofstone:moss_speleothem",
+    "worldofstone:hay_bale_speleothem",
+    "worldofstone:sculk_speleothem",
+    "worldofstone:sculk_catalyst_speleothem",
+    "worldofstone:nether_wart_speleothem",
+    "worldofstone:warped_wart_speleothem",
+    "worldofstone:shroomlight_speleothem"
   ]
 }
