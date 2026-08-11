@@ -17,6 +17,14 @@
     "worldofstone:greenschist_cobblestone",
     "worldofstone:soapstone_cobblestone",
     "worldofstone:migmatite_cobblestone",
+    "worldofstone:limestone_cobblestone",
+    "worldofstone:chalk_cobblestone",
+    "worldofstone:shale_cobblestone",
+    "worldofstone:siltstone_cobblestone",
+    "worldofstone:lignite_cobblestone",
+    "worldofstone:dolomite_cobblestone",
+    "worldofstone:greywacke_cobblestone",
+    "worldofstone:chert_cobblestone",
     "worldofstone:mossy_adamellite_cobblestone",
     "worldofstone:mossy_pyroxenite_cobblestone",
     "worldofstone:mossy_rhyolite_cobblestone",
@@ -32,6 +40,14 @@
     "worldofstone:mossy_blueschist_cobblestone",
     "worldofstone:mossy_greenschist_cobblestone",
     "worldofstone:mossy_soapstone_cobblestone",
-    "worldofstone:mossy_migmatite_cobblestone"
+    "worldofstone:mossy_migmatite_cobblestone",
+    "worldofstone:mossy_limestone_cobblestone",
+    "worldofstone:mossy_chalk_cobblestone",
+    "worldofstone:mossy_shale_cobblestone",
+    "worldofstone:mossy_siltstone_cobblestone",
+    "worldofstone:mossy_lignite_cobblestone",
+    "worldofstone:mossy_dolomite_cobblestone",
+    "worldofstone:mossy_greywacke_cobblestone",
+    "worldofstone:mossy_chert_cobblestone"
   ]
 }

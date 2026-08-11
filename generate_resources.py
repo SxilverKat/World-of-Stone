@@ -2968,7 +2968,7 @@ def main():
         "values": [f"worldofstone:{n}" for n in NEEDS_DIAMOND_TOOL]
     })
 
-    cobble_brick = IGNEOUS + METAMORPHIC
+    cobble_brick = IGNEOUS + METAMORPHIC + SEDIMENTARY
     cobblestones = [f"worldofstone:{v}_cobblestone" for v in cobble_brick]
     cobblestones += [f"worldofstone:mossy_{v}_cobblestone" for v in cobble_brick]
     stones = [f"worldofstone:{v}" for v in ALL_VARIANTS]
