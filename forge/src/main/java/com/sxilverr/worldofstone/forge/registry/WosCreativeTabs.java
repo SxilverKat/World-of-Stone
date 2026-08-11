@@ -1,5 +1,7 @@
-package com.sxilverr.worldofstone.registry;
+package com.sxilverr.worldofstone.forge.registry;
 
+import com.sxilverr.worldofstone.registry.WosBlocks;
+import com.sxilverr.worldofstone.registry.WosItems;
 import com.sxilverr.worldofstone.api.ModInfo;
 import com.sxilverr.worldofstone.api.enums.DecorativeSpeleothemVariant;
 import com.sxilverr.worldofstone.api.enums.IgneousVariant;

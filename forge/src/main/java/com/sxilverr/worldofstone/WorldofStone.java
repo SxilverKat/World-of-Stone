@@ -2,13 +2,13 @@ package com.sxilverr.worldofstone;
 
 import com.mojang.logging.LogUtils;
 import com.sxilverr.worldofstone.api.ModInfo;
-import com.sxilverr.worldofstone.config.WosConfigSpec;
-import com.sxilverr.worldofstone.registry.WosBlockEntities;
+import com.sxilverr.worldofstone.forge.WosConfigSpec;
+import com.sxilverr.worldofstone.forge.registry.WosBlockEntities;
 import com.sxilverr.worldofstone.registry.WosBlocks;
-import com.sxilverr.worldofstone.registry.WosCreativeTabs;
+import com.sxilverr.worldofstone.forge.registry.WosCreativeTabs;
 import com.sxilverr.worldofstone.registry.WosFeatures;
 import com.sxilverr.worldofstone.registry.WosItems;
-import com.sxilverr.worldofstone.registry.WosLoaderBlocks;
+import com.sxilverr.worldofstone.forge.registry.WosLoaderBlocks;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;

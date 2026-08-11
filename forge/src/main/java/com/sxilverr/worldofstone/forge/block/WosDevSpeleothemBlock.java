@@ -1,5 +1,6 @@
-package com.sxilverr.worldofstone.common.block;
+package com.sxilverr.worldofstone.forge.block;
 
+import com.sxilverr.worldofstone.common.block.WosSpeleothemBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;

@@ -1,5 +1,6 @@
-package com.sxilverr.worldofstone.config;
+package com.sxilverr.worldofstone.forge;
 
+import com.sxilverr.worldofstone.config.WosConfig;
 import com.sxilverr.worldofstone.api.ModInfo;
 import com.sxilverr.worldofstone.api.enums.IgneousVariant;
 import com.sxilverr.worldofstone.api.enums.MetamorphicVariant;

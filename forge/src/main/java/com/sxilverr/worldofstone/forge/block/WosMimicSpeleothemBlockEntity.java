@@ -1,4 +1,4 @@
-package com.sxilverr.worldofstone.common.block;
+package com.sxilverr.worldofstone.forge.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
@@ -14,7 +14,7 @@ import net.minecraftforge.client.model.data.ModelData;
 import net.minecraftforge.client.model.data.ModelProperty;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
-import com.sxilverr.worldofstone.registry.WosBlockEntities;
+import com.sxilverr.worldofstone.forge.registry.WosBlockEntities;
 
 public class WosMimicSpeleothemBlockEntity extends BlockEntity {
 

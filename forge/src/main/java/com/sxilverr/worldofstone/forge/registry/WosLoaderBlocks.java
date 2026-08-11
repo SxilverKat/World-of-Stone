@@ -1,8 +1,10 @@
-package com.sxilverr.worldofstone.registry;
+package com.sxilverr.worldofstone.forge.registry;
 
-import com.sxilverr.worldofstone.common.block.WosDevSpeleothemBlock;
-import com.sxilverr.worldofstone.common.block.WosMimicSpeleothemBlock;
-import com.sxilverr.worldofstone.common.block.WosMimicSpeleothemBlockEntity;
+import com.sxilverr.worldofstone.registry.WosBlocks;
+import com.sxilverr.worldofstone.registry.WosItems;
+import com.sxilverr.worldofstone.forge.block.WosDevSpeleothemBlock;
+import com.sxilverr.worldofstone.forge.block.WosMimicSpeleothemBlock;
+import com.sxilverr.worldofstone.forge.block.WosMimicSpeleothemBlockEntity;
 import com.sxilverr.worldofstone.world.MimicHook;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.block.entity.BlockEntity;

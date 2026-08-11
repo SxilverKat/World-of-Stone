@@ -22,7 +22,7 @@ import net.minecraftforge.client.model.data.ModelData;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import com.sxilverr.worldofstone.common.block.WosMimicSpeleothemBlockEntity;
+import com.sxilverr.worldofstone.forge.block.WosMimicSpeleothemBlockEntity;
 
 import java.util.ArrayList;
 import java.util.List;
